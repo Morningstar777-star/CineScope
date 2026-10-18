@@ -77,6 +77,10 @@ class CentralStore:
                 cur = conn.cursor()
                 cur.execute("SELECT canonical_id, title, media_type, release_year, poster_url, overall_score, verdict, hit_count FROM title_verdicts")
                 rows = cur.fetchall()
+                if not rows and KNOWLEDGE_TITLES_DIR.exists():
+                    self._hydrate_from_json_files(conn)
+                    cur.execute("SELECT canonical_id, title, media_type, release_year, poster_url, overall_score, verdict, hit_count FROM title_verdicts")
+                    rows = cur.fetchall()
                 for r in rows:
                     cid, title, m_type, year, poster, score, verdict, hits = r
                     self.memory_index[cid] = {
@@ -91,6 +95,41 @@ class CentralStore:
                     }
         except Exception as e:
             print(f"[CentralStore] Warning loading memory index: {e}")
+
+    def _hydrate_from_json_files(self, conn: sqlite3.Connection):
+        """Auto-hydrates SQLite database from git-versioned JSON title documents if DB was fresh."""
+        json_files = list(KNOWLEDGE_TITLES_DIR.glob("*.json"))
+        if not json_files:
+            return
+        records = []
+        now = time.time()
+        for fpath in json_files:
+            try:
+                with open(fpath, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    cid = data.get("canonical_id") or fpath.stem
+                    title = data.get("title", cid)
+                    m_type = str(data.get("media_type") or "movie")
+                    year = data.get("release_year")
+                    poster = data.get("poster_url")
+                    backdrop = data.get("backdrop_url")
+                    score = float(data.get("overall_score") or 0.0)
+                    confidence = float(data.get("confidence") or 0.85)
+                    verdict = str(data.get("verdict") or "Recommended")
+                    payload = json.dumps(data, ensure_ascii=False)
+                    records.append((cid, title, m_type, year, poster, backdrop, score, confidence, verdict, payload, 0, 0, now, now))
+            except Exception:
+                continue
+        if records:
+            conn.executemany("""
+                INSERT OR IGNORE INTO title_verdicts (
+                    canonical_id, title, media_type, release_year, poster_url,
+                    backdrop_url, overall_score, confidence, verdict, payload_json,
+                    hit_count, tokens_saved, created_at, last_accessed_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, records)
+            conn.commit()
+            print(f"[CentralStore] Hydrated {len(records)} titles from repository JSON knowledge documents.")
 
     def _safe_filename(self, canonical_id: str) -> str:
         """Sanitizes canonical ID for cross-platform filesystem filenames."""

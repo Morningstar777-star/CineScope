@@ -56,10 +56,11 @@ Legacy entertainment aggregators suffer from four systemic failures:
 
 ## Core Innovations
 
-### 1. Centralized Knowledge Flywheel (0 Tokens / <5ms)
-* **Permanent Knowledge Persistence**: Every title analyzed is archived in both high-performance SQLite (`cinescope_knowledge.db`) and readable JSON documents in [`backend/data/knowledge_store/titles/`](backend/data/knowledge_store/titles/).
-* **Zero-Token Retrieval**: When a title is queried, CineScope checks the central database first. Hits return instantly in **~3.0ms** consuming **zero LLM tokens**.
-* **Git-Trackable Catalog**: The JSON archives are version-controlled directly in Git, meaning every community clone inherits the existing knowledge catalog with no startup API expense!
+### 1. Centralized Knowledge Flywheel (1,599 Titles · 0 Tokens / <5ms)
+* **Permanent Knowledge Persistence**: Over **1,599 titles** are indexed and permanently archived in high-performance SQLite (`cinescope_knowledge.db`) and readable JSON documents in [`backend/data/knowledge_store/titles/`](backend/data/knowledge_store/titles/).
+* **Zero-Token Retrieval**: When a title is queried, CineScope checks the central database first. Hits return instantly in **<5ms** consuming **zero LLM tokens** (saving ~2,650 tokens and ~$0.0016 per search).
+* **Automated Catalog Harvester**: Includes an ultra-fast concurrent SvelteKit SSR crawler ([`backend/scripts/katmovie_fetcher.js`](backend/scripts/katmovie_fetcher.js)) capable of scraping 1,500+ global movies and series across 300+ pages with automatic online poster fallback resolution.
+* **Git-Trackable Catalog**: The JSON archives are version-controlled directly in Git, meaning every community clone inherits the 1,599-title knowledge catalog with automatic SQLite hydration on first boot!
 * **Live Community Telemetry**: Tracks total titles indexed, zero-token hits, and estimated USD saved in real time via `/api/knowledge/stats`.
 
 ### 2. LAYA Continuous Auto-Training & Bayesian Self-Calibration
@@ -207,7 +208,7 @@ This automatically boots the FastAPI backend daemon on `http://127.0.0.1:8000` a
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/CineScope.git
+git clone https://github.com/Morningstar777-star/CineScope.git
 cd CineScope
 ```
 
