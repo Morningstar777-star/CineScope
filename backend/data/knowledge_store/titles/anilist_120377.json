@@ -1,0 +1,607 @@
+{
+  "title": "Cyberpunk: Edgerunners",
+  "canonical_id": "anilist_120377",
+  "media_type": "anime",
+  "release_year": 2022,
+  "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120377-ayZPoxiWt4Li.jpg",
+  "backdrop_url": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120377-c15oLS8CA31s.jpg",
+  "genres": [
+    "Action",
+    "Drama",
+    "Psychological",
+    "Sci-Fi"
+  ],
+  "overview": "Cyberpunk: Edgerunners tells a standalone, 10-episode story about a street kid trying to survive in a technology and body modification-obsessed city of the future. Having everything to lose, he chooses to stay alive by becoming an edgerunner—a mercenary outlaw also known as a cyberpunk.\n\n(Source: CD PROJEKT RED)\n\nNote: The first episode received a pre-screening at Anime Expo on July 2, 2022. The first 3 dubbed episodes were streamed on Twitch as part of a co-stream promotion on September 12, a day before the show’s premiere.",
+  "verdict": "Masterpiece / Must-Watch",
+  "overall_score": 8.8,
+  "confidence": 0.96,
+  "data_scale": {
+    "total_signals_analyzed": 136257,
+    "audience_votes_count": 136080,
+    "critic_reviews_count": 140,
+    "textual_reviews_analyzed": 37,
+    "community_discussions_analyzed": 10,
+    "sentiment_distribution": {
+      "positive": 81.1,
+      "mixed": 0.0,
+      "negative": 18.9
+    },
+    "platforms_covered": [
+      "AniList",
+      "AniList Popularity",
+      "IMDb",
+      "Rotten Tomatoes",
+      "Reddit & Forums",
+      "Major Entertainment Press",
+      "Community Reviews"
+    ]
+  },
+  "external_critic_score": 10.0,
+  "external_audience_score": 8.4,
+  "external_ratings": {
+    "AniList": "85%",
+    "AniList Popularity": "#397042",
+    "IMDb": "8.3/10 (136,080 votes)",
+    "Rotten Tomatoes": "100%"
+  },
+  "strengths": [
+    {
+      "aspect": "Visuals & Narrative Impact",
+      "score": 8.5,
+      "sentiment": "Positive",
+      "evidence": [
+        "Verified global audience consensus across 136,080 viewer thoughts and ratings. Average user score: 8.3/10. Production premise: A Street Kid trying to survive in"
+      ],
+      "source_ids": [
+        "src_1"
+      ]
+    },
+    {
+      "aspect": "Visuals & Narrative Impact",
+      "score": 8.5,
+      "sentiment": "Positive",
+      "evidence": [
+        "A great show about a person who wants to grant the dreams of others in a dystopian world that tells you its impossible.. ~~~ CYBERPUNK: EDGERUNNERS is an anime "
+      ],
+      "source_ids": [
+        "src_2"
+      ]
+    },
+    {
+      "aspect": "Visuals & Narrative Impact",
+      "score": 8.5,
+      "sentiment": "Positive",
+      "evidence": [
+        "A must-watch for every Cyberpunk fan. ~~~_Minor spoilers_\n\n__I went into this show expecting good animation and entertaining fights and what I got was exactly t"
+      ],
+      "source_ids": [
+        "src_3"
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "aspect": "Pacing & Adaptational Nuance",
+      "score": 6.8,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Started off bad and got even worse. I don't get the hype.. It started off bad and it got even worse.\n\nI haven't played the game, so let this be a considered as "
+      ],
+      "source_ids": [
+        "src_4"
+      ]
+    },
+    {
+      "aspect": "Pacing & Adaptational Nuance",
+      "score": 6.8,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Progressively disintegrates into dogshit. A stupidly written clusterfuck of cliches.. Take any successful dystopian sci fi venture, one of the major parts of wr"
+      ],
+      "source_ids": [
+        "src_9"
+      ]
+    }
+  ],
+  "audience_sentiment": "Positive",
+  "critic_sentiment": "Positive",
+  "disagreements": [
+    "Pacing and narrative focus differ between casual viewers and core fans."
+  ],
+  "spoiler_free_summary": "Cyberpunk: Edgerunners has received broadly favorable feedback across verified community and critical reviews. Cyberpunk: Edgerunners tells a standalone, 10-episode story about a street kid trying to survive in a technology and body modification-obsessed city of the future. Having everything to lose, he choose...",
+  "methodology": {
+    "critic_rating_mean": 10.0,
+    "audience_rating_mean": 8.4,
+    "sentiment_synthetic_score": 7.9,
+    "source_count": 37,
+    "critic_count": 1,
+    "audience_count": 11,
+    "community_count": 25,
+    "diversity_multiplier": 1.0,
+    "disagreement_penalty": 0.008,
+    "sample_size_penalty": 0.01,
+    "final_calibrated_score": 8.8,
+    "confidence_estimate": 0.96,
+    "explanation": "Derived from 37 retrieved sources across 4 categories. External baseline: Critic 10.0/10, Audience 8.4/10. Noted critic/audience polarity (penalty factor: 0.01). Final calibrated AI evaluation: 8.8/10 with 96% confidence."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "IMDb Verified Audience Consensus (136,080 votes)",
+      "url": "https://www.imdb.com/title/tt12590266/",
+      "published_date": null,
+      "category": "audience",
+      "excerpt": "Verified global audience consensus across 136,080 viewer thoughts and ratings. Average user score: 8.3/10. Production premise: A Street Kid trying to survive in a technology and body modification-obsessed city of the future. Having everything to lose, he chooses to stay alive by becoming an Edgerunner, a Mercenary outlaw also known as a Cyberpunk.",
+      "original_rating": "8.3/10",
+      "sentiment_score": 0.66,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_2",
+      "source_name": "AniList Reviewer (Godmeyer)",
+      "url": "https://anilist.co/review/18215",
+      "published_date": "2022-09-14",
+      "category": "community",
+      "excerpt": "A great show about a person who wants to grant the dreams of others in a dystopian world that tells you its impossible.. ~~~ CYBERPUNK: EDGERUNNERS is an anime that was able to set up an incredibly overpowering atmosphere from just the first episode. For those that are unaware, this is an anime based within the world of a video game called Cyberpunk 2077 released in 2020. However, there is a table",
+      "original_rating": "361%",
+      "sentiment_score": 0.967,
+      "confidence": 0.879,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_3",
+      "source_name": "AniList Reviewer (Zigeuninja)",
+      "url": "https://anilist.co/review/18210",
+      "published_date": "2022-09-13",
+      "category": "community",
+      "excerpt": "A must-watch for every Cyberpunk fan. ~~~_Minor spoilers_\n\n__I went into this show expecting good animation and entertaining fights and what I got was exactly that but also a decent story and characters I could actually sympathize with. __\n\n---\nI want to start off by saying that this show was clearly made for people who played Cyberpunk",
+      "original_rating": "217%",
+      "sentiment_score": 0.937,
+      "confidence": 0.797,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_4",
+      "source_name": "AniList Reviewer (WallahSous)",
+      "url": "https://anilist.co/review/18311",
+      "published_date": "2022-09-21",
+      "category": "community",
+      "excerpt": "Started off bad and got even worse. I don't get the hype.. It started off bad and it got even worse.\n\nI haven't played the game, so let this be a considered as either a source of bias or a source of impartiality, however you see fit. I'm guessing that having played the game could help you enjoy it more, since you get to see characters you liked in the game",
+      "original_rating": "129%",
+      "sentiment_score": -0.557,
+      "confidence": 0.737,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_5",
+      "source_name": "AniList Reviewer (Shochraos)",
+      "url": "https://anilist.co/review/18211",
+      "published_date": "2022-09-13",
+      "category": "community",
+      "excerpt": "an incredibly accurate depiction of the Cyberpunk universe coupled with Studio Triggers breathtaking visuals. Cyberpunk and, to some extent, Steampunk have been two themes, who are criminally underused in our current Pop-culture. Especially Cyberpunk, depicting a dystopian future of the digitalization currently taking place, was bound to be a major success, if a company decided to create a new IP ",
+      "original_rating": "86%",
+      "sentiment_score": 0.932,
+      "confidence": 0.787,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_6",
+      "source_name": "AniList Reviewer (Slobbywasabi)",
+      "url": "https://anilist.co/review/18272",
+      "published_date": "2022-09-19",
+      "category": "community",
+      "excerpt": "Dreams Don't Always Come True. SPOILERS WITHIN THIS REVIEW, CONTINUE AT YOUR OWN RISK\n\nDreams don't always come true. A tragic story of a \"special\" boy who risks everything for the girl he loves.\n\nI never expected something this good when I saw this announcement. This watch gave me a lot of insight. What insight, you may ask. The",
+      "original_rating": "78%",
+      "sentiment_score": 0.96,
+      "confidence": 0.86,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_7",
+      "source_name": "AniList Reviewer (Legrenzi)",
+      "url": "https://anilist.co/review/18713",
+      "published_date": "2022-10-22",
+      "category": "community",
+      "excerpt": "If I had to sum it up in one word, it would be... Magnificent. I must be honest, when I started this anime I did not have high expectations, I started it almost out of boredom.\nI was never really interested in the Cyberpunk video game and my fear was that I wouldn't be able to understand anything about its 'world'. But I was wrong, and how wrong I was!\n\nimg(htt",
+      "original_rating": "69%",
+      "sentiment_score": 0.87,
+      "confidence": 0.652,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_8",
+      "source_name": "AniList Reviewer (Yuuko)",
+      "url": "https://anilist.co/review/18423",
+      "published_date": "2022-09-28",
+      "category": "community",
+      "excerpt": "A surprise hit which came out swinging, made the audience go through a load of emotions and left as quickly as it came. ~~~This is my first review and I wrote this in my sleep so please dont mind the errors, and I will make it very short and not boring I wish.\n(No spoilers)\n\n___\n__Personal Enjoyment 10/10__\nAs a huge Cyberpunk enjoyer, this show has got everything I'd have ever wanted in a Cyberpu",
+      "original_rating": "66%",
+      "sentiment_score": 1.0,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_9",
+      "source_name": "AniList Reviewer (shinodiesagain)",
+      "url": "https://anilist.co/review/18478",
+      "published_date": "2022-09-30",
+      "category": "community",
+      "excerpt": "Progressively disintegrates into dogshit. A stupidly written clusterfuck of cliches.. Take any successful dystopian sci fi venture, one of the major parts of writing such stories is building the world properly.\n\nFirst, you teleport your audience into a different world, and then you get started with the plot proceedings. This show, however, doesn't tell the story in this traditional w",
+      "original_rating": "62%",
+      "sentiment_score": -0.594,
+      "confidence": 0.879,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_10",
+      "source_name": "AniList Reviewer (C00kieMaster)",
+      "url": "https://anilist.co/review/18346",
+      "published_date": "2022-09-24",
+      "category": "community",
+      "excerpt": "An amazing journey of friendship and love with a whole lot of punk, bangs and guts. Cyberpunk Edgerunners follows the journey of a boy named David born into poverty in the slums of a technological advanced society. A future where technological advancements flourish but the disparity between the poor and rich remain consistent. From the very first episode we see David already have l",
+      "original_rating": "60%",
+      "sentiment_score": 0.639,
+      "confidence": 0.778,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_11",
+      "source_name": "AniList Reviewer (blekmus)",
+      "url": "https://anilist.co/review/19940",
+      "published_date": "2023-02-09",
+      "category": "community",
+      "excerpt": "A perfect cyberpunk incarnation that might even be a perfect anime.. __Warning - Contains Spoilers__\n_This is just a note that got too long to fit the 6000-character word count so constructive criticism is pretty much already outa the window. Everything's an opinion all the way through._\n___\n\n\n\nEver since I laid eyes on the first trailer for Cyberpunk: Edgerunners, I",
+      "original_rating": "59%",
+      "sentiment_score": 0.661,
+      "confidence": 0.869,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_12",
+      "source_name": "AniList Reviewer (GummyKatana)",
+      "url": "https://anilist.co/review/18326",
+      "published_date": "2022-09-22",
+      "category": "community",
+      "excerpt": "Thoughts on Cyberpunk: Edgerunners SPOILERS. Like many of you I am feeling pretty emotionally raw since finishing Edgerunners and have spent a lot of time thinking about the dynamic between David and Lucy as well as their shifting motivations throughout the anime and just wanted to share some of my thoughts.\n\nTo start with our boy David, we se",
+      "original_rating": "57%",
+      "sentiment_score": 0.664,
+      "confidence": 0.346,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_13",
+      "source_name": "AniList Reviewer (Underscore)",
+      "url": "https://anilist.co/review/21087",
+      "published_date": "2023-05-31",
+      "category": "community",
+      "excerpt": "Live Your Dreams or Die a Legend?. #~~~⬢⬡⬢__| _`Cyberpunk: Edgerunners`_ |__⬢⬡⬢~~~\n\n~~~img100%(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHJwcDBmcmwxaXgxMDgwYzJ6cDQ2MWh1ZXhkYjJnOGpvOHgzMDRxOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ry4tMW5MhpZfkWeedh/giphy.gif)~~~\n\n~~~Advanced technology and cybernetic enhancements dominate s",
+      "original_rating": "57%",
+      "sentiment_score": 1.0,
+      "confidence": 0.95,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_14",
+      "source_name": "AniList Reviewer (Ozzieboi)",
+      "url": "https://anilist.co/review/18537",
+      "published_date": "2022-10-06",
+      "category": "community",
+      "excerpt": "Very well done show, however it unfortunately had so much more potential which was limited by its short runtime . Edgerunners was really good and did everything super well, however, the short runtime (while making it easy to watch due to each episode being packed with plot development) meant that they neglected giving the story \"downtime\". In my opinion stories have three general modes they can be",
+      "original_rating": "56%",
+      "sentiment_score": -0.258,
+      "confidence": 0.313,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_15",
+      "source_name": "AniList Reviewer (munndazed)",
+      "url": "https://anilist.co/review/18411",
+      "published_date": "2022-09-27",
+      "category": "community",
+      "excerpt": "*SPOILERS* This show was the ultimate bait and switch.. *SPOILERS* \nThis show was the ultimate bait and switch-- making me believe David was more than a cis-het-male self-insert and that Lucy's *Manic Pixie Dream Girl* archetype might have actually been badass. David *is* a self-insert, gets buff and ugly, doesn't learn from Maine's cyberpsychosis, and p",
+      "original_rating": "54%",
+      "sentiment_score": -0.432,
+      "confidence": 0.414,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_16",
+      "source_name": "AniList Reviewer (Humble)",
+      "url": "https://anilist.co/review/19878",
+      "published_date": "2023-02-01",
+      "category": "community",
+      "excerpt": "Great ride... Sad story. ~~~img220(https://www.cyberpunk.net/build/images/edgerunners/phase2/cover-desktop@1x-e6d6aaa1.jpg)~~~\n\nAnd your anime of the year for 2022 is …… Yes, I said it Cyberpunk Edgerunners is anime of the year. Please keep in mind this is just my opinion and there is certainly other anime that also deserve",
+      "original_rating": "54%",
+      "sentiment_score": 0.845,
+      "confidence": 0.607,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_17",
+      "source_name": "AniList Reviewer (NDfan)",
+      "url": "https://anilist.co/review/29354",
+      "published_date": "2025-09-24",
+      "category": "community",
+      "excerpt": "An exhilarating spectacle that will leave you feeling empty. (In a good way). For me, Cyberpunk: Edgerunners is Studio Trigger's magnum opus. It's one of the most breathtaking anime I've had the pleasure of experiencing. Even if this show were purely action spectacle, which it's not, it would still be worth watching for the visuals alone. It's so vibrant & visually alluring,",
+      "original_rating": "54%",
+      "sentiment_score": 0.933,
+      "confidence": 0.788,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_18",
+      "source_name": "AniList Reviewer (Coolgu275)",
+      "url": "https://anilist.co/review/18501",
+      "published_date": "2022-10-03",
+      "category": "community",
+      "excerpt": "You either stay on the surface or run straight over the edge. ~~~img220(https://i.imgur.com/XqdHDre.jpg)~~~\n\nSo I finished watching Cyberpunk Edgerunners and let me tell you it was amazing. It is crazy how Studio Trigger could fit so much story in only ten episodes. You can always count on studio trigger to bring outstanding animation into all of their animes",
+      "original_rating": "52%",
+      "sentiment_score": 0.637,
+      "confidence": 0.772,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_19",
+      "source_name": "AniList Reviewer (polkura)",
+      "url": "https://anilist.co/review/18231",
+      "published_date": "2022-09-16",
+      "category": "community",
+      "excerpt": "Short and Sweet Sci-Fi: Netflix's Redemption Arc. # ~~~__Cyberpunk: Edgerunners__~~~ \n~~~img500(https://i.imgur.com/fCKJPpE.jpg)~~~\n***\n# ~~~__Introduction__~~~ \n_Disclaimer: This is a spoiler free review._ Considering the hot water that Netflix is currently in, them releasing an anime of this caliber is the last thing that I expected. As of right",
+      "original_rating": "51%",
+      "sentiment_score": -0.27,
+      "confidence": 0.165,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_20",
+      "source_name": "AniList Reviewer (Realluck)",
+      "url": "https://anilist.co/review/18562",
+      "published_date": "2022-10-08",
+      "category": "community",
+      "excerpt": "Excellent. Full of heart and cybernetic action and gore! Beautiful and captivating to the very end.. ~~~~I'll start this review/analysis saying that you don't need to play or even like Cyberpunk 2077 to enjoy this anime. You're definitely going to have fun with the crazy action and get emotional with the well written drama of the anime series. Let's go!\nImg 220(https://i.imgur.com/oMFc6k0.jpg)\n\nCh",
+      "original_rating": "49%",
+      "sentiment_score": 0.974,
+      "confidence": 0.9,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_21",
+      "source_name": "AniList Reviewer (superp2222)",
+      "url": "https://anilist.co/review/18409",
+      "published_date": "2022-09-27",
+      "category": "community",
+      "excerpt": "A shining example of how anime studios constantly 1-up their source materials. Cyberpunk 2077 was an internet hot mess. Delays, bugs, and glitches turned the internet into a collective firestorm that tarnished the reputation of this game. \n\nCyberpunk Edgerunners was a masterful concoction, brewed up by Studio Trigger that tugs the heartstrings of our nerves harder than the sup",
+      "original_rating": "47%",
+      "sentiment_score": -0.44,
+      "confidence": 0.078,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_22",
+      "source_name": "AniList Reviewer (nummystuff2)",
+      "url": "https://anilist.co/review/18410",
+      "published_date": "2022-09-27",
+      "category": "community",
+      "excerpt": "A must-watch, unforgettable masterpiece with memorable characters that you well shed tears about for days.. An unexpected masterpiece, not only a fantastic intro to the Cyberpunk 2077 world, but a phenomenal display of Studio Trigger's talent. Characters TO DIE FOR that you will be rooting for the entire way through, an absolute banger soundtrack, BEAUTIFUL visuals and attention to detail loyal to",
+      "original_rating": "47%",
+      "sentiment_score": 0.969,
+      "confidence": 0.884,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_23",
+      "source_name": "AniList Reviewer (obi3)",
+      "url": "https://anilist.co/review/18943",
+      "published_date": "2022-11-13",
+      "category": "community",
+      "excerpt": "With a signature style, a captivating ost, and engaging characters, Cyberpunk delivers on all fronts. Preface: I never played the game and have no intention of ever playing the game so game spoilers or connecting threads to the game will not be included. Spoiler free outside of some episode one information.\n\nCyberpunk is built upon human nature’s dependence on the forging of bonds amongst familial",
+      "original_rating": "47%",
+      "sentiment_score": 0.969,
+      "confidence": 0.886,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_24",
+      "source_name": "AniList Reviewer (Giangis888)",
+      "url": "https://anilist.co/review/28115",
+      "published_date": "2025-06-09",
+      "category": "community",
+      "excerpt": "\" Fast is what you do best, ain't it ?           Just Keep Running \". __No other anime will ever hit me on such an emotional level like this one.__\nI’ve rewatched it for the 3rd time now, and I still get crashed by the ending (_just like Rebecca_)\nIn just a few simple episodes, this anime shows you a __neon-lit future__, where only the streets, the buildings of mega-c",
+      "original_rating": "47%",
+      "sentiment_score": 0.959,
+      "confidence": 0.856,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_25",
+      "source_name": "AniList Reviewer (Lukasu)",
+      "url": "https://anilist.co/review/18432",
+      "published_date": "2022-09-28",
+      "category": "community",
+      "excerpt": "Cyberpunk: Edgerunners is depressing and beautiful.. Cyberpunk Edgerunners is an anime set within the cyberpunk 2077 universe, and I just love the combination of the 2.\n\nStory: 9/10\nI'll say you don't need to have played Cyberpunk 2077 to enjoy this show, since I loved it even though I didn't finish the game. People who have played the game will just",
+      "original_rating": "45%",
+      "sentiment_score": 0.8,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_26",
+      "source_name": "AniList Reviewer (AkenoAra)",
+      "url": "https://anilist.co/review/22029",
+      "published_date": "2023-08-20",
+      "category": "community",
+      "excerpt": "An appreciation of the work, CYBERPUNK: EDGERUNNERS. _Disclaimer: This review is subjective and reflects my personal experience and opinions as a viewer. It may not align with others' interpretations and opinions. A re-watch and further exploration of the series may alter this review in the future. And be wary of spoilers. Get off this page now if you",
+      "original_rating": "45%",
+      "sentiment_score": 0.394,
+      "confidence": 0.233,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_27",
+      "source_name": "Rotten Tomatoes Critical Consensus",
+      "url": "https://en.wikipedia.org/wiki/Cyberpunk%3A%20Edgerunners#Critical%20reception",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "Rotten Tomatoes reports a 100% approval rating based on 16 critic reviews (average rating: 8.8/10)",
+      "original_rating": "100%",
+      "sentiment_score": 1.0,
+      "confidence": 0.95,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_28",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/cyberpunkgame/comments/xdqoph/megathread_cyberpunk_edgerunners_general_and/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Please use this thread for your general discussions regarding Cyberpunk: Edgerunners, and click on the following links to discuss specific episodes:\"",
+      "original_rating": null,
+      "sentiment_score": 0.485,
+      "confidence": 0.38,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_29",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/anime/comments/xkeqyi/my_cyberpunk_edgerunners_review_spoilers/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Edgerunners starts off pretty great, and just slightly reminds me of Devil Man Cry Baby for some reasons. Which, in my opinion, is a good thing. Episodes 1-6 really seem to fit the world of Cyberpunk, letting you see how characters interact outside of a player's control.\"",
+      "original_rating": null,
+      "sentiment_score": 0.909,
+      "confidence": 0.734,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_30",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/LowSodiumCyberpunk/comments/xqdttj/cyberpunk_edgerunners_reviews_did_you_enjoy_the/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Cyberpunk: Edgerunners reviews. Did you enjoy the anime? What is your honest opinion about it? 263 comments Best Top New Controversial Q&A Add a Comment JodieHolmes233 • 1 yr. ago\"",
+      "original_rating": null,
+      "sentiment_score": 0.533,
+      "confidence": 0.479,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_31",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/anime/comments/xsn48z/cyberpunk_edge_runners_honest_review/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"In conclusion Cyberpunk Edge Runners Is definetley worth the watch, I personally believe it's gonna be one of the animes of the 20's people are going to remember for years to come, similar to how everyone still watches and remembers Evangelion Neon Genesis, it gives me that same vibe, just a little bit different.\"",
+      "original_rating": null,
+      "sentiment_score": 0.659,
+      "confidence": 0.859,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_32",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/Edgerunners/top/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"r/Edgerunners: For the anime, CYBERPUNK: EDGERUNNERS If you haven't finished watching Cyberpunk: Edgerunners, do so now. Because some time has passed since the initial release of Cyberpunk: Edgerunners. We do allow some untagged spoilers in comments and posts, but users are free to use spoiler tags as they see fit. However, we do not encourage putting any spoilers within titles",
+      "original_rating": null,
+      "sentiment_score": 0.174,
+      "confidence": 0.033,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_33",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/Edgerunners/comments/xctacl/edgerunners_episode_discussion_mega_thread/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Edgerunners is just about to release (or if this post is a few hours old, it already has), so it's time for the Episode/Series discussion megathread. This is where you can discuss your general feelings and thoughts about the series and episodes.\"",
+      "original_rating": null,
+      "sentiment_score": 0.273,
+      "confidence": 0.099,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_34",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/anime/comments/xezzum/my_review_for_cyberpunk_edgerunner/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"My issue was not the grim, harsh reality of Night City, but the way the story was delivered. When I watch Edgerunner, I never felt that the plot was something meaningful, it only exists just for the sake of existing. To further progress the story. I think Edgerunner, as an anime, had great potentials but those potentials were not fully explored, maybe due to tight development s",
+      "original_rating": null,
+      "sentiment_score": -0.446,
+      "confidence": 0.767,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_35",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/cyberpunkgame/comments/xcv4uu/cyberpunk_edgerunners_discussion_thread/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Cyberpunk Edgerunners is the canon anime set in CDPRs version of Night City. Like the game itself this beauty has been a long time coming. The show will start airing on Netflix, on the 13th of September.\"",
+      "original_rating": null,
+      "sentiment_score": 0.473,
+      "confidence": 0.359,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_36",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/anime/comments/xe0jn5/reposting_my_review_of_cyberpunk_edgerunners/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"They also didn't hold back on the violence, gore, and s** that is in Cyberpunk. The story throughout the 10 episode season takes place before the events of the game. The story revolves around the MC David Ramirez and his journey of joining a group of Edgerunners after the death of his mother. I'll get into more details in my spoiler review.\"",
+      "original_rating": null,
+      "sentiment_score": 0.507,
+      "confidence": 0.424,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    },
+    {
+      "id": "src_37",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/netflix/comments/xie3dz/cyberpunk_edgerunner_is_absolutely_incredible/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Just finished cyberpunk edgerunner and Omg it's so good! It is truly a phenomenal anime, and honestly I wasn't expecting much since it is a netflix anime, But holy shit it's amazing. Everything starting from the plot, to the soundtrack, to the characters and especially the mixture of the action with the gore was all so nicely done! And that is why Cyberpunk edgerunner is incred",
+      "original_rating": null,
+      "sentiment_score": 0.964,
+      "confidence": 0.87,
+      "retrieved_at": "2026-10-18T00:37:15.770116+00:00"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "Deterministic Synthesis Engine",
+  "disambiguation_options": [
+    {
+      "id": "tvmaze_48945",
+      "title": "Cyberpunk: Edgerunners",
+      "media_type": "series",
+      "release_year": 2022,
+      "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/498/1246519.jpg"
+    },
+    {
+      "id": "wiki_Cyberpunk:_Edgerunners_2",
+      "title": "Cyberpunk: Edgerunners 2",
+      "media_type": "series",
+      "release_year": 2026,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/7/7a/Cyberpunk_Edgerunners_2_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "anilist_195539",
+      "title": "Cyberpunk: Edgerunners 2",
+      "media_type": "anime",
+      "release_year": 2026,
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195539-t0GQQ9J9qtBW.jpg"
+    },
+    {
+      "id": "anilist_185521",
+      "title": "Cyberpunk: Edgerunners MADNESS",
+      "media_type": "movie",
+      "release_year": 2024,
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx185521-kqxmd2AQcIKi.png"
+    }
+  ],
+  "latency_ms": 29703.0,
+  "analyzed_at": "2026-10-18T00:37:26.696750+00:00"
+}

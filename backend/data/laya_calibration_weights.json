@@ -1,0 +1,33 @@
+{
+  "version": 1.2,
+  "total_training_iterations": 16,
+  "samples_processed": 188,
+  "current_mse_loss": 0.5783,
+  "accuracy_gain_pct": 12.0,
+  "last_trained_at": "2026-10-18 00:37:29Z",
+  "aspect_weights": {
+    "Narrative & Screenplay": 1.18,
+    "Directorial Vision": 1.12,
+    "Cinematography & Visuals": 1.05,
+    "Performance & Voice Acting": 1.08,
+    "Pacing & Rhythm": 0.94,
+    "Sound & Musical Score": 0.98,
+    "Emotional Resonance": 1.15
+  },
+  "category_priors": {
+    "movie": {
+      "prior_mean": 7.42,
+      "prior_variance": 1.25
+    },
+    "anime": {
+      "prior_mean": 7.958,
+      "prior_variance": 1.1
+    },
+    "series": {
+      "prior_mean": 7.68,
+      "prior_variance": 1.18
+    }
+  },
+  "confidence_temperature": 0.92,
+  "sentiment_bias_correction": -0.015
+}

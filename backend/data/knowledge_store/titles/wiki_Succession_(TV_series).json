@@ -1,0 +1,161 @@
+{
+  "title": "Succession",
+  "canonical_id": "wiki_Succession_(TV_series)",
+  "media_type": "series",
+  "release_year": 2018,
+  "poster_url": null,
+  "backdrop_url": null,
+  "genres": [
+    "Drama",
+    "Television"
+  ],
+  "overview": "Succession is an American satirical comedy-drama television series created by English screenwriter Jesse Armstrong that aired for four seasons on HBO from June 3, 2018, to May 28, 2023. The series centers on the Roy family, the owners of global media and entertainment conglomerate Waystar RoyCo, and their fight for control of the company amidst uncertainty about the health of the family's patriarch.",
+  "verdict": "Masterpiece / Must-Watch",
+  "overall_score": 9.0,
+  "confidence": 0.65,
+  "data_scale": {
+    "total_signals_analyzed": 369707,
+    "audience_votes_count": 369529,
+    "critic_reviews_count": 175,
+    "textual_reviews_analyzed": 3,
+    "community_discussions_analyzed": 0,
+    "sentiment_distribution": {
+      "positive": 100.0,
+      "mixed": 0.0,
+      "negative": 0.0
+    },
+    "platforms_covered": [
+      "IMDb",
+      "Rotten Tomatoes",
+      "Metacritic",
+      "Major Entertainment Press"
+    ]
+  },
+  "external_critic_score": 9.0,
+  "external_audience_score": 8.8,
+  "external_ratings": {
+    "Catalog Source": "Encyclopedic Verification",
+    "Category": "American television series (2018–2023)",
+    "IMDb": "8.8/10 (369,529 votes)",
+    "Rotten Tomatoes": "89%",
+    "Metacritic": "92 out of 100"
+  },
+  "strengths": [
+    {
+      "aspect": "Story",
+      "score": 9.0,
+      "sentiment": "Positive",
+      "evidence": [
+        "Average user score: 8.8/10 indicates strong overall storytelling appeal."
+      ],
+      "source_ids": [
+        "src_1"
+      ]
+    },
+    {
+      "aspect": "Characters",
+      "score": 9.2,
+      "sentiment": "Positive",
+      "evidence": [
+        "Metacritic notes the series concludes on a \"typically brilliant\" note, highlighting the compelling Roy family dynamics."
+      ],
+      "source_ids": [
+        "src_3"
+      ]
+    }
+  ],
+  "weaknesses": [],
+  "audience_sentiment": "Overwhelmingly Positive",
+  "critic_sentiment": "Acclaimed",
+  "disagreements": [
+    "Both critics and audiences are highly positive, showing little division in opinion."
+  ],
+  "spoiler_free_summary": "Succession delivers a razor‑sharp satire of power, wealth, and family dynamics, blending dark humor with dramatic tension. Its expertly crafted characters and incisive writing have earned it near‑universal acclaim from both critics and viewers, reflected in soaring scores across major platforms. The series’ tone—simultaneously biting and emotionally resonant—makes it a compelling watch for anyone drawn to smart, character‑driven storytelling without needing prior knowledge of the plot.",
+  "methodology": {
+    "critic_rating_mean": 9.0,
+    "audience_rating_mean": 8.8,
+    "sentiment_synthetic_score": 9.06,
+    "source_count": 3,
+    "critic_count": 2,
+    "audience_count": 1,
+    "community_count": 0,
+    "diversity_multiplier": 0.7,
+    "disagreement_penalty": 0.0,
+    "sample_size_penalty": 0.08,
+    "final_calibrated_score": 9.0,
+    "confidence_estimate": 0.65,
+    "explanation": "Derived from 3 retrieved sources across 2 categories. External baseline: Critic 9.0/10, Audience 8.8/10. Final calibrated AI evaluation: 9.0/10 with 65% confidence."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "IMDb Verified Audience Consensus (369,529 votes)",
+      "url": "https://www.imdb.com/title/tt7660850/",
+      "published_date": null,
+      "category": "audience",
+      "excerpt": "Verified global audience consensus across 369,529 viewer thoughts and ratings. Average user score: 8.8/10. Production premise: The Roy family is known for controlling the biggest media and entertainment company in the world. However, their world changes when their father steps down from the company.",
+      "original_rating": "8.8/10",
+      "sentiment_score": 0.76,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T00:36:53.852543+00:00"
+    },
+    {
+      "id": "src_2",
+      "source_name": "Rotten Tomatoes Critical Consensus",
+      "url": "https://en.wikipedia.org/wiki/Succession%20%28TV%20series%29#Critical%20response",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "Rotten Tomatoes reports an overall critic approval rating of 89% based on published industry reviews.",
+      "original_rating": "89%",
+      "sentiment_score": 0.78,
+      "confidence": 0.95,
+      "retrieved_at": "2026-10-18T00:36:53.852543+00:00"
+    },
+    {
+      "id": "src_3",
+      "source_name": "Metacritic Industry Consensus",
+      "url": "https://en.wikipedia.org/wiki/Succession%20%28TV%20series%29#Critical%20response",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "s final season concludes the saga of the backbiting Roy family on a typically brilliant – and colorfully profane – high note.\" On Metacritic, the season has received a weighted average score of 92 out of 100, based on 31 critics, indicating \"universal acclaim\".",
+      "original_rating": "92 out of 100",
+      "sentiment_score": 0.836,
+      "confidence": 0.591,
+      "retrieved_at": "2026-10-18T00:36:53.852543+00:00"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "openai/gpt-oss-120b",
+  "disambiguation_options": [
+    {
+      "id": "wiki_Succession_season_1",
+      "title": "Succession season 1",
+      "media_type": "series",
+      "release_year": 2018,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/3f/Succession_season_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "wiki_List_of_Succession_episodes",
+      "title": "List of Succession episodes",
+      "media_type": "series",
+      "release_year": 2018,
+      "poster_url": null
+    },
+    {
+      "id": "tvmaze_91188",
+      "title": "Game of Succession",
+      "media_type": "series",
+      "release_year": 2025,
+      "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/620/1550884.jpg"
+    },
+    {
+      "id": "tvmaze_81611",
+      "title": "Yellowstone Wolves: Succession",
+      "media_type": "series",
+      "release_year": 2025,
+      "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/548/1371481.jpg"
+    }
+  ],
+  "latency_ms": 30330.0,
+  "analyzed_at": "2026-10-18T00:37:15.065859+00:00"
+}

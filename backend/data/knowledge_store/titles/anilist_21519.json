@@ -1,0 +1,470 @@
+{
+  "title": "Your Name.",
+  "canonical_id": "anilist_21519",
+  "media_type": "anime",
+  "release_year": 2016,
+  "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21519-SUo3ZQuCbYhJ.png",
+  "backdrop_url": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21519-1ayMXgNlmByb.jpg",
+  "genres": [
+    "Drama",
+    "Romance",
+    "Supernatural"
+  ],
+  "overview": "Mitsuha Miyamizu, a high school girl, yearns to live the life of a boy in the bustling city of Tokyo—a dream that stands in stark contrast to her present life in the countryside. Meanwhile in the city, Taki Tachibana lives a busy life as a high school student while juggling his part-time job and hopes for a future in architecture.\n\nOne day, Mitsuha awakens in a room that is not her own and suddenly finds herself living the dream life in Tokyo—but in Taki's body! Elsewhere, Taki finds himself living Mitsuha's life in the humble countryside. In pursuit of an answer to this strange phenomenon, they begin to search for one another.\n\nKimi no Na wa. revolves around Mitsuha and Taki's actions, which begin to have a dramatic impact on each other's lives, weaving them into a fabric held together by fate and circumstance.\n\n(Source: MAL Rewrite)",
+  "verdict": "Worth Watching",
+  "overall_score": 7.1,
+  "confidence": 0.6,
+  "data_scale": {
+    "total_signals_analyzed": 127,
+    "audience_votes_count": 56,
+    "critic_reviews_count": 45,
+    "textual_reviews_analyzed": 26,
+    "community_discussions_analyzed": 0,
+    "sentiment_distribution": {
+      "positive": 73.1,
+      "mixed": 7.7,
+      "negative": 19.2
+    },
+    "platforms_covered": [
+      "AniList",
+      "AniList Popularity",
+      "IMDb",
+      "Community Reviews"
+    ]
+  },
+  "external_critic_score": 8.5,
+  "external_audience_score": 5.3,
+  "external_ratings": {
+    "AniList": "85%",
+    "AniList Popularity": "#722569",
+    "IMDb": "4.0/10 (56 votes)"
+  },
+  "strengths": [
+    {
+      "aspect": "Visuals & Narrative Impact",
+      "score": 8.5,
+      "sentiment": "Positive",
+      "evidence": [
+        "I already forgot their names.... *You’ve probably already seen this movie but regardless, mild spoilers for the premise that truly reveals itself whole past the"
+      ],
+      "source_ids": [
+        "src_2"
+      ]
+    },
+    {
+      "aspect": "Visuals & Narrative Impact",
+      "score": 8.5,
+      "sentiment": "Positive",
+      "evidence": [
+        "Shinkai does Shinkai things better than ever. When I think of [Makoto Shinkai](http://anilist.co/staff/96117) I think of two things: beautiful, hyper-realistic "
+      ],
+      "source_ids": [
+        "src_3"
+      ]
+    },
+    {
+      "aspect": "Visuals & Narrative Impact",
+      "score": 8.5,
+      "sentiment": "Positive",
+      "evidence": [
+        "Through the slips of time, it's a miracle that we can form connections across space and time, no matter how fleeting.. ___Funimation Blu-Ray (Subtitled)___\n\n\nWh"
+      ],
+      "source_ids": [
+        "src_5"
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "aspect": "Pacing & Adaptational Nuance",
+      "score": 6.8,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Verified global audience consensus across 56 viewer thoughts and ratings. Average user score: 4.0/10. Production premise: After a missed flight, an absent-minde"
+      ],
+      "source_ids": [
+        "src_1"
+      ]
+    },
+    {
+      "aspect": "Pacing & Adaptational Nuance",
+      "score": 6.8,
+      "sentiment": "Mixed",
+      "evidence": [
+        "An average story loaded with amazing art. . # Disclaimer and Initial comments\n\n_This review will obvious contain some spoilers, so just a forewarning before you"
+      ],
+      "source_ids": [
+        "src_4"
+      ]
+    }
+  ],
+  "audience_sentiment": "Positive",
+  "critic_sentiment": "Positive",
+  "disagreements": [
+    "Pacing and narrative focus differ between casual viewers and core fans."
+  ],
+  "spoiler_free_summary": "Your Name. has received broadly favorable feedback across verified community and critical reviews. Mitsuha Miyamizu, a high school girl, yearns to live the life of a boy in the bustling city of Tokyo—a dream that stands in stark contrast to her present life in the countryside. Meanwhile in the city...",
+  "methodology": {
+    "critic_rating_mean": 8.5,
+    "audience_rating_mean": 5.3,
+    "sentiment_synthetic_score": 7.26,
+    "source_count": 26,
+    "critic_count": 0,
+    "audience_count": 1,
+    "community_count": 25,
+    "diversity_multiplier": 0.7,
+    "disagreement_penalty": 0.142,
+    "sample_size_penalty": 0.01,
+    "final_calibrated_score": 7.1,
+    "confidence_estimate": 0.6,
+    "explanation": "Derived from 26 retrieved sources across 2 categories. External baseline: Critic 8.5/10, Audience 5.3/10. Noted critic/audience polarity (penalty factor: 0.14). Final calibrated AI evaluation: 7.1/10 with 60% confidence."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "IMDb Verified Audience Consensus (56 votes)",
+      "url": "https://www.imdb.com/title/tt10075604/",
+      "published_date": null,
+      "category": "audience",
+      "excerpt": "Verified global audience consensus across 56 viewer thoughts and ratings. Average user score: 4.0/10. Production premise: After a missed flight, an absent-minded scientist must catch a cab to make his marriage proposal but a stern driver veers him further off-course.",
+      "original_rating": "4.0/10",
+      "sentiment_score": -0.2,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_2",
+      "source_name": "AniList Reviewer (CodeBlazeFate)",
+      "url": "https://anilist.co/review/3440",
+      "published_date": "2018-09-03",
+      "category": "community",
+      "excerpt": "I already forgot their names.... *You’ve probably already seen this movie but regardless, mild spoilers for the premise that truly reveals itself whole past the synopsis and maybe a few specific spoilers along the way*\n\nWhen most people think of Kimi no Na wa, they think of a simple emotionally gripping, beautifully animated master",
+      "original_rating": "608%",
+      "sentiment_score": 0.62,
+      "confidence": 0.033,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_3",
+      "source_name": "AniList Reviewer (Peng)",
+      "url": "https://anilist.co/review/2117",
+      "published_date": "2016-11-24",
+      "category": "community",
+      "excerpt": "Shinkai does Shinkai things better than ever. When I think of [Makoto Shinkai](http://anilist.co/staff/96117) I think of two things: beautiful, hyper-realistic art and grounded, unfulfilled romances. So, when I heard of the success of his latest film, _Your Name_, in [the Japanese box office](http://www.boxofficemojo.com/intl/japan/), I thought",
+      "original_rating": "171%",
+      "sentiment_score": 0.728,
+      "confidence": 0.426,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_4",
+      "source_name": "AniList Reviewer (Caravel12)",
+      "url": "https://anilist.co/review/9466",
+      "published_date": "2021-02-03",
+      "category": "community",
+      "excerpt": "An average story loaded with amazing art. . # Disclaimer and Initial comments\n\n_This review will obvious contain some spoilers, so just a forewarning before you start reading, expect that some plot points will be revealed in this review. If you have already watched it, then here is my opinion, feel free to take my thoughts/analysis as you lik",
+      "original_rating": "96%",
+      "sentiment_score": -0.245,
+      "confidence": 0.138,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_5",
+      "source_name": "AniList Reviewer (EuryDecie)",
+      "url": "https://anilist.co/review/15155",
+      "published_date": "2022-01-24",
+      "category": "community",
+      "excerpt": "Through the slips of time, it's a miracle that we can form connections across space and time, no matter how fleeting.. ___Funimation Blu-Ray (Subtitled)___\n\n\nWhen I first got discord, I spent a lot of time on this one server. This was back in December of 2020, and quarantine had made it extremely difficult for me to keep up with school friends. I had interacted with most of them in-person, and did",
+      "original_rating": "92%",
+      "sentiment_score": 0.519,
+      "confidence": 0.45,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_6",
+      "source_name": "AniList Reviewer (zGustavo)",
+      "url": "https://anilist.co/review/2139",
+      "published_date": "2017-01-18",
+      "category": "community",
+      "excerpt": "A film with an incredible story with endearing characters.. ##~~~__Personal opinion__~~~\n- __I don't have any words__ to express what this film expresses ... it manages to catch you the __incredible story__, even being confused at first, soon understood and __you can't divert attention.__ \n- This film is completely on another level, because with the developm",
+      "original_rating": "80%",
+      "sentiment_score": 0.655,
+      "confidence": 0.84,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_7",
+      "source_name": "AniList Reviewer (MasterHavik)",
+      "url": "https://anilist.co/review/10997",
+      "published_date": "2021-04-27",
+      "category": "community",
+      "excerpt": "Names made of gold and feelings. . Okay let's talk Your Name. \n\nThis is the fifth movie  by director Makoto Shinkai and was animated by CoMix Wave Films. \n\nNow going into this movie, I didn't know what to expect. I only saw the first 18 mins in Japanese. I liked it, but was so busy with other anime I just wanted to focus on that and",
+      "original_rating": "80%",
+      "sentiment_score": 0.35,
+      "confidence": 0.176,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_8",
+      "source_name": "AniList Reviewer (zamandzoe)",
+      "url": "https://anilist.co/review/8537",
+      "published_date": "2020-11-29",
+      "category": "community",
+      "excerpt": "Less than the sum of its parts, Your Name drowns in an ocean of lackluster writing and direction.. Makoto Shinkai's Your Name. is quite the anomaly for me. While my opinions on a specific anime do shift slightly over time, rarely do they ever change completely. Yet, Your Name. was an example of the latter for me. Years ago, I found it to be a remarkable movie on par with many of the other great m",
+      "original_rating": "74%",
+      "sentiment_score": -0.394,
+      "confidence": 0.602,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_9",
+      "source_name": "AniList Reviewer (chinesepro)",
+      "url": "https://anilist.co/review/16079",
+      "published_date": "2022-04-05",
+      "category": "community",
+      "excerpt": "this movie is perfect . # Your Name \nimg(https://i.imgur.com/4dHKW61.jpg)\nYour Name is an anime done by makoto shinkai. it follows our main characters called mitsuha and taki but they're no random people because one day suddenly they get transferred to each others lives. so they figure out that they might have switched bod",
+      "original_rating": "71%",
+      "sentiment_score": 0.611,
+      "confidence": 0.686,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_10",
+      "source_name": "AniList Reviewer (hsivak)",
+      "url": "https://anilist.co/review/5384",
+      "published_date": "2019-10-28",
+      "category": "community",
+      "excerpt": "The review of KNNW, a movie that I watched 2 years ago; that I, to this day still remember and shall cherish forever.. __KIMI NO NA WA REVIEW__\n\nimg220(https://images2.alphacoders.com/742/thumb-1920-742320.png)\n\n~~~I have never been keen for anime movies, apart from the classic Ghibli movies! In all the series I've watched, I will almost certainly skip the movie if it has one. However, Kimi No Na ",
+      "original_rating": "64%",
+      "sentiment_score": 0.291,
+      "confidence": 0.371,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_11",
+      "source_name": "AniList Reviewer (gabrielz8)",
+      "url": "https://anilist.co/review/9315",
+      "published_date": "2021-01-23",
+      "category": "community",
+      "excerpt": "My better part is you.... [ENG]\n\n“I’m always searching for something, this feeling has possessed me for some time, I’m not sure if I’m searching for a person, a place, or something more...I feel like I’m always searching for something, for someone...” Have you ever felt that? Like something inside you says to keep looking, e",
+      "original_rating": "64%",
+      "sentiment_score": -0.013,
+      "confidence": 0.004,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_12",
+      "source_name": "AniList Reviewer (TheAnimeBingeWatcher)",
+      "url": "https://anilist.co/review/11231",
+      "published_date": "2021-05-10",
+      "category": "community",
+      "excerpt": "Big and melodramatic in all the best ways, with absolutely jaw-dropping animation.. I am probably one of the biggest defenders of the genre of melodrama I know. It’s easy to dismiss big emotions and tugging heartstrings as “cheap”, “manipulative”, or any other such long-overused buzzword, but I feel like those sentiments belie a kind of cowardice when it comes to honestly engaging",
+      "original_rating": "64%",
+      "sentiment_score": 0.44,
+      "confidence": 0.114,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_13",
+      "source_name": "AniList Reviewer (SteveFreeling)",
+      "url": "https://anilist.co/review/14258",
+      "published_date": "2021-11-09",
+      "category": "community",
+      "excerpt": "\"I was planning to tell you that wherever you are in the world, I swear that I'll find you again no matter what.\". Let's make one thing clear right off the bat: _Your Name_ is one of my favorite movies. It's one I can throw into my Blu-ray player any time. Rising filmmaker Makoto Shinkai's animated summer blockbuster has earned a reputation as one of the best of its kind, exploring themes of love,",
+      "original_rating": "64%",
+      "sentiment_score": 0.93,
+      "confidence": 0.782,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_14",
+      "source_name": "AniList Reviewer (TheTimoo)",
+      "url": "https://anilist.co/review/14338",
+      "published_date": "2021-11-17",
+      "category": "community",
+      "excerpt": "Shinakai is a genius. He is the legend. The days when animated films were intended primarily for children are irretrievably over. And while \"Kimi no na wa\" features teenage heroes, and while kids can certainly watch this movie and certainly like it, the design complexity isn't primarily for kids, and they're probably not able to fully abs",
+      "original_rating": "63%",
+      "sentiment_score": 0.369,
+      "confidence": 0.2,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_15",
+      "source_name": "AniList Reviewer (DestinyCallsForOne)",
+      "url": "https://anilist.co/review/2751",
+      "published_date": "2018-06-19",
+      "category": "community",
+      "excerpt": "Full score for me. Amazing story, incredible emotional impact, great characters, beautiful animation, stunning music. _Your name, a masterpiece of a movie. No spoilers in this review, just general summary and comments._\n\n(__If you want to skip the summary of the story which MAY just slightly reveal some little information and some clues about the story, then please skip through the thick 3 paragra",
+      "original_rating": "58%",
+      "sentiment_score": 0.951,
+      "confidence": 0.834,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_16",
+      "source_name": "AniList Reviewer (ChimpunHeineTheSlug)",
+      "url": "https://anilist.co/review/3585",
+      "published_date": "2018-10-04",
+      "category": "community",
+      "excerpt": "A beautiful story of young love, that captures the heart in such a raw and tender way.... ___INTRO___\nSo nowadays I’m left in my 20s finding it quite hard to connect with anything since there is always something new around the corner, giving me little time to resonate or reflect. I’m sure any one of you reading can definitely relate to this. But, sometimes… you get those little gems that",
+      "original_rating": "52%",
+      "sentiment_score": 0.686,
+      "confidence": 0.373,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_17",
+      "source_name": "AniList Reviewer (kempokid)",
+      "url": "https://anilist.co/review/11705",
+      "published_date": "2021-06-08",
+      "category": "community",
+      "excerpt": "A trope filled, largely forgettable film that does a lot of those tropes well, but not much else. In some ways this movie was almost exactly what I expected, but the unfortunate thing is that I felt like it fell in line with my expectations a bit too strongly to the point where I didn't really feel any particular moments that really outright impressed me at all. Practically everything about Your",
+      "original_rating": "52%",
+      "sentiment_score": -0.955,
+      "confidence": 0.845,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_18",
+      "source_name": "AniList Reviewer (hajimbodesu)",
+      "url": "https://anilist.co/review/26757",
+      "published_date": "2025-02-05",
+      "category": "community",
+      "excerpt": "Thank you YT Homepage for randomly showing me this. I went into Your Name with zero expectations. I randomly found the trailer on YouTube, thought, why not?, and hit play. What I didn’t expect was to get completely wrecked by this film.\n\nLet’s start with the obvious: the animation. “Beautiful” doesn’t even begin to describe it. Every shot looks like",
+      "original_rating": "49%",
+      "sentiment_score": 0.067,
+      "confidence": 0.013,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_19",
+      "source_name": "AniList Reviewer (JadeCullen)",
+      "url": "https://anilist.co/review/16138",
+      "published_date": "2022-04-08",
+      "category": "community",
+      "excerpt": "It was all a dream after all... ~~~____ ✦ Content ✦____~~~\n- The beginning of this review will not contain spoilers, although, further in I will provide a spoiler warning. If you have not watched this anime yet then I don’t suggest going past that point. (Unless you want to)\n\n- in this review I will go over my thoughts and feeling",
+      "original_rating": "48%",
+      "sentiment_score": 0.489,
+      "confidence": 0.389,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_20",
+      "source_name": "AniList Reviewer (NelsonCocabuena)",
+      "url": "https://anilist.co/review/9892",
+      "published_date": "2021-03-06",
+      "category": "community",
+      "excerpt": "The magic of Kimi no na wa . *English is not my primary language*\nKimi no na wa was spectacular it felt really good at all times\n\nWe started with the story, At first it may seem simple, Since you start by presenting the protagonists individually and showing us the different lives they lead, But I loved it as it was achieved in",
+      "original_rating": "45%",
+      "sentiment_score": 0.965,
+      "confidence": 0.873,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_21",
+      "source_name": "AniList Reviewer (Layesem)",
+      "url": "https://anilist.co/review/30928",
+      "published_date": "2026-03-15",
+      "category": "community",
+      "excerpt": "Your name is one of the best or the best anime movie to exist and thank you Makoto Shinkai for your masterpieces.. Your name has had a special place in my heart for a long time now. Ever since I was a kid my brother always played songs from your name and they were so good! When I finally watched it I genuinely shed a tear because it was so good.\nThe start was really interesting the Mitsuha and Tak",
+      "original_rating": "45%",
+      "sentiment_score": 0.949,
+      "confidence": 0.828,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_22",
+      "source_name": "AniList Reviewer (Astrodogs80)",
+      "url": "https://anilist.co/review/13798",
+      "published_date": "2021-10-03",
+      "category": "community",
+      "excerpt": "Mesmerising Personification Of Beauty. Before you decide to watch Your name, read my review \n\n~~~webm(https://i.imgur.com/0gFL9i5.mp4)~~~\n\n__Your name grabs at the strings of your heart and pulls you in on a journey that’ll throw you on a rollercoaster of emotion.__ From sadness to joy to shock to satisfaction, Your name also known as ‘K",
+      "original_rating": "43%",
+      "sentiment_score": 0.664,
+      "confidence": 0.882,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_23",
+      "source_name": "AniList Reviewer (Cryptic)",
+      "url": "https://anilist.co/review/18953",
+      "published_date": "2022-11-14",
+      "category": "community",
+      "excerpt": "Cryptic goes on for too long about why he loves Kimi No Na Wa. __A rant about why I love Kimi No Na Wa__\n\nOkay so, I will immediately admit, this is going to be a low-effort review. Maybe it could even be considered less a review and more of me rambling more-or-less aimlessly about how and why this movie hit so hard for me.\n\nI am very biased towards liking this",
+      "original_rating": "42%",
+      "sentiment_score": 0.592,
+      "confidence": 0.27,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_24",
+      "source_name": "AniList Reviewer (FrieLen)",
+      "url": "https://anilist.co/review/32818",
+      "published_date": "2026-08-26",
+      "category": "community",
+      "excerpt": "My favorite anime for its top class atmosphere, direction and emotional impact. I recommend it to everyone. Ok so in my opinion Your Name is literally flawless. Like zero flaws. It's just perfect which is why I'm giving it 100/100 no regrets.\n\n__1. Story __\nThe whole thing keeps insane narrative quality and tension from start to finish. You're glued to your screen the entire time. The main concept",
+      "original_rating": "41%",
+      "sentiment_score": 1.0,
+      "confidence": 0.95,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_25",
+      "source_name": "AniList Reviewer (TorridestCheese)",
+      "url": "https://anilist.co/review/3119",
+      "published_date": "2018-07-26",
+      "category": "community",
+      "excerpt": "Temper your expectations. Ah, Kimi no Na wa. The anime movie that spread throughout Japan, and the world, like wildfire. To many, it captured their hearts and took them on a ride. But to others such as myself, it roused up a resounding \"meh\". I don't like reading long reviews, and I don't like writing long reviews, so I'm go",
+      "original_rating": "39%",
+      "sentiment_score": -0.492,
+      "confidence": 0.547,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    },
+    {
+      "id": "src_26",
+      "source_name": "AniList Reviewer (TheSirkazzio)",
+      "url": "https://anilist.co/review/26199",
+      "published_date": "2024-11-29",
+      "category": "community",
+      "excerpt": "why Your Name is my favourite anime. ___edit 05/02/25: i wouldn't consider this my favourite anime anymore but it still holds a really special place in my heart so i wont change the title on the review___\n____\n# ***(Warning! Spoilers Ahead)***\nHello! I usually don't write in depth reviews about the anime I enjoy the most, but since You",
+      "original_rating": "39%",
+      "sentiment_score": 0.606,
+      "confidence": 0.669,
+      "retrieved_at": "2026-10-18T00:37:03.786427+00:00"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "Deterministic Synthesis Engine",
+  "disambiguation_options": [
+    {
+      "id": "wiki_Your_Name",
+      "title": "Your Name",
+      "media_type": "movie",
+      "release_year": 2016,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/0b/Your_Name_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "anilist_97337",
+      "title": "your name.",
+      "media_type": "movie",
+      "release_year": 2016,
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx97337-aotf0vw3Ta1F.jpg"
+    },
+    {
+      "id": "wiki_Your_Name_Engraved_Herein",
+      "title": "Your Name Engraved Herein",
+      "media_type": "movie",
+      "release_year": 2020,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/f/fd/Your_Name_Engraved_Herein_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "wiki_Call_Me_by_Your_Name_(film)",
+      "title": "Call Me by Your Name",
+      "media_type": "movie",
+      "release_year": 2017,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/c/c9/CallMeByYourName2017.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    }
+  ],
+  "latency_ms": 36807.0,
+  "analyzed_at": "2026-10-18T00:37:29.875053+00:00"
+}

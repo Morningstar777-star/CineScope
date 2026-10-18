@@ -1,0 +1,441 @@
+{
+  "title": "Spirited Away",
+  "canonical_id": "anilist_199",
+  "media_type": "anime",
+  "release_year": 2001,
+  "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199-sWefXJvXkDOb.jpg",
+  "backdrop_url": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/199-Sm2RU5PSqw7T.jpg",
+  "genres": [
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Supernatural"
+  ],
+  "overview": "On the way to their new home, 10-year-old Chihiro Ogino's family stumbles upon a deserted theme park. Intrigued, the family investigates the park, though unbeknownst to them, it is secretly inhabited by spirits who sleep by day and appear at night. When Chihiro's mother and father eat food from a restaurant in the street, angry spirits turn them into pigs. Furthermore, a wide sea has appeared between the spirit world and the human one, trapping Chihiro, the sole human, in a land of spirits. Luckily for her though, a mysterious boy named Haku appears, claiming to know her from the past. Under his instructions, Chihiro secures a job in the bathhouse where Haku works. With only her courage and some new found friends to aid her, Chihiro embarks on a journey to turn her parents back to their original forms and return home.",
+  "verdict": "Masterpiece / Must-Watch",
+  "overall_score": 8.9,
+  "confidence": 0.84,
+  "data_scale": {
+    "total_signals_analyzed": 988228,
+    "audience_votes_count": 988028,
+    "critic_reviews_count": 175,
+    "textual_reviews_analyzed": 25,
+    "community_discussions_analyzed": 0,
+    "sentiment_distribution": {
+      "positive": 88.0,
+      "mixed": 12.0,
+      "negative": 0.0
+    },
+    "platforms_covered": [
+      "AniList",
+      "AniList Popularity",
+      "IMDb",
+      "Metacritic",
+      "Rotten Tomatoes",
+      "Major Entertainment Press",
+      "Community Reviews"
+    ]
+  },
+  "external_critic_score": 9.6,
+  "external_audience_score": 8.6,
+  "external_ratings": {
+    "AniList": "86%",
+    "AniList Popularity": "#485720",
+    "IMDb": "8.6/10 (988,028 votes)",
+    "Metacritic": "96 out of 100",
+    "Rotten Tomatoes": "96%"
+  },
+  "strengths": [
+    {
+      "aspect": "Visuals & Narrative Impact",
+      "score": 8.5,
+      "sentiment": "Positive",
+      "evidence": [
+        "Verified global audience consensus across 988,028 viewer thoughts and ratings. Average user score: 8.6/10. Production premise: During her family's move to the s"
+      ],
+      "source_ids": [
+        "src_1"
+      ]
+    },
+    {
+      "aspect": "Visuals & Narrative Impact",
+      "score": 8.5,
+      "sentiment": "Positive",
+      "evidence": [
+        "Rotten Tomatoes Tomatometer approval rating: 96% positive reviews from certified industry critics."
+      ],
+      "source_ids": [
+        "src_3"
+      ]
+    },
+    {
+      "aspect": "Visuals & Narrative Impact",
+      "score": 8.5,
+      "sentiment": "Positive",
+      "evidence": [
+        "I don't know what to put here. . It almost feels unnecessary for me to review this movie. Everybody knows about it. Everybody (who knows what they’re talking ab"
+      ],
+      "source_ids": [
+        "src_4"
+      ]
+    }
+  ],
+  "weaknesses": [],
+  "audience_sentiment": "Positive",
+  "critic_sentiment": "Positive",
+  "disagreements": [
+    "Pacing and narrative focus differ between casual viewers and core fans."
+  ],
+  "spoiler_free_summary": "Spirited Away has received broadly favorable feedback across verified community and critical reviews. On the way to their new home, 10-year-old Chihiro Ogino's family stumbles upon a deserted theme park. Intrigued, the family investigates the park, though unbeknownst to them, it is secretly inhabited ...",
+  "methodology": {
+    "critic_rating_mean": 9.6,
+    "audience_rating_mean": 8.6,
+    "sentiment_synthetic_score": 8.13,
+    "source_count": 25,
+    "critic_count": 10,
+    "audience_count": 1,
+    "community_count": 14,
+    "diversity_multiplier": 0.85,
+    "disagreement_penalty": 0.0,
+    "sample_size_penalty": 0.01,
+    "final_calibrated_score": 8.9,
+    "confidence_estimate": 0.84,
+    "explanation": "Derived from 25 retrieved sources across 3 categories. External baseline: Critic 9.6/10, Audience 8.6/10. Final calibrated AI evaluation: 8.9/10 with 84% confidence."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "IMDb Verified Audience Consensus (988,028 votes)",
+      "url": "https://www.imdb.com/title/tt0245429/",
+      "published_date": null,
+      "category": "audience",
+      "excerpt": "Verified global audience consensus across 988,028 viewer thoughts and ratings. Average user score: 8.6/10. Production premise: During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches and spirits, and where humans are changed into beasts.",
+      "original_rating": "8.6/10",
+      "sentiment_score": 0.72,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_2",
+      "source_name": "Metacritic Professional Critics Score",
+      "url": "https://www.metacritic.com",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "Metacritic weighted composite index based on surveyed publication film critics: 96 out of 100.",
+      "original_rating": "96/100",
+      "sentiment_score": -0.084,
+      "confidence": 0.024,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_3",
+      "source_name": "Rotten Tomatoes Tomatometer Approval",
+      "url": "https://www.rottentomatoes.com",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "Rotten Tomatoes Tomatometer approval rating: 96% positive reviews from certified industry critics.",
+      "original_rating": "96%",
+      "sentiment_score": 0.92,
+      "confidence": 0.95,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_4",
+      "source_name": "AniList Reviewer (unimportantuser)",
+      "url": "https://anilist.co/review/10887",
+      "published_date": "2021-04-21",
+      "category": "community",
+      "excerpt": "I don't know what to put here. . It almost feels unnecessary for me to review this movie. Everybody knows about it. Everybody (who knows what they’re talking about) knows it’s a masterpiece. Is there really anything else I can add to the discussion surrounding this movie? No, but I still wanna talk about it anyway because I love th",
+      "original_rating": "155%",
+      "sentiment_score": 0.83,
+      "confidence": 0.581,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_5",
+      "source_name": "AniList Reviewer (TheRealKyuubey)",
+      "url": "https://anilist.co/review/3382",
+      "published_date": "2018-08-28",
+      "category": "community",
+      "excerpt": "It's a fantastic movie for children, but doesn't hold up well under scrutiny.. Moving away can be a tough situation, especially when you’re still a child. Your parents probably have a good reason to relocate… Changes in the economy, lucrative opportunities at work, declining property values and rising crime rates… But how is that supposed to matter to you when you’re being upr",
+      "original_rating": "144%",
+      "sentiment_score": 0.002,
+      "confidence": 0.04,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_6",
+      "source_name": "AniList Reviewer (SteveFreeling)",
+      "url": "https://anilist.co/review/11359",
+      "published_date": "2021-05-17",
+      "category": "community",
+      "excerpt": "Hayao Miyazaki's Oscar-winning adventure celebrates its 20th birthday.. I'll never forget October 28, 2018, for two reasons. The first is that it was my 20th birthday. The second is that it's the day I went to see a movie. It was a movie I already owned on Blu-ray and had seen several times, but that couldn't dull my enthusiasm. The movie in question was, of course, Hay",
+      "original_rating": "85%",
+      "sentiment_score": 0.361,
+      "confidence": 0.519,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_7",
+      "source_name": "AniList Reviewer (PollyannaQuixote)",
+      "url": "https://anilist.co/review/27077",
+      "published_date": "2025-03-09",
+      "category": "community",
+      "excerpt": "Man Who's Only Ever Seen My Neighbor Totoro Sees Other Studio Ghibli Film. _Spoilers for the film. TL:DR, go see it if you somehow haven't already. It's great. _\n\nAs previously mentioned, I never grew up with Studio Ghibli films, so my experience with Miyazaki animes are not based in any childhood nostalgia, and instead come from more recent viewings of _My Neighbor Totoro",
+      "original_rating": "47%",
+      "sentiment_score": 0.857,
+      "confidence": 0.629,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_8",
+      "source_name": "AniList Reviewer (GonzyChan)",
+      "url": "https://anilist.co/review/16656",
+      "published_date": "2022-05-10",
+      "category": "community",
+      "excerpt": "Miyazaki's magnum opus about childhood innocence and bravery.. The very facet of childhood can be boiled down to the very definition of mysterious wonder and awe-inspiring imagination. We’ve all had those moments where we would go off into our little world of childlike imagination and try to experience an entirely new reality different from our own. Films have",
+      "original_rating": "38%",
+      "sentiment_score": 0.624,
+      "confidence": 0.728,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_9",
+      "source_name": "AniList Reviewer (salemsuru)",
+      "url": "https://anilist.co/review/22930",
+      "published_date": "2023-12-18",
+      "category": "community",
+      "excerpt": "A Viagem Madura da Infância de Chihiro (e de nós mesmos)!. A infância é uma das fases mais importantes de uma pessoa, de lá irá começar fases de transições, mudanças, e seja elas fáceis de lidar ou não, é necessário se impor a elas e ter agência pra não estagnar em um ponto, sendo só mais uma pessoa a deriva de tudo sem nenhuma identidade. Curiosamente eu v",
+      "original_rating": "34%",
+      "sentiment_score": 0.639,
+      "confidence": 0.78,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_10",
+      "source_name": "AniList Reviewer (ShookieSeybah)",
+      "url": "https://anilist.co/review/20625",
+      "published_date": "2023-04-07",
+      "category": "community",
+      "excerpt": "Spirited Away - Miyazaki's epic message to Japanese society. # ___Heads up:  this review is not spoiler-free___\n\nThis review maybe will be somewhat different than what you usually see in Anilist, as it is focused mostly on explaining the underlying meaning and messages of the film – but my personal opinion is still included.\n\nJust to be clear – I think very h",
+      "original_rating": "33%",
+      "sentiment_score": -0.071,
+      "confidence": 0.012,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_11",
+      "source_name": "AniList Reviewer (lor0)",
+      "url": "https://anilist.co/review/22744",
+      "published_date": "2023-11-18",
+      "category": "community",
+      "excerpt": "LA CITTA' INCANTATA-Un' esperienza unica per un capolavoro senza tempo!. La Citta Incantata è un film che non muore mai, un cult senza tempo, un capolavoro che andrebbe visto anche solo per l’importanza culturale che ha ottenuto negli anni. Innanzitutto è stato l’unico film d’animazione giapponese ad aver mai vinto un premio Oscar, il lungometraggio ha anche parte dei me",
+      "original_rating": "27%",
+      "sentiment_score": 0.492,
+      "confidence": 0.393,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_12",
+      "source_name": "AniList Reviewer (GUINKUS)",
+      "url": "https://anilist.co/review/32549",
+      "published_date": "2026-08-01",
+      "category": "community",
+      "excerpt": "An inexperienced review about Spirited Away.. Plot: 9/10 \nCharacters: 9/10\nWorld-Building: 8.5/10\nThemes: 10/10\nVisuals/Sounds: 10/10\nEmotional Impact: 10/10\nOverall: 9.4\n\nPlot:\n~!I rated the movies plot a 9/10 and not a 10 because I think she is too willing to give away the medicine she received from the River Spirit to others despite it possi",
+      "original_rating": "27%",
+      "sentiment_score": 0.8,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_13",
+      "source_name": "AniList Reviewer (Kaito67)",
+      "url": "https://anilist.co/review/19274",
+      "published_date": "2022-12-21",
+      "category": "community",
+      "excerpt": "A magical journey which just ends up pulling you in its immersive storytelling. __THIS REVIEW IS SPOILER-FREE! Unless you click on the parts hidden with a spoiler warning, ofc.__\n___\nI think it's been a while since I watched a movie which feels so magical. I think it was when Haku suddenly appeared when the night cane, when Chihiro ran through the streets only to find out that",
+      "original_rating": "24%",
+      "sentiment_score": 0.654,
+      "confidence": 0.836,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_14",
+      "source_name": "AniList Reviewer (Leonardok)",
+      "url": "https://anilist.co/review/29324",
+      "published_date": "2025-09-22",
+      "category": "community",
+      "excerpt": "Sofrimento de formação // Comentário breve sobre Chihiro e Trabalho . Sofrimento de formação. A travessia de uma garota chatinha e desajeitada não só para recuperar os pais, mas para reafirmar seu amor. E assim como em [\"O Serviço de Entregas da Kiki (1989)\"](https://anilist.co/anime/512/Majo-no-Takkyuubin/), Miyazaki está interessado centralmente na questão do trabal",
+      "original_rating": "24%",
+      "sentiment_score": 0.51,
+      "confidence": 0.43,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_15",
+      "source_name": "AniList Reviewer (Douzeries)",
+      "url": "https://anilist.co/review/21777",
+      "published_date": "2023-07-21",
+      "category": "community",
+      "excerpt": "My first ghibli movie. Despite watching anime for quite a long time now, I still hadn't seen arguably the most iconic anime movie of all time. Due to me having in possession the first volumes of Kaze no Tani no Nausicaä from when I was kid, I was a little familiar with Miyazaki's works. His artstyle and technics absolutel",
+      "original_rating": "21%",
+      "sentiment_score": 0.561,
+      "confidence": 0.546,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_16",
+      "source_name": "AniList Reviewer (LorenzoTanoScarafia)",
+      "url": "https://anilist.co/review/14297",
+      "published_date": "2021-11-13",
+      "category": "community",
+      "excerpt": "Spirited Away a story about characters growth and stunning visual scenery, and world building.. Spirited Away is a movie by Hayao Miyazaki, and one of the first anime I approached with Fullmetal Alchemist.\nSpirited Away stroke me immediately by the vastness, and capability of the author in building a world that widened my imagination.\nIt is beautiful how the Shintoist religion aspect of the Ja",
+      "original_rating": "20%",
+      "sentiment_score": 0.913,
+      "confidence": 0.742,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_17",
+      "source_name": "AniList Reviewer (warku)",
+      "url": "https://anilist.co/review/31065",
+      "published_date": "2026-03-26",
+      "category": "community",
+      "excerpt": "It's the Spirited Away. I have watched it three times. First as a kid, then in high school and now. Unfortunately it did peak for me with a less developed brain. It is a very good movie, but contrasted with other Ghibli and Miyazaki you long for it to be better.\n\nThe world is beautiful, expressed with insane quality of ani",
+      "original_rating": "2%",
+      "sentiment_score": 0.844,
+      "confidence": 0.604,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_18",
+      "source_name": "Rotten Tomatoes Critical Consensus",
+      "url": "https://en.wikipedia.org/wiki/Spirited%20Away#Critical%20response",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "Rotten Tomatoes reports an overall critic approval rating of 96% based on published industry reviews.",
+      "original_rating": "96%",
+      "sentiment_score": 0.92,
+      "confidence": 0.95,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_19",
+      "source_name": "Metacritic Industry Consensus",
+      "url": "https://en.wikipedia.org/wiki/Spirited%20Away#Critical%20response",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "On Metacritic, it has a weighted average score of 96 out of 100 based on reviews from 41 critics, indicating \"universal acclaim\".",
+      "original_rating": "96 out of 100",
+      "sentiment_score": 0.261,
+      "confidence": 0.089,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_20",
+      "source_name": "The New York Times Critic Review",
+      "url": "https://en.wikipedia.org/wiki/Spirited%20Away#Critical%20response",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "Elvis Mitchell of ''The New York Times'' positively reviewed the film and praised the animation.",
+      "original_rating": null,
+      "sentiment_score": 0.921,
+      "confidence": 0.761,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_21",
+      "source_name": "Variety Critic Review",
+      "url": "https://en.wikipedia.org/wiki/Spirited%20Away#Critical%20response",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "Mitchell drew a favorable comparison to Lewis Carroll's ''Through the Looking-Glass'', and wrote that Miyazaki's \"movies are as much about moodiness as mood\" and that \"the prospect of animated figures not being what they seem&nbsp;– either spiritually or physically&nbsp;– heightens the tension.\" Derek Elley of ''Variety'' said that ''Spirited Away'",
+      "original_rating": null,
+      "sentiment_score": 0.553,
+      "confidence": 0.525,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_22",
+      "source_name": "Los Angeles Times Critic Review",
+      "url": "https://en.wikipedia.org/wiki/Spirited%20Away#Critical%20response",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "Kenneth Turan of the ''Los Angeles Times'' praised Miyazaki's direction and the voice acting, as well as saying that the film is the \"product of a fierce and fearless imagination whose creations are unlike anything a person has seen before.\" ''Orlando Sentinel'' critic Jay Boyar also praised Miyazaki's direction and said the film is \"the perfect ch",
+      "original_rating": null,
+      "sentiment_score": 0.909,
+      "confidence": 0.734,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_23",
+      "source_name": "Empire Critic Review",
+      "url": "https://en.wikipedia.org/wiki/Spirited%20Away#Critical%20response",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "The film ranked tenth in ''Empire'' magazine's \"The 100 Best Films of World Cinema\" in 2010.",
+      "original_rating": null,
+      "sentiment_score": 0.47,
+      "confidence": 0.353,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_24",
+      "source_name": "BBC Critic Review",
+      "url": "https://en.wikipedia.org/wiki/Spirited%20Away#Critical%20response",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "In 2016, it was voted the fourth-best film of the 21st century by the BBC, as picked by 177 film critics from around the world, making it the highest-ranking animated film on the list.",
+      "original_rating": null,
+      "sentiment_score": 0.49,
+      "confidence": 0.39,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    },
+    {
+      "id": "src_25",
+      "source_name": "Rolling Stone Critic Review",
+      "url": "https://en.wikipedia.org/wiki/Spirited%20Away#Critical%20response",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "In 2025, the film ranked number 9 on ''The New York Times'' list of \"The 100 Best Movies of the 21st Century.\" In July 2025, it ranked number 15 on ''Rolling Stone''s list of \"The 100 Best Movies of the 21st Century.\"\n\nIn his book ''Otaku'', Hiroki Azuma observed: \"Between 2001 and 2007, the otaku forms and markets quite rapidly won social recognit",
+      "original_rating": null,
+      "sentiment_score": 0.532,
+      "confidence": 0.477,
+      "retrieved_at": "2026-10-18T00:37:10.851480+00:00"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "Deterministic Synthesis Engine",
+  "disambiguation_options": [
+    {
+      "id": "wiki_Spirited_Away",
+      "title": "Spirited Away",
+      "media_type": "movie",
+      "release_year": 2001,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/db/Spirited_Away_Japanese_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "anilist_127934",
+      "title": "Spirited Away To The Snow Women's Harem",
+      "media_type": "movie",
+      "release_year": 2020,
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx127934-0SjUis5qLASC.jpg"
+    },
+    {
+      "id": "wiki_Music_of_Spirited_Away",
+      "title": "Music of Spirited Away",
+      "media_type": "movie",
+      "release_year": 2001,
+      "poster_url": null
+    },
+    {
+      "id": "anilist_33478",
+      "title": "Missing: Spirited Away",
+      "media_type": "movie",
+      "release_year": 2001,
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx33478-J79CJ3AxrlBH.png"
+    }
+  ],
+  "latency_ms": 34904.0,
+  "analyzed_at": "2026-10-18T00:37:27.619969+00:00"
+}
