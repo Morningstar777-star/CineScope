@@ -27,6 +27,35 @@ export async function getCuratedShelves(): Promise<any[]> {
   return res.json();
 }
 
+export async function getShelfMore(shelfId: string, page: number = 1, limit: number = 8): Promise<{
+  shelf_id: string;
+  page: number;
+  has_more: boolean;
+  items: any[];
+}> {
+  const res = await fetch(`${API_BASE}/shelves/${encodeURIComponent(shelfId)}/more?page=${page}&limit=${limit}`);
+  if (!res.ok) throw new Error('Failed to load more shelf items');
+  return res.json();
+}
+
+export async function getKnowledgeStats(): Promise<Record<string, any>> {
+  const res = await fetch(`${API_BASE}/knowledge/stats`);
+  if (!res.ok) throw new Error('Failed to load knowledge store stats');
+  return res.json();
+}
+
+export async function getKnowledgeRecent(limit: number = 16): Promise<any[]> {
+  const res = await fetch(`${API_BASE}/knowledge/recent?limit=${limit}`);
+  if (!res.ok) throw new Error('Failed to load recent knowledge items');
+  return res.json();
+}
+
+export async function getLayaTelemetry(): Promise<Record<string, any>> {
+  const res = await fetch(`${API_BASE}/laya/telemetry`);
+  if (!res.ok) throw new Error('Failed to load LAYA telemetry');
+  return res.json();
+}
+
 export async function getDiscovery(query: string): Promise<DiscoveryFeedItem> {
   const res = await fetch(`${API_BASE}/discovery?q=${encodeURIComponent(query)}`);
   if (!res.ok) throw new Error('Failed to execute discovery search');

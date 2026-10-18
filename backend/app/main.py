@@ -25,6 +25,8 @@ from app.services.review_pipeline import review_pipeline
 from app.services.llm_service import llm_service
 from app.services.laya_engine import laya_engine
 from app.services.cache_service import cache_service
+from app.services.central_store import central_store
+from app.services.laya_autotrain import laya_autotrainer
 
 app = FastAPI(
     title="CineScope Intelligence API",
@@ -129,6 +131,32 @@ async def compare_titles(req: ComparisonRequest) -> ComparisonResult:
         final_recommendation=comp_analysis.get("final_recommendation", "Both titles are strong in their genres.")
     )
 
+@app.get("/api/knowledge/stats")
+async def get_knowledge_stats():
+    """Returns telemetry from the Centralized Knowledge Flywheel."""
+    return central_store.get_telemetry()
+
+@app.get("/api/knowledge/recent")
+async def get_knowledge_recent(limit: int = Query(16, ge=1, le=50)):
+    """Returns recently indexed and retrieved titles from the central knowledge base."""
+    return central_store.get_recent_catalog(limit=limit)
+
+@app.get("/api/laya/telemetry")
+async def get_laya_telemetry():
+    """Returns real-time continuous auto-training and Bayesian calibration stats for LAYA."""
+    return laya_autotrainer.get_telemetry()
+
+@app.post("/api/laya/train-pass")
+async def trigger_laya_train_pass():
+    """Triggers an explicit auto-training iteration on pending experience buffers."""
+    laya_autotrainer._run_training_iteration()
+    return laya_autotrainer.get_telemetry()
+
+@app.get("/api/shelves/{shelf_id}/more")
+async def get_shelf_more(shelf_id: str, page: int = Query(1, ge=1), limit: int = Query(8, ge=1, le=16)):
+    """Dynamically loads the next page of high-rated titles for a category shelf as user slides."""
+    return await metadata_service.get_shelf_more(shelf_id=shelf_id, page=page, limit=limit)
+
 @app.get("/api/stats")
 async def get_performance_stats():
     """Returns latency benchmarks, cache statistics, and resource metrics."""
@@ -136,7 +164,9 @@ async def get_performance_stats():
         "status": "operational",
         "cache_in_memory_keys": len(cache_service.memory_cache),
         "default_search_provider": settings.DEFAULT_SEARCH_PROVIDER,
-        "laya_status": "active" if laya_engine.is_loaded else "standby"
+        "laya_status": "active" if laya_engine.is_loaded else "standby",
+        "knowledge_store": central_store.get_telemetry(),
+        "laya_autotraining": laya_autotrainer.get_telemetry()
     }
 
 if __name__ == "__main__":

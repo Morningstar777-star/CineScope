@@ -35,39 +35,45 @@ interface SlotState {
 
 const PRESET_MATCHUPS = [
   {
-    label: 'Dune: Part Two vs Oppenheimer',
-    tag: 'Sci-Fi vs Historical Epic',
-    icon: '🎬',
+    tag: 'Auteur Sci-Fi & Modern History',
     titles: [
       { id: 'wiki_Dune:_Part_Two', title: 'Dune: Part Two', media_type: 'movie', release_year: 2024, poster_url: 'https://images.weserv.nl/?url=upload.wikimedia.org/wikipedia/en/5/52/Dune_Part_Two_poster.jpeg&w=480' },
       { id: 'wiki_Oppenheimer_(film)', title: 'Oppenheimer', media_type: 'movie', release_year: 2023, poster_url: 'https://images.weserv.nl/?url=upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg&w=480' }
     ]
   },
   {
-    label: 'Chainsaw Man vs Jujutsu Kaisen',
-    tag: 'Dark Shonen Heavyweights',
-    icon: '⚔️',
+    tag: 'Modern Dark Shonen Canon',
     titles: [
       { id: 'anilist_171627', title: 'Chainsaw Man', media_type: 'anime', release_year: 2022, poster_url: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171627-ZN9D7P46yHnw.png' },
       { id: 'anilist_113415', title: 'Jujutsu Kaisen', media_type: 'anime', release_year: 2020, poster_url: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-LHBAeoZDIsnF.jpg' }
     ]
   },
   {
-    label: 'Severance vs Succession',
-    tag: 'Prestige Corporate Drama',
-    icon: '📺',
+    tag: 'Corporate Dynasty & Satire',
     titles: [
       { id: 'wiki_Severance_(TV_series)', title: 'Severance', media_type: 'series', release_year: 2022, poster_url: 'https://static.tvmaze.com/uploads/images/original_untouched/548/1371406.jpg' },
       { id: 'wiki_Succession_(TV_series)', title: 'Succession', media_type: 'series', release_year: 2018, poster_url: 'https://static.tvmaze.com/uploads/images/original_untouched/453/1134275.jpg' }
     ]
   },
   {
-    label: 'Arcane vs Cyberpunk: Edgerunners',
-    tag: 'Gaming Masterpiece Adaptations',
-    icon: '⚡',
+    tag: 'Prestige Video Game Adaptations',
     titles: [
       { id: 'wiki_Arcane_(TV_series)', title: 'Arcane', media_type: 'series', release_year: 2021, poster_url: 'https://static.tvmaze.com/uploads/images/original_untouched/536/1340287.jpg' },
       { id: 'anilist_120377', title: 'Cyberpunk: Edgerunners', media_type: 'anime', release_year: 2022, poster_url: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120377-p4R57b4WkI3p.jpg' }
+    ]
+  },
+  {
+    tag: 'Generational Power Struggles',
+    titles: [
+      { id: 'wiki_The_Godfather', title: 'The Godfather', media_type: 'movie', release_year: 1972, poster_url: 'https://images.weserv.nl/?url=upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg&w=480' },
+      { id: 'wiki_Succession_(TV_series)', title: 'Succession', media_type: 'series', release_year: 2018, poster_url: 'https://static.tvmaze.com/uploads/images/original_untouched/453/1134275.jpg' }
+    ]
+  },
+  {
+    tag: 'Landmark Japanese Animation',
+    titles: [
+      { id: 'anilist_199', title: 'Spirited Away', media_type: 'anime', release_year: 2001, poster_url: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199-B0zpGzSnulpe.jpg' },
+      { id: 'anilist_21519', title: 'Your Name.', media_type: 'anime', release_year: 2016, poster_url: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21519-97m1hnoxg1k5.jpg' }
     ]
   }
 ];
@@ -253,27 +259,43 @@ export const CompareSection: React.FC<CompareSectionProps> = ({
 
       {/* Quick Curated Matchups */}
       <div className="space-y-3">
-        <div className="flex items-center space-x-2 text-xs font-mono font-semibold text-slate-400 uppercase tracking-wider">
-          <Sparkles className="w-3.5 h-3.5 text-rose-400" />
-          <span>Curated Iconic Battles (One-Click Intel)</span>
+        <div className="flex items-center space-x-2 text-xs font-mono font-semibold text-slate-300 uppercase tracking-wider">
+          <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
+          <span>Curated Benchmarks · Instant Side-by-Side Analysis</span>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
           {PRESET_MATCHUPS.map((preset, idx) => (
             <button
               key={idx}
               onClick={() => handleSelectPreset(preset)}
-              className="liquid-glass text-left p-3.5 rounded-2xl hover:border-amber-500/40 hover:bg-white/[0.07] transition-all group cursor-pointer flex flex-col justify-between space-y-2"
+              className="liquid-glass text-left p-3.5 rounded-2xl hover:border-amber-500/40 hover:bg-white/[0.07] transition-all group cursor-pointer flex flex-col justify-between space-y-3"
             >
               <div className="flex items-center justify-between">
-                <span className="text-lg">{preset.icon}</span>
-                <span className="text-[10px] font-mono text-slate-400 group-hover:text-amber-300 transition-colors">
+                <span className="text-[10px] font-mono text-slate-400 group-hover:text-amber-300 transition-colors uppercase tracking-wider">
                   {preset.tag}
                 </span>
+                <ArrowRight className="w-3.5 h-3.5 text-slate-500 group-hover:text-amber-300 group-hover:translate-x-0.5 transition-all" />
               </div>
-              <div>
-                <p className="text-xs sm:text-sm font-bold text-white group-hover:text-amber-200 transition-colors font-sans">
-                  {preset.label}
-                </p>
+              <div className="flex items-center space-x-3">
+                <div className="flex -space-x-3 shrink-0">
+                  {preset.titles.map((t, tIdx) => (
+                    <img
+                      key={tIdx}
+                      src={getOptimizedPosterUrl(t.poster_url) || t.poster_url}
+                      alt={t.title}
+                      className="w-8 h-12 object-cover rounded-lg border border-white/20 shadow-md ring-1 ring-black/40 bg-slate-900"
+                      referrerPolicy="no-referrer"
+                    />
+                  ))}
+                </div>
+                <div className="min-w-0 flex-1">
+                  <p className="text-xs sm:text-sm font-bold text-white group-hover:text-amber-200 transition-colors font-sans truncate">
+                    {preset.titles[0].title}
+                  </p>
+                  <p className="text-[11px] text-slate-400 font-sans truncate">
+                    with {preset.titles[1].title}
+                  </p>
+                </div>
               </div>
             </button>
           ))}
@@ -399,8 +421,8 @@ export const CompareSection: React.FC<CompareSectionProps> = ({
                                 referrerPolicy="no-referrer"
                               />
                             ) : (
-                              <div className="w-8 h-11 rounded bg-slate-800 flex items-center justify-center text-slate-500 text-xs">
-                                🎬
+                              <div className="w-8 h-11 rounded bg-slate-800 flex items-center justify-center text-slate-500">
+                                <Film className="w-4 h-4 text-slate-500" />
                               </div>
                             )}
                             <div className="overflow-hidden">

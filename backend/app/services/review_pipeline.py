@@ -15,6 +15,8 @@ from app.services.research_service import research_service
 from app.services.scoring_engine import scoring_engine
 from app.services.llm_service import llm_service
 from app.services.cache_service import cache_service
+from app.services.central_store import central_store
+from app.services.laya_autotrain import laya_autotrainer
 
 class ReviewPipeline:
     def __init__(self):
@@ -28,9 +30,16 @@ class ReviewPipeline:
     ) -> Optional[ReviewVerdict]:
         """
         Executes end-to-end evidence gathering and structured review synthesis.
+        Integrates Central Knowledge Store for instant 0-token hits.
         """
         if force_refresh:
             cache_service.delete(f"%{canonical_id}%")
+
+        # 0. Check Central Knowledge Store (0 LLM Tokens Consumed)
+        if not force_refresh and not preliminary_only:
+            central_hit = central_store.get(canonical_id)
+            if central_hit:
+                return ReviewVerdict(**central_hit)
 
         cache_key = f"verdict_{canonical_id}_{'prelim' if preliminary_only else 'full'}"
         if not force_refresh:
@@ -162,7 +171,23 @@ class ReviewPipeline:
             analyzed_at=datetime.datetime.now(datetime.timezone.utc).isoformat()
         )
 
-        cache_service.set(cache_key, verdict.model_dump(), ttl_seconds=3600*12)
+        verdict_dict = verdict.model_dump()
+        if not preliminary_only:
+            central_store.save(canonical_id, verdict_dict)
+            try:
+                laya_autotrainer.record_experience(
+                    canonical_id=canonical_id,
+                    media_type=media_type,
+                    predicted_score=overall_score,
+                    ground_truth_score=critic_score or audience_score or overall_score,
+                    aspects=[a.model_dump() for a in verdict.strengths + verdict.weaknesses],
+                    critic_sentiment=verdict.critic_sentiment,
+                    sources_count=len(active_sources)
+                )
+            except Exception as e:
+                print(f"[ReviewPipeline] LAYA auto-trainer record error: {e}")
+
+        cache_service.set(cache_key, verdict_dict, ttl_seconds=3600*12)
         return verdict
 
     async def stream_research_progress(self, canonical_id: str) -> AsyncGenerator[Dict[str, Any], None]:
@@ -173,6 +198,33 @@ class ReviewPipeline:
         Stage 3: Preliminary Assessment
         Stage 4: Completed Refined Analysis
         """
+        # Fast path: If already in Central Knowledge Store, stream immediately (0 tokens consumed)
+        central_hit = central_store.get(canonical_id)
+        if central_hit:
+            yield {
+                "step": "metadata_resolved",
+                "title": central_hit.get("title", ""),
+                "poster_url": central_hit.get("poster_url"),
+                "external_score": central_hit.get("external_critic_score") or central_hit.get("overall_score"),
+                "external_ratings": central_hit.get("external_ratings", {}),
+                "progress": 35
+            }
+            yield {
+                "step": "sources_gathered",
+                "source_count": len(central_hit.get("sources", [])),
+                "categories": ["central_archive", "critic_consensus", "audience_debate"],
+                "progress": 75
+            }
+            yield {
+                "step": "complete",
+                "verdict": central_hit.get("verdict"),
+                "score": central_hit.get("overall_score"),
+                "confidence": central_hit.get("confidence"),
+                "data": central_hit,
+                "progress": 100
+            }
+            return
+
         # Stage 1: Metadata
         details = await metadata_service.get_title_details(canonical_id)
         if not details:

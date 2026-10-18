@@ -206,6 +206,12 @@ export const TitleDetailPage: React.FC<TitleDetailPageProps> = ({
                     Preliminary Stage
                   </span>
                 )}
+                {verdict.engine_used?.toLowerCase().includes('centralized') && (
+                  <span className="liquid-glass text-xs px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-300 font-bold border border-emerald-500/30 flex items-center space-x-1.5 shadow-sm">
+                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                    <span>0 Tokens · Central Knowledge Store</span>
+                  </span>
+                )}
               </div>
 
               <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tight font-sans mb-3">
@@ -570,9 +576,14 @@ export const TitleDetailPage: React.FC<TitleDetailPageProps> = ({
 
           {/* Engine Telemetry */}
           <div className="mt-4 pt-3 border-t border-white/[0.06] flex flex-wrap items-center justify-between text-[11px] text-slate-400 gap-2 font-mono">
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2 flex-wrap gap-1">
               <Cpu className="w-3.5 h-3.5 text-purple-400" />
               <span>Inference Engine: <strong className="text-slate-200">{verdict.engine_used}</strong></span>
+              {verdict.engine_used?.toLowerCase().includes('centralized') && (
+                <span className="px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-[10px] font-bold">
+                  Zero Tokens Consumed
+                </span>
+              )}
             </div>
             <div className="flex items-center space-x-1.5">
               <Clock className="w-3 h-3 text-cyan-400" />

@@ -4,6 +4,7 @@ Fetches canonical title metadata, posters, genres, and external ratings
 from AniList GraphQL, TVMaze API, and Wikipedia REST.
 """
 
+import asyncio
 import httpx
 import re
 from typing import List, Optional, Dict, Any
@@ -699,5 +700,154 @@ class MetadataService:
 
         cache_service.set(cache_key, shelves, ttl_seconds=3600*24)
         return shelves
+
+    async def get_shelf_more(self, shelf_id: str, page: int = 1, limit: int = 8) -> Dict[str, Any]:
+        """
+        Dynamically loads additional high-rated titles for category shelves as the user slides.
+        Supports continuous pagination with verified CDN posters and metadata.
+        """
+        pool = EXPANDED_SHELF_POOLS.get(shelf_id, [])
+        offset = (page - 1) * limit
+        page_queries = pool[offset:offset + limit]
+
+        if not page_queries:
+            return {
+                "shelf_id": shelf_id,
+                "page": page,
+                "has_more": False,
+                "items": []
+            }
+
+        async def resolve_item(q: str):
+            try:
+                candidates = await self.search_titles(q, limit=1)
+                if candidates and candidates[0].poster_url:
+                    return candidates[0].model_dump()
+            except Exception as e:
+                print(f"[MetadataService] Shelf pagination error for {q}: {e}")
+            return None
+
+        tasks = [resolve_item(q) for q, _ in page_queries]
+        results = await asyncio.gather(*tasks)
+        valid_items = [r for r in results if r is not None]
+
+        has_more = (offset + limit) < len(pool)
+        return {
+            "shelf_id": shelf_id,
+            "page": page,
+            "has_more": has_more,
+            "items": valid_items
+        }
+
+EXPANDED_SHELF_POOLS = {
+    "highest-rated-anime": [
+        ("Hunter x Hunter 2011", "anime"),
+        ("Spirited Away", "anime"),
+        ("Vinland Saga", "anime"),
+        ("Mob Psycho 100", "anime"),
+        ("Cowboy Bebop", "anime"),
+        ("Code Geass", "anime"),
+        ("Neon Genesis Evangelion", "anime"),
+        ("Violet Evergarden", "anime"),
+        ("Monster anime", "anime"),
+        ("Your Name", "anime"),
+        ("One Punch Man", "anime"),
+        ("Princess Mononoke", "anime"),
+        ("Cyberpunk: Edgerunners", "anime"),
+        ("Haikyuu!!", "anime"),
+        ("Bleach: Thousand-Year Blood War", "anime"),
+        ("Jujutsu Kaisen 0", "anime")
+    ],
+    "highest-rated-indian": [
+        ("PK film", "movie"),
+        ("Drishyam 2015 film", "movie"),
+        ("Vikram 2022 film", "movie"),
+        ("KGF Chapter 2", "movie"),
+        ("Swades", "movie"),
+        ("Andhadhun", "movie"),
+        ("Taare Zameen Par", "movie"),
+        ("Sholay", "movie"),
+        ("Sardar Udham", "movie"),
+        ("Super Deluxe film", "movie"),
+        ("Kumbalangi Nights", "movie"),
+        ("Jai Bhim film", "movie"),
+        ("Gangs of Wasseypur Part 2", "movie"),
+        ("Black Friday film", "movie"),
+        ("Manichitrathazhu", "movie"),
+        ("Pather Panchali", "movie")
+    ],
+    "prestige-series": [
+        ("The Wire", "series"),
+        ("Game of Thrones", "series"),
+        ("True Detective", "series"),
+        ("Fargo TV series", "series"),
+        ("Mad Men", "series"),
+        ("Fleabag", "series"),
+        ("Mindhunter TV series", "series"),
+        ("Sherlock TV series", "series"),
+        ("Band of Brothers", "series"),
+        ("Twin Peaks", "series"),
+        ("Peaky Blinders", "series"),
+        ("Dark TV series", "series"),
+        ("Narcos", "series"),
+        ("House of the Dragon", "series"),
+        ("The Last of Us TV series", "series"),
+        ("Mr. Robot", "series")
+    ],
+    "top-korean-series": [
+        ("Train to Busan", "movie"),
+        ("Reply 1988", "series"),
+        ("My Mister", "series"),
+        ("Vincenzo TV series", "series"),
+        ("Itaewon Class", "series"),
+        ("Signal South Korean TV series", "series"),
+        ("Hospital Playlist", "series"),
+        ("All of Us Are Dead", "series"),
+        ("The Handmaiden", "movie"),
+        ("I Saw the Devil", "movie"),
+        ("Sweet Home TV series", "series"),
+        ("Twenty-Five Twenty-One", "series"),
+        ("A Taxi Driver 2017 film", "movie"),
+        ("The Man from Nowhere", "movie"),
+        ("Business Proposal", "series"),
+        ("Hometown Cha-Cha-Cha", "series")
+    ],
+    "horror-psychological": [
+        ("The Thing 1982 film", "movie"),
+        ("Alien film", "movie"),
+        ("Rosemary's Baby film", "movie"),
+        ("Seven 1995 film", "movie"),
+        ("Talk to Me 2022 film", "movie"),
+        ("A Quiet Place film", "movie"),
+        ("The Witch film", "movie"),
+        ("The Sixth Sense", "movie"),
+        ("The Exorcist film", "movie"),
+        ("Alien Romulus", "movie"),
+        ("Late Night with the Devil", "movie"),
+        ("Babadook", "movie"),
+        ("It Follows", "movie"),
+        ("Sinister film", "movie"),
+        ("Nosferatu", "movie"),
+        ("The Conjuring", "movie")
+    ],
+    "underrated-gems": [
+        ("Ex Machina film", "movie"),
+        ("Whiplash 2014 film", "movie"),
+        ("Nightcrawler film", "movie"),
+        ("Drive 2011 film", "movie"),
+        ("Arrival film", "movie"),
+        ("Prisoners 2013 film", "movie"),
+        ("Zodiac film", "movie"),
+        ("The Truman Show", "movie"),
+        ("Children of Men", "movie"),
+        ("Memento film", "movie"),
+        ("Her film", "movie"),
+        ("Sicario film", "movie"),
+        ("Gattaca", "movie"),
+        ("Wind River film", "movie"),
+        ("Incendies", "movie"),
+        ("12 Angry Men 1957 film", "movie")
+    ]
+}
 
 metadata_service = MetadataService()

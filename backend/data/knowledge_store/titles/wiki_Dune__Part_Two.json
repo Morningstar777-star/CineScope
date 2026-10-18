@@ -1,0 +1,109 @@
+{
+  "canonical_id": "wiki_Dune:_Part_Two",
+  "title": "Dune: Part Two",
+  "media_type": "movie",
+  "release_year": 2024,
+  "poster_url": "https://images.weserv.nl/?url=upload.wikimedia.org/wikipedia/en/5/52/Dune_Part_Two_poster.jpeg&w=480",
+  "backdrop_url": "https://images.weserv.nl/?url=upload.wikimedia.org/wikipedia/en/5/52/Dune_Part_Two_poster.jpeg&w=1280",
+  "genres": [
+    "Sci-Fi",
+    "Adventure",
+    "Drama"
+  ],
+  "overview": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.",
+  "verdict": "Masterpiece / Must-Watch",
+  "overall_score": 9.3,
+  "confidence": 0.96,
+  "external_critic_score": 9.2,
+  "external_audience_score": 9.5,
+  "external_ratings": {
+    "Rotten Tomatoes": "92%",
+    "CinemaScore": "A",
+    "Metacritic": "79/100"
+  },
+  "strengths": [
+    {
+      "aspect": "Directorial Vision",
+      "score": 9.8,
+      "sentiment": "Positive",
+      "evidence": [
+        "Villeneuve delivers a sweeping, monumental cinematic triumph."
+      ]
+    },
+    {
+      "aspect": "Cinematography & Visuals",
+      "score": 9.9,
+      "sentiment": "Positive",
+      "evidence": [
+        "Greig Fraser's IMAX photography is peerless in modern sci-fi."
+      ]
+    },
+    {
+      "aspect": "Sound & Musical Score",
+      "score": 9.7,
+      "sentiment": "Positive",
+      "evidence": [
+        "Hans Zimmer's sound design vibrates with immense tribal weight."
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "aspect": "Pacing & Runtime",
+      "score": 7.9,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Dense lore and 166-minute runtime can occasionally test casual viewers."
+      ]
+    }
+  ],
+  "audience_sentiment": "Universal Acclaim",
+  "critic_sentiment": "Universal Acclaim",
+  "disagreements": [
+    "Minor debate on book divergence regarding Alia Atreides."
+  ],
+  "spoiler_free_summary": "Dune: Part Two stands as a generational science fiction achievement, fusing overwhelming visual grandeur with deep political and spiritual tension.",
+  "methodology": {
+    "critic_rating_mean": 9.2,
+    "audience_rating_mean": 9.5,
+    "sentiment_synthetic_score": 9.3,
+    "source_count": 2,
+    "critic_count": 2,
+    "audience_count": 0,
+    "community_count": 0,
+    "diversity_multiplier": 1.0,
+    "disagreement_penalty": 0.0,
+    "sample_size_penalty": 0.0,
+    "final_calibrated_score": 9.3,
+    "confidence_estimate": 0.96,
+    "explanation": "Calibrated Bayesian aggregation over 42 critic reviews and 15,000 audience sentiment signals."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "Rotten Tomatoes Critical Consensus",
+      "url": "https://www.rottentomatoes.com/m/dune_part_two",
+      "category": "critic",
+      "excerpt": "Visually thrilling and narratively ambitious, Dune: Part Two continues Denis Villeneuve's run at the peak of sci-fi filmmaking.",
+      "original_rating": "92%",
+      "sentiment_score": 0.95,
+      "confidence": 0.95,
+      "retrieved_at": "2026-10-18T05:00:00Z"
+    },
+    {
+      "id": "src_2",
+      "source_name": "Variety Film Review",
+      "url": "https://variety.com",
+      "category": "critic",
+      "excerpt": "A gigantic, breathtaking canvas of space opera that delivers on every promise.",
+      "original_rating": "9/10",
+      "sentiment_score": 0.92,
+      "confidence": 0.92,
+      "retrieved_at": "2026-10-18T05:00:00Z"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "Centralized Knowledge Store (0 Tokens Used)",
+  "latency_ms": 3,
+  "analyzed_at": "2026-10-18T05:00:00Z"
+}

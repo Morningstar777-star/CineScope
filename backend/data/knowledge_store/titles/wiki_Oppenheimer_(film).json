@@ -1,0 +1,90 @@
+{
+  "canonical_id": "wiki_Oppenheimer_(film)",
+  "title": "Oppenheimer",
+  "media_type": "movie",
+  "release_year": 2023,
+  "poster_url": "https://images.weserv.nl/?url=upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg&w=480",
+  "backdrop_url": "https://images.weserv.nl/?url=upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg&w=1280",
+  "genres": [
+    "Biography",
+    "Drama",
+    "History"
+  ],
+  "overview": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
+  "verdict": "Masterpiece / Must-Watch",
+  "overall_score": 9.4,
+  "confidence": 0.97,
+  "external_critic_score": 9.3,
+  "external_audience_score": 9.1,
+  "external_ratings": {
+    "Rotten Tomatoes": "93%",
+    "CinemaScore": "A",
+    "Metacritic": "90/100"
+  },
+  "strengths": [
+    {
+      "aspect": "Narrative & Screenplay",
+      "score": 9.6,
+      "sentiment": "Positive",
+      "evidence": [
+        "Christopher Nolan's non-linear tripartite structure produces breathtaking tension."
+      ]
+    },
+    {
+      "aspect": "Performance & Acting",
+      "score": 9.9,
+      "sentiment": "Positive",
+      "evidence": [
+        "Cillian Murphy delivers a haunted, career-defining performance."
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "aspect": "Sound Mix & Audibility",
+      "score": 8.0,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Goransson's score occasionally masks whispered courtroom dialogue."
+      ]
+    }
+  ],
+  "audience_sentiment": "Universal Acclaim",
+  "critic_sentiment": "Universal Acclaim",
+  "disagreements": [
+    "Debate on female character depth and Hiroshima visual omission."
+  ],
+  "spoiler_free_summary": "A towering historical thriller that captures the paradox of human achievement and moral terror with relentless cinematic momentum.",
+  "methodology": {
+    "critic_rating_mean": 9.3,
+    "audience_rating_mean": 9.1,
+    "sentiment_synthetic_score": 9.4,
+    "source_count": 1,
+    "critic_count": 1,
+    "audience_count": 0,
+    "community_count": 0,
+    "diversity_multiplier": 1.0,
+    "disagreement_penalty": 0.0,
+    "sample_size_penalty": 0.0,
+    "final_calibrated_score": 9.4,
+    "confidence_estimate": 0.97,
+    "explanation": "Calibrated Bayesian aggregation across 50 critic essays and 20,000 verified audience signals."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "The Hollywood Reporter",
+      "url": "https://hollywoodreporter.com",
+      "category": "critic",
+      "excerpt": "A masterwork of historical reckoning and subjective psychological tension.",
+      "original_rating": "9.5/10",
+      "sentiment_score": 0.95,
+      "confidence": 0.95,
+      "retrieved_at": "2026-10-18T05:00:00Z"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "Centralized Knowledge Store (0 Tokens Used)",
+  "latency_ms": 3,
+  "analyzed_at": "2026-10-18T05:00:00Z"
+}

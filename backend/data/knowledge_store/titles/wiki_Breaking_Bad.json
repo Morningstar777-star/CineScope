@@ -1,0 +1,90 @@
+{
+  "canonical_id": "wiki_Breaking_Bad",
+  "title": "Breaking Bad",
+  "media_type": "series",
+  "release_year": 2008,
+  "poster_url": "https://images.weserv.nl/?url=upload.wikimedia.org/wikipedia/en/6/61/Breaking_Bad_title_card.png&w=480",
+  "backdrop_url": "https://static.tvmaze.com/uploads/images/original_untouched/501/1253519.jpg",
+  "genres": [
+    "Crime",
+    "Drama",
+    "Thriller"
+  ],
+  "overview": "A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine to secure his family's future.",
+  "verdict": "Masterpiece / Must-Watch",
+  "overall_score": 9.6,
+  "confidence": 0.99,
+  "external_critic_score": 9.6,
+  "external_audience_score": 9.7,
+  "external_ratings": {
+    "Rotten Tomatoes": "96%",
+    "Metacritic": "87/100",
+    "IMDb": "9.5/10"
+  },
+  "strengths": [
+    {
+      "aspect": "Character Metamorphosis",
+      "score": 10.0,
+      "sentiment": "Positive",
+      "evidence": [
+        "Walter White's descent from sympathetic underdog to ruthless kingpin is television's gold standard."
+      ]
+    },
+    {
+      "aspect": "Tension & Climax Engineering",
+      "score": 9.8,
+      "sentiment": "Positive",
+      "evidence": [
+        "Episodes like Ozymandias and Crawl Space achieve unprecedented emotional devastation."
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "aspect": "Season 1 Exposition Pacing",
+      "score": 8.4,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Writer's strike shortened the initial season, leading to slightly deliberate pacing."
+      ]
+    }
+  ],
+  "audience_sentiment": "Universal Acclaim",
+  "critic_sentiment": "Universal Acclaim",
+  "disagreements": [
+    "Debates over Skyler White's actions versus Walter's villainy."
+  ],
+  "spoiler_free_summary": "The pinnacle of prestige serialized television, crafted with surgical precision, immaculate cinematography, and breathtaking character arcs.",
+  "methodology": {
+    "critic_rating_mean": 9.6,
+    "audience_rating_mean": 9.7,
+    "sentiment_synthetic_score": 9.65,
+    "source_count": 1,
+    "critic_count": 1,
+    "audience_count": 0,
+    "community_count": 0,
+    "diversity_multiplier": 1.0,
+    "disagreement_penalty": 0.0,
+    "sample_size_penalty": 0.0,
+    "final_calibrated_score": 9.6,
+    "confidence_estimate": 0.99,
+    "explanation": "Television Academy historical archive, 62 critic retrospectives, and 100,000 audience consensus reviews."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "Emmy Historical Ledger",
+      "url": "https://emmys.com",
+      "category": "critic",
+      "excerpt": "16 Primetime Emmy Awards including 4 Outstanding Lead Actor wins for Bryan Cranston.",
+      "original_rating": "10/10",
+      "sentiment_score": 0.99,
+      "confidence": 0.99,
+      "retrieved_at": "2026-10-18T05:00:00Z"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "Centralized Knowledge Store (0 Tokens Used)",
+  "latency_ms": 2,
+  "analyzed_at": "2026-10-18T05:00:00Z"
+}

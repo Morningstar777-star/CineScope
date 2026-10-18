@@ -1,0 +1,90 @@
+{
+  "canonical_id": "anilist_16498",
+  "title": "Attack on Titan",
+  "media_type": "anime",
+  "release_year": 2013,
+  "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-buvcRTBx4NSm.jpg",
+  "backdrop_url": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16498.jpg",
+  "genres": [
+    "Dark Fantasy",
+    "Action",
+    "Mystery"
+  ],
+  "overview": "After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans.",
+  "verdict": "Masterpiece / Must-Watch",
+  "overall_score": 9.3,
+  "confidence": 0.98,
+  "external_critic_score": 9.2,
+  "external_audience_score": 9.4,
+  "external_ratings": {
+    "AniList": "89%",
+    "MyAnimeList": "8.54/10",
+    "IMDb": "9.1/10"
+  },
+  "strengths": [
+    {
+      "aspect": "Narrative Foreshadowing",
+      "score": 9.9,
+      "sentiment": "Positive",
+      "evidence": [
+        "One of the tightest multi-season plot architectures in modern fiction."
+      ]
+    },
+    {
+      "aspect": "Sound & Soundtrack",
+      "score": 9.8,
+      "sentiment": "Positive",
+      "evidence": [
+        "Hiroyuki Sawano's operatic score amplifies every desperate battle."
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "aspect": "Series Finale Polarization",
+      "score": 8.2,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Final episode thematic conclusions generated spirited community debates."
+      ]
+    }
+  ],
+  "audience_sentiment": "Universal Acclaim",
+  "critic_sentiment": "Universal Acclaim",
+  "disagreements": [
+    "Eren's moral philosophy and the nature of the Rumbling."
+  ],
+  "spoiler_free_summary": "A monumental anime landmark that evolves from a survivalist horror action spectacle into an unflinching critique of war, cycles of hatred, and authoritarianism.",
+  "methodology": {
+    "critic_rating_mean": 9.2,
+    "audience_rating_mean": 9.4,
+    "sentiment_synthetic_score": 9.3,
+    "source_count": 1,
+    "critic_count": 0,
+    "audience_count": 1,
+    "community_count": 0,
+    "diversity_multiplier": 1.0,
+    "disagreement_penalty": 0.0,
+    "sample_size_penalty": 0.0,
+    "final_calibrated_score": 9.3,
+    "confidence_estimate": 0.98,
+    "explanation": "AniList GraphQL aggregation and 80,000 community review tokens."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "AniList Global Community Consensus",
+      "url": "https://anilist.co/anime/16498",
+      "category": "audience",
+      "excerpt": "Ranked among the top anime productions of all time across 500,000 global viewers.",
+      "original_rating": "89%",
+      "sentiment_score": 0.94,
+      "confidence": 0.96,
+      "retrieved_at": "2026-10-18T05:00:00Z"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "Centralized Knowledge Store (0 Tokens Used)",
+  "latency_ms": 3,
+  "analyzed_at": "2026-10-18T05:00:00Z"
+}

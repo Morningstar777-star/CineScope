@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ChevronLeft, ChevronRight, Star, Plus, Check, Film, Sparkles, Loader2 } from 'lucide-react';
-import { getCuratedShelves } from '../services/api';
+import { getCuratedShelves, getShelfMore } from '../services/api';
 import { CURATED_SHELVES } from '../data/curatedShelves';
 import { getOptimizedPosterUrl } from '../utils/imageUrl';
 
@@ -122,15 +122,71 @@ const ShelfRow: React.FC<{
   onToggleCompare: (id: string) => void;
 }> = ({ shelf, onSelectTitle, comparedIds, onToggleCompare }) => {
   const scrollRef = useRef<HTMLDivElement>(null);
+  const [items, setItems] = useState<ShelfItem[]>(shelf.items || []);
+  const [page, setPage] = useState(1);
+  const [hasMore, setHasMore] = useState(true);
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
 
-  const scroll = (direction: 'left' | 'right') => {
-    if (scrollRef.current) {
-      const scrollAmount = direction === 'left' ? -480 : 480;
-      scrollRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+  useEffect(() => {
+    if (shelf.items && shelf.items.length > 0) {
+      setItems(shelf.items);
+    }
+  }, [shelf.items]);
+
+  const loadMore = async () => {
+    if (isLoadingMore || !hasMore) return;
+    setIsLoadingMore(true);
+    try {
+      const nextPage = page + 1;
+      const res = await getShelfMore(shelf.id, nextPage, 8);
+      if (res && Array.isArray(res.items) && res.items.length > 0) {
+        setItems(prev => {
+          const existingIds = new Set(prev.map(i => i.id));
+          const filtered = res.items.filter((i: any) => !existingIds.has(i.id));
+          return [...prev, ...filtered];
+        });
+        setPage(nextPage);
+        setHasMore(res.has_more);
+      } else {
+        setHasMore(false);
+      }
+    } catch (err) {
+      console.warn(`[TrendingSection] Dynamic loading failed for ${shelf.id}:`, err);
+      setHasMore(false);
+    } finally {
+      setIsLoadingMore(false);
     }
   };
 
-  if (!shelf.items || shelf.items.length === 0) return null;
+  const scroll = (direction: 'left' | 'right') => {
+    if (scrollRef.current) {
+      const scrollAmount = direction === 'left' ? -500 : 500;
+      scrollRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+
+      // Trigger automatic loading when sliding towards the end
+      if (direction === 'right') {
+        setTimeout(() => {
+          if (scrollRef.current) {
+            const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
+            if (scrollLeft + clientWidth >= scrollWidth - 550) {
+              loadMore();
+            }
+          }
+        }, 220);
+      }
+    }
+  };
+
+  const handleScroll = () => {
+    if (scrollRef.current && hasMore && !isLoadingMore) {
+      const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
+      if (scrollLeft + clientWidth >= scrollWidth - 380) {
+        loadMore();
+      }
+    }
+  };
+
+  if (!items || items.length === 0) return null;
 
   return (
     <div className="space-y-3.5">
@@ -143,6 +199,9 @@ const ShelfRow: React.FC<{
             </h3>
             <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-white/10 text-amber-300 border border-white/10 hidden sm:inline-block">
               {shelf.badge}
+            </span>
+            <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 hidden md:inline-block">
+              {items.length} titles
             </span>
           </div>
           <p className="text-xs text-slate-400 font-normal">
@@ -162,7 +221,7 @@ const ShelfRow: React.FC<{
           <button
             onClick={() => scroll('right')}
             className="w-8 h-8 rounded-full liquid-glass flex items-center justify-center text-slate-300 hover:text-white hover:bg-white/15 transition-all cursor-pointer"
-            title="Scroll right"
+            title="Slide right & load more"
           >
             <ChevronRight className="w-4 h-4" />
           </button>
@@ -172,10 +231,11 @@ const ShelfRow: React.FC<{
       {/* Horizontal Scroll Deck */}
       <div
         ref={scrollRef}
-        className="flex space-x-4 overflow-x-auto scrollbar-none scroll-smooth pb-3 pt-1 -mx-2 px-2"
+        onScroll={handleScroll}
+        className="flex space-x-4 overflow-x-auto scrollbar-none scroll-smooth pb-3 pt-1 -mx-2 px-2 items-stretch"
         style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
       >
-        {shelf.items.map((item) => (
+        {items.map((item) => (
           <ShelfCard
             key={item.id}
             item={item}
@@ -184,6 +244,31 @@ const ShelfRow: React.FC<{
             onToggleCompare={onToggleCompare}
           />
         ))}
+
+        {/* Dynamic Infinite Load More Tile */}
+        {hasMore && (
+          <div
+            onClick={loadMore}
+            className="w-[185px] sm:w-[210px] flex-shrink-0 flex flex-col items-center justify-center p-6 rounded-3xl liquid-glass border border-dashed border-white/20 hover:border-amber-400/50 hover:bg-white/[0.06] transition-all group cursor-pointer text-center space-y-3 select-none"
+            title="Click to load more high-rated titles"
+          >
+            {isLoadingMore ? (
+              <Loader2 className="w-8 h-8 text-amber-400 animate-spin" />
+            ) : (
+              <div className="w-12 h-12 rounded-full bg-amber-500/10 border border-amber-500/20 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg">
+                <ChevronRight className="w-6 h-6 text-amber-400" />
+              </div>
+            )}
+            <div>
+              <span className="text-xs font-bold text-white group-hover:text-amber-300 transition-colors block font-sans">
+                {isLoadingMore ? 'Loading Masterpieces...' : 'Explore More'}
+              </span>
+              <span className="text-[10px] text-slate-400 font-mono mt-0.5 block">
+                {isLoadingMore ? 'Querying Catalog...' : 'Slide or Click to Expand'}
+              </span>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
