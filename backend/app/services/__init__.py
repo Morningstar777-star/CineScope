@@ -1,0 +1,3 @@
+"""
+CineScope Services Package.
+"""

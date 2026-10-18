@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #06080c;
+    color: #f8fafc;
+    font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    letter-spacing: -0.015em;
+  }
+
+  h1, h2, h3, .editorial-heading {
+    letter-spacing: -0.035em;
+  }
+}
+
+/* Custom premium scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #06080c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+@layer components {
+  /* Tier 1: Liquid Glass 2.0 (Bevel Refraction with XOR composite mask) */
+  .liquid-glass {
+    background: rgba(14, 19, 31, 0.65);
+    background-blend-mode: luminosity;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: none;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.15), 0 12px 32px -8px rgba(0, 0, 0, 0.6);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .liquid-glass::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1.2px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.45) 0%,
+      rgba(255, 255, 255, 0.12) 20%,
+      rgba(255, 255, 255, 0.02) 50%,
+      rgba(255, 255, 255, 0.1) 80%,
+      rgba(255, 255, 255, 0.35) 100%
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  /* Tier 2: Heavy Liquid Glass (Modals, primary cards, hero search) */
+  .liquid-glass-strong {
+    background: rgba(10, 14, 23, 0.82);
+    background-blend-mode: luminosity;
+    backdrop-filter: blur(36px);
+    -webkit-backdrop-filter: blur(36px);
+    border: none;
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.22), 0 25px 60px -12px rgba(0, 0, 0, 0.8);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .liquid-glass-strong::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1.5px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.2) 25%,
+      rgba(255, 255, 255, 0.03) 50%,
+      rgba(255, 255, 255, 0.18) 75%,
+      rgba(255, 255, 255, 0.5) 100%
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  /* Tier 3: Crimson Glowing Liquid Glass (Highlights, active badges) */
+  .liquid-glass-crimson {
+    background: rgba(225, 29, 72, 0.08);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow: inset 0 1px 1px rgba(244, 63, 94, 0.3), 0 10px 30px -5px rgba(225, 29, 72, 0.25);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .liquid-glass-crimson::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1.2px;
+    background: linear-gradient(
+      180deg,
+      rgba(244, 63, 94, 0.6) 0%,
+      rgba(244, 63, 94, 0.2) 40%,
+      rgba(244, 63, 94, 0.05) 60%,
+      rgba(244, 63, 94, 0.45) 100%
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  /* Hairline grid background layer */
+  .hairline-grid {
+    background-size: 56px 56px;
+    background-image: 
+      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  }
+
+  /* Cinematic light beams & Glows */
+  .ambient-glow-crimson {
+    background: radial-gradient(circle, rgba(244, 63, 94, 0.2) 0%, rgba(225, 29, 72, 0.05) 45%, transparent 70%);
+    filter: blur(80px);
+    mix-blend-mode: screen;
+  }
+
+  .ambient-glow-cyan {
+    background: radial-gradient(circle, rgba(6, 182, 212, 0.16) 0%, rgba(59, 130, 246, 0.04) 45%, transparent 70%);
+    filter: blur(80px);
+    mix-blend-mode: screen;
+  }
+
+  .ambient-glow-amber {
+    background: radial-gradient(circle, rgba(245, 158, 11, 0.18) 0%, rgba(217, 119, 6, 0.05) 50%, transparent 70%);
+    filter: blur(80px);
+    mix-blend-mode: screen;
+  }
+}
