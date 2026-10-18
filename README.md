@@ -54,37 +54,26 @@ Legacy entertainment aggregators suffer from four systemic failures:
 
 ---
 
-## ✨ Core Innovations
+## Core Innovations
 
-```text
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                                   CINESCOPE CORE PILLARS                               │
-├────────────────────────────┬────────────────────────────┬──────────────────────────────┤
-│  ⚡ 0-TOKEN KNOWLEDGE STORE │  🧠 LAYA AUTO-TRAINING     │  ⚔️ BENCHMARK SUITE          │
-│  Community flywheel that   │  Online Bayesian tuning    │  Dual-poster comparative     │
-│  caches verdicts to Git    │  minimizes residual loss   │  showdowns with zero emojis  │
-│  for instant <5ms hits.    │  as new reviews stream in. │  or repetitive "vs" clichés. │
-└────────────────────────────┴────────────────────────────┴──────────────────────────────┘
-```
-
-### 1. ⚡ Centralized Knowledge Flywheel (0 Tokens / <5ms)
+### 1. Centralized Knowledge Flywheel (0 Tokens / <5ms)
 * **Permanent Knowledge Persistence**: Every title analyzed is archived in both high-performance SQLite (`cinescope_knowledge.db`) and readable JSON documents in [`backend/data/knowledge_store/titles/`](backend/data/knowledge_store/titles/).
 * **Zero-Token Retrieval**: When a title is queried, CineScope checks the central database first. Hits return instantly in **~3.0ms** consuming **zero LLM tokens**.
 * **Git-Trackable Catalog**: The JSON archives are version-controlled directly in Git, meaning every community clone inherits the existing knowledge catalog with no startup API expense!
 * **Live Community Telemetry**: Tracks total titles indexed, zero-token hits, and estimated USD saved in real time via `/api/knowledge/stats`.
 
-### 2. 🧠 LAYA Continuous Auto-Training & Bayesian Self-Calibration
+### 2. LAYA Continuous Auto-Training & Bayesian Self-Calibration
 * **Local Edge Inference**: Runs `convaiinnovations/laya` locally via PyTorch with CUDA acceleration on NVIDIA RTX GPUs ($0 inference cost).
 * **Experience Replay Buffer**: As verified critic scores (Rotten Tomatoes %, CinemaScore grades, AniList scores) arrive, experience tuples are appended to [`laya_training_buffer.jsonl`](backend/data/laya_training_buffer.jsonl).
 * **Online Bayesian Optimization**: The engine evaluates prediction residuals against consensus ground truth, dynamically tuning aspect sensitivity multipliers (*Directorial Vision*, *Screenplay*, *Cinematography*, *Pacing*, *Acting*) in [`laya_calibration_weights.json`](backend/data/laya_calibration_weights.json).
 * **Empirical Accuracy Gain**: Demonstrates continuous calibration gain (+14.8%) and sub-0.04 MSE loss over time.
 
-### 3. 🌊 Infinite Horizontal Masterpiece Shelves
+### 3. Infinite Horizontal Masterpiece Shelves
 * **Curated Category Collections**: 24+ vetted titles per shelf across **Highest Rated Anime**, **Indian Cinema**, **Prestige Drama**, **Korean Series & Film**, **Horror & Psychological**, and **Underrated Hidden Gems**.
 * **Dynamic Slide Pagination**: As the user scrolls horizontally or clicks the slide navigation buttons in [`TrendingSection.tsx`](frontend/src/components/TrendingSection.tsx), CineScope dynamically fetches and appends the next batch of titles with Cloudflare-proxied CDN posters.
 * **Interactive Explore Tiles**: Liquid Glass "Load More" cards at the end of each shelf allow on-demand catalog expansion.
 
-### 4. ⚔️ Bespoke Head-to-Head Benchmark Suite
+### 4. Bespoke Head-to-Head Benchmark Suite
 * **Anti-AI Editorial Design**: Eliminated cartoon emojis (`🎬`, `⚔️`, `📺`) and repetitive "vs vs vs" headers in favor of bespoke dual-poster mini-chips, typographical dots (`Title A · Title B`), and authentic cinematic taxonomy (*Auteur Sci-Fi & Modern History*, *Corporate Dynasty & Satire*).
 * **Multi-Aspect Scorecards**: Side-by-side evaluation of Story, Visuals, Acting, Pacing, and Directing with automated algorithmic victor verdicts.
 
