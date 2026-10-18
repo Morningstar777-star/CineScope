@@ -264,6 +264,8 @@ class ResearchService:
         ext_ratings = dict(canonical_details.get("external_ratings", {}))
         critic_scores = []
         audience_scores = []
+        rt_score = None
+        meta_score = None
 
         if omdb_data:
             imdb_id = omdb_data.get("imdbID")

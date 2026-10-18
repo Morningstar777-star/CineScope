@@ -1,0 +1,250 @@
+{
+  "title": "Apollo Has Fallen",
+  "canonical_id": "wiki_Apollo_Has_Fallen",
+  "media_type": "series",
+  "release_year": 2024,
+  "poster_url": "https://m.media-amazon.com/images/M/MV5BNGUwZmQ2YjktZGU1Ni00OTRhLTk0YjEtYmQ1YjIzZjZjY2Q5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+  "backdrop_url": null,
+  "genres": [
+    "Action",
+    "Thriller"
+  ],
+  "overview": "Apollo Has Fallen is an action thriller television series, part of the Has Fallen franchise, and a sequel to Paris Has Fallen (2024). Returning cast members include Ritu Arya and Tewfik Jallab.",
+  "verdict": "Decent / Mixed Appeal",
+  "overall_score": 6.6,
+  "confidence": 0.47,
+  "data_scale": {
+    "total_signals_analyzed": 554,
+    "audience_votes_count": 500,
+    "critic_reviews_count": 45,
+    "textual_reviews_analyzed": 9,
+    "community_discussions_analyzed": 9,
+    "sentiment_distribution": {
+      "positive": 77.8,
+      "mixed": 0.0,
+      "negative": 22.2
+    },
+    "platforms_covered": [
+      "Reddit & Forums"
+    ]
+  },
+  "external_critic_score": null,
+  "external_audience_score": null,
+  "external_ratings": {
+    "Catalog Source": "Encyclopedic Verification",
+    "Category": "Upcoming action-thriller television series"
+  },
+  "strengths": [
+    {
+      "aspect": "Action Sequences",
+      "score": 8.4,
+      "sentiment": "Positive",
+      "evidence": [
+        "Coordinated shootout in London Has Fallen was praised as well done."
+      ],
+      "source_ids": [
+        "src_3"
+      ]
+    },
+    {
+      "aspect": "Story",
+      "score": 7.2,
+      "sentiment": "Positive",
+      "evidence": [
+        "Series described as a \"patriotic fantasy\" and \"dumb fun\" akin to a Die Hard clone."
+      ],
+      "source_ids": [
+        "src_1"
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "aspect": "Plot Execution",
+      "score": 5.6,
+      "sentiment": "Mixed",
+      "evidence": [
+        "London Has Fallen called \"one of the worst movies\" with a laughably bad ending."
+      ],
+      "source_ids": [
+        "src_4"
+      ]
+    },
+    {
+      "aspect": "Character Depth",
+      "score": 5.3,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Viewer expressed hatred for the story and main characters despite an entertaining first act."
+      ],
+      "source_ids": [
+        "src_6"
+      ]
+    }
+  ],
+  "audience_sentiment": "Mixed",
+  "critic_sentiment": "Divided",
+  "disagreements": [
+    "Fans appreciate the high‑octane, fun action and fresh premises, while some viewers criticize shallow plot execution and inconsistent tone."
+  ],
+  "spoiler_free_summary": "Apollo Has Fallen continues the high‑energy, patriotic action formula that defined the Has Fallen franchise. The series leans into fast‑paced set‑pieces and a \"dumb fun\" spirit that many longtime fans find entertaining, especially the well‑executed shootouts and kinetic sequences. However, audience reactions note a gradual decline in narrative depth, with criticism aimed at uneven storytelling, underdeveloped characters, and tonal shifts that can feel jarring. If you enjoy the franchise’s bombastic action and are tolerant of a less nuanced plot, the series is likely to satisfy; viewers seeking stronger storycraft may want to proceed with caution.",
+  "methodology": {
+    "critic_rating_mean": null,
+    "audience_rating_mean": null,
+    "sentiment_synthetic_score": 6.57,
+    "source_count": 9,
+    "critic_count": 0,
+    "audience_count": 9,
+    "community_count": 0,
+    "diversity_multiplier": 0.55,
+    "disagreement_penalty": 0.0,
+    "sample_size_penalty": 0.14,
+    "final_calibrated_score": 6.6,
+    "confidence_estimate": 0.47,
+    "explanation": "Derived from 9 retrieved sources across 1 categories. Final calibrated AI evaluation: 6.6/10 with 47% confidence."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/movies/comments/p247qs/what_are_your_overall_thoughts_on_the_has_fallen/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"What are your overall thoughts on the \"Has Fallen\" series of action films starring Gerard Butler? I personally think they're a patriotic fantasy, but moreso in a dumb fun way. It started as kind of a Die Hard clone with Butler sneaking around the White House to rescue the president, and it was followed by two sequels.\"",
+      "original_rating": null,
+      "sentiment_score": 0.498,
+      "confidence": 0.406,
+      "retrieved_at": "2026-10-18T19:35:14.466643+00:00"
+    },
+    {
+      "id": "src_2",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/moviecritic/comments/10cz70d/review_olympus_has_fallen_an_unforgettable_action/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Olypuse Has Fallen was the first, so there were surprises and fresh. 2nd one was a revenge scenario. 3rd was a critique of War ar it's most basic nuts and bolts.\"",
+      "original_rating": null,
+      "sentiment_score": 0.506,
+      "confidence": 0.422,
+      "retrieved_at": "2026-10-18T19:35:14.466643+00:00"
+    },
+    {
+      "id": "src_3",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/movies/comments/kszkvr/olympus_has_fallen_series_anyone_else_really/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"There is a natural decline as the series went on but again, didn't dip so hard. First one was the best overall but the coordinated shootout in London has Fallen was pretty well done too. And the drones in the third. The framing subplot in the third was kinda blah though Anyways, did anyone else like these?\"",
+      "original_rating": null,
+      "sentiment_score": 0.276,
+      "confidence": 0.102,
+      "retrieved_at": "2026-10-18T19:35:14.466643+00:00"
+    },
+    {
+      "id": "src_4",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/television/comments/1b17cbc/gerard_butlers_has_fallen_film_franchise_gets_an/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"I enjoyed the first one but London Has Fallen was genuinely one of the worst movies I've ever seen. The way they presented the ending like it was a happy ending and the good guys won because the US president survived even though most of the world's heads of state had been murdered was so laughably bad.\"",
+      "original_rating": null,
+      "sentiment_score": -0.482,
+      "confidence": 0.914,
+      "retrieved_at": "2026-10-18T19:35:14.466643+00:00"
+    },
+    {
+      "id": "src_5",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/television/comments/13fgo7u/has_fallen_film_franchise_switches_to_tv_mathieu/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"'Has Fallen' Film Franchise Switches To TV; Mathieu Kassovitz To Star In 'Paris Has Fallen' Backed By StudioCanal & Co-Produced By Gerard Butler's G-Base\"",
+      "original_rating": null,
+      "sentiment_score": 0.357,
+      "confidence": 0.185,
+      "retrieved_at": "2026-10-18T19:35:14.466643+00:00"
+    },
+    {
+      "id": "src_6",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/movies/comments/1avgw7/thoughts_about_olympus_has_fallen_spoilers/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"My opinion of Olympus has Fallen is a conflicted one. I found the first act quite entertaining and even emotional. But by the end of the movie, I found that I hated the story as a whole, as well as a couple of the main characters. I'm going to rant about the good and bad parts of the movie to see if anyone else thought similar things, and also to get these thoughts off my chest",
+      "original_rating": null,
+      "sentiment_score": -0.32,
+      "confidence": 0.574,
+      "retrieved_at": "2026-10-18T19:35:14.466643+00:00"
+    },
+    {
+      "id": "src_7",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/movies/comments/1trivx/after_avoiding_it_due_to_all_the_negative_reviews/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"The goal of /r/Movies is to provide an inclusive place for discussions and news about films with major releases. Submissions should be for the purpose of informing or initiating a discussion, not just to entertain readers. Read our extensive list of rules for more information on other types of posts like fan-art and self-promotion, or message the moderators if you have any ques",
+      "original_rating": null,
+      "sentiment_score": 0.349,
+      "confidence": 0.491,
+      "retrieved_at": "2026-10-18T19:35:14.466643+00:00"
+    },
+    {
+      "id": "src_8",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/movies/comments/erakfo/just_got_done_watching_angel_has_fallen/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Just got done watching Angel Has Fallen. Apparently, there's gonna be 3 more of these Fallen movies. What are some plot ideas for a Fallen movie that you'd like to add to the series? Discussion\"",
+      "original_rating": null,
+      "sentiment_score": 0.523,
+      "confidence": 0.459,
+      "retrieved_at": "2026-10-18T19:35:14.466643+00:00"
+    },
+    {
+      "id": "src_9",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/camphalfblood/comments/mruupb/my_final_thoughts_on_trials_of_apollo_and_the/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Apollo: I loved his fresh outlook on the relationship between gods and demigods. Along with the fun quips he has about celebrities, he also explained the way gods normally see mortals: disposable quest slaves made up of forgotten children. A horrible and regrettable perspective but unfortunately it's shared by most of the Olympians.\"",
+      "original_rating": null,
+      "sentiment_score": 0.428,
+      "confidence": 0.705,
+      "retrieved_at": "2026-10-18T19:35:14.466643+00:00"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "openai/gpt-oss-120b",
+  "disambiguation_options": [
+    {
+      "id": "tvmaze_79446",
+      "title": "Has Fallen",
+      "media_type": "series",
+      "release_year": 2024,
+      "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/641/1604673.jpg"
+    },
+    {
+      "id": "wiki_Paris_Has_Fallen",
+      "title": "Paris Has Fallen",
+      "media_type": "series",
+      "release_year": 2024,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/b/b5/Paris_Has_Fallen_%282024%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "wiki_Annabel_Scholey",
+      "title": "Annabel Scholey",
+      "media_type": "series",
+      "release_year": 2009,
+      "poster_url": null
+    },
+    {
+      "id": "wiki_Ritu_Arya",
+      "title": "Ritu Arya",
+      "media_type": "movie",
+      "release_year": 1988,
+      "poster_url": null
+    }
+  ],
+  "latency_ms": 11383.0,
+  "analyzed_at": "2026-10-18T19:35:20.884142+00:00"
+}

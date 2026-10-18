@@ -1,0 +1,283 @@
+{
+  "title": "The Campaign",
+  "canonical_id": "wiki_The_Campaign_(film)",
+  "media_type": "movie",
+  "release_year": 2012,
+  "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/36/Campaign_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "backdrop_url": "https://upload.wikimedia.org/wikipedia/en/3/36/Campaign_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "genres": [
+    "Comedy"
+  ],
+  "overview": "The Campaign is a 2012 American political satire comedy film directed by Jay Roach, written by Shawn Harwell and Chris Henchy and stars Will Ferrell and Zach Galifianakis as two North Carolinians vying for a seat in Congress.",
+  "verdict": "Decent / Mixed Appeal",
+  "overall_score": 6.1,
+  "confidence": 0.83,
+  "data_scale": {
+    "total_signals_analyzed": 143685,
+    "audience_votes_count": 143499,
+    "critic_reviews_count": 175,
+    "textual_reviews_analyzed": 11,
+    "community_discussions_analyzed": 5,
+    "sentiment_distribution": {
+      "positive": 72.7,
+      "mixed": 0.0,
+      "negative": 27.3
+    },
+    "platforms_covered": [
+      "IMDb",
+      "Metacritic",
+      "Rotten Tomatoes",
+      "CinemaScore",
+      "Reddit & Forums",
+      "Major Entertainment Press"
+    ]
+  },
+  "external_critic_score": 5.8,
+  "external_audience_score": 6.1,
+  "external_ratings": {
+    "Catalog Source": "Encyclopedic Verification",
+    "Category": "2012 American political black comedy film by Jay Roach",
+    "IMDb": "6.1/10 (143,499 votes)",
+    "Metacritic": "50 out of 100",
+    "Rotten Tomatoes": "66%",
+    "CinemaScore": "B"
+  },
+  "strengths": [
+    {
+      "aspect": "Characters",
+      "score": 8.2,
+      "sentiment": "Positive",
+      "evidence": [
+        "Metacritic consensus praises the well‑matched leads for generating a sufficient number of laughs."
+      ],
+      "source_ids": [
+        "src_5"
+      ]
+    },
+    {
+      "aspect": "Comedy",
+      "score": 7.5,
+      "sentiment": "Positive",
+      "evidence": [
+        "Critics note the film manages to generate a sufficient number of laughs thanks to its leads."
+      ],
+      "source_ids": [
+        "src_5"
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "aspect": "Story",
+      "score": 5.4,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Critics say its crude brand of political satire isn’t as smart or sharp as one might hope."
+      ],
+      "source_ids": [
+        "src_5"
+      ]
+    },
+    {
+      "aspect": "Pacing",
+      "score": 5.8,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Overall audience score of 6.1/10 and a CinemaScore of B‑ suggest uneven engagement."
+      ],
+      "source_ids": [
+        "src_1",
+        "src_6"
+      ]
+    }
+  ],
+  "audience_sentiment": "Mixed",
+  "critic_sentiment": "Divided",
+  "disagreements": [
+    "Critics fault the film for lacking sharp political satire, while many viewers enjoy the comedic chemistry of Ferrell and Galifianakis."
+  ],
+  "spoiler_free_summary": "The Campaign leans into broad political comedy, driven by the chemistry of its two leads. Critics acknowledge that the duo delivers enough laughs to keep the tone lively, even if the satire feels more blunt than incisive. Audience reactions are similarly mixed; the film’s humor lands for many, but its uneven pacing and lack of sharper commentary prevent it from achieving broader acclaim. If you appreciate a light‑hearted, character‑centric comedy and can overlook a less sophisticated satirical edge, the movie offers an entertaining, if uneven, ride.",
+  "methodology": {
+    "critic_rating_mean": 5.8,
+    "audience_rating_mean": 6.1,
+    "sentiment_synthetic_score": 6.07,
+    "source_count": 11,
+    "critic_count": 4,
+    "audience_count": 7,
+    "community_count": 0,
+    "diversity_multiplier": 0.85,
+    "disagreement_penalty": 0.0,
+    "sample_size_penalty": 0.02,
+    "final_calibrated_score": 6.1,
+    "confidence_estimate": 0.83,
+    "explanation": "Derived from 11 retrieved sources across 3 categories. External baseline: Critic 5.8/10, Audience 6.1/10. Final calibrated AI evaluation: 6.1/10 with 83% confidence."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "IMDb Verified Audience Consensus (143,499 votes)",
+      "url": "https://www.imdb.com/title/tt1790886/",
+      "published_date": null,
+      "category": "audience",
+      "excerpt": "Verified global audience consensus across 143,499 viewer thoughts and ratings. Average user score: 6.1/10. Production premise: An incumbent Representative embroiled in personal scandal faces a no-holds-barred challenge from a naive newcomer funded by two unscrupulous billionaire lobbyist brothers.",
+      "original_rating": "6.1/10",
+      "sentiment_score": 0.22,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T19:30:38.770699+00:00"
+    },
+    {
+      "id": "src_2",
+      "source_name": "Metacritic Professional Critics Score",
+      "url": "https://www.metacritic.com",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "Metacritic weighted composite index based on surveyed publication film critics: 50 out of 100.",
+      "original_rating": "50/100",
+      "sentiment_score": -0.295,
+      "confidence": 0.196,
+      "retrieved_at": "2026-10-18T19:30:38.770699+00:00"
+    },
+    {
+      "id": "src_3",
+      "source_name": "Rotten Tomatoes Tomatometer Approval",
+      "url": "https://www.rottentomatoes.com",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "Rotten Tomatoes Tomatometer approval rating: 66% positive reviews from certified industry critics.",
+      "original_rating": "66%",
+      "sentiment_score": 0.32,
+      "confidence": 0.95,
+      "retrieved_at": "2026-10-18T19:30:38.770699+00:00"
+    },
+    {
+      "id": "src_4",
+      "source_name": "Rotten Tomatoes Critical Consensus",
+      "url": "https://en.wikipedia.org/wiki/The%20Campaign%20%28film%29#Critical%20response",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "Rotten Tomatoes reports an overall critic approval rating of 66% based on published industry reviews.",
+      "original_rating": "66%",
+      "sentiment_score": 0.32,
+      "confidence": 0.95,
+      "retrieved_at": "2026-10-18T19:30:38.770699+00:00"
+    },
+    {
+      "id": "src_5",
+      "source_name": "Metacritic Industry Consensus",
+      "url": "https://en.wikipedia.org/wiki/The%20Campaign%20%28film%29#Critical%20response",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "The site's critical consensus states: \"Its crude brand of political satire isn't quite as smart or sharp as one might hope in an election year, but ''The Campaign'' manages to generate a sufficient number of laughs thanks to its well-matched leads.\" Metacritic gives the film a weighted average score of 50 out of 100, based on 35 critics, indicating",
+      "original_rating": "50 out of 100",
+      "sentiment_score": 0.271,
+      "confidence": 0.098,
+      "retrieved_at": "2026-10-18T19:30:38.770699+00:00"
+    },
+    {
+      "id": "src_6",
+      "source_name": "Audience Survey (CinemaScore)",
+      "url": "https://en.wikipedia.org/wiki/The%20Campaign%20%28film%29#Critical%20response",
+      "published_date": null,
+      "category": "audience",
+      "excerpt": "Audiences polled by CinemaScore gave the film an average grade of \"B−\" on an A+ to F scale.",
+      "original_rating": "B",
+      "sentiment_score": 0.5,
+      "confidence": 0.95,
+      "retrieved_at": "2026-10-18T19:30:38.770699+00:00"
+    },
+    {
+      "id": "src_7",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/movies/comments/yrhnc/the_campaign_movie_review_and_seen/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"The goal of /r/Movies is to provide an inclusive place for discussions and news about films with major releases. Submissions should be for the purpose of informing or initiating a discussion, not just to entertain readers.\"",
+      "original_rating": null,
+      "sentiment_score": 0.169,
+      "confidence": 0.031,
+      "retrieved_at": "2026-10-18T19:30:38.770699+00:00"
+    },
+    {
+      "id": "src_8",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/movies/comments/y4mjs/anyone_have_an_opinion_on_the_campaign_i_do/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"I wanted this movie to be good so badly, but it fell apart drastically towards the end the same way Step Brothers did. When your two main characters are the biggest comic reliefs, the film its definitely going to pack some comedic punches up until the dramatic climax, where everyone stops being silly and we're left awkwardly wondering whether we're supposed to laugh at somethin",
+      "original_rating": null,
+      "sentiment_score": -0.413,
+      "confidence": 0.658,
+      "retrieved_at": "2026-10-18T19:30:38.770699+00:00"
+    },
+    {
+      "id": "src_9",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/movies/comments/xz82y/the_campaign/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Movies like \"Little Fockers\" aggravate me, that being said, filmmaking is a business, and some people love that shit, and if it makes money it makes sense. That's how things have been throughout history.\"",
+      "original_rating": null,
+      "sentiment_score": -0.364,
+      "confidence": 0.526,
+      "retrieved_at": "2026-10-18T19:30:38.770699+00:00"
+    },
+    {
+      "id": "src_10",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/underratedmovies/comments/1asf1xy/the_campaign_2012/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Posted by u/Original_Tip_7952 - 2 votes and 1 comment\"",
+      "original_rating": null,
+      "sentiment_score": 0.154,
+      "confidence": 0.024,
+      "retrieved_at": "2026-10-18T19:30:38.770699+00:00"
+    },
+    {
+      "id": "src_11",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/plotholes/comments/18zv1y/the_campaign_2012/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"A place to discuss Plotholes, Continuity errors or even unexplained events for Movies, Books, Games, or anything else you can think of. If you need an expedited response from a mod, please tag or DM /u/Millennial-mason\"",
+      "original_rating": null,
+      "sentiment_score": 0.516,
+      "confidence": 0.443,
+      "retrieved_at": "2026-10-18T19:30:38.770699+00:00"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "openai/gpt-oss-120b",
+  "disambiguation_options": [
+    {
+      "id": "tvmaze_76754",
+      "title": "Bret Baier's 'The Campaign'",
+      "media_type": "series",
+      "release_year": null,
+      "poster_url": null
+    },
+    {
+      "id": "tvmaze_16355",
+      "title": "Napoléon, la campagne de Russie",
+      "media_type": "series",
+      "release_year": 2015,
+      "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/54/136278.jpg"
+    },
+    {
+      "id": "anilist_1442",
+      "title": "Reign: The Conqueror",
+      "media_type": "anime",
+      "release_year": 1999,
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1442-RACKqxGiBWiD.jpg"
+    },
+    {
+      "id": "anilist_98089",
+      "title": "Mirai no Watashi",
+      "media_type": "anime",
+      "release_year": 2016,
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98089-2LJhhz1WWDG9.jpg"
+    }
+  ],
+  "latency_ms": 7408.0,
+  "analyzed_at": "2026-10-18T19:30:42.813516+00:00"
+}

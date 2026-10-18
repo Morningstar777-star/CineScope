@@ -1,0 +1,307 @@
+{
+  "title": "MobLand",
+  "canonical_id": "tvmaze_75026",
+  "media_type": "series",
+  "release_year": 2025,
+  "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/641/1604671.jpg",
+  "backdrop_url": "https://static.tvmaze.com/uploads/images/original_untouched/641/1604671.jpg",
+  "genres": [
+    "Drama",
+    "Crime"
+  ],
+  "overview": "With the most powerful clients in Europe, MobLand will see family fortunes and reputations at risk, odd alliances unfold, and betrayal around every corner; and while the family might be London's most elite fixers today, the nature of their business means there is no guarantee what's in store tomorrow.MobLand follows two generations of gangsters, the businesses they run, the complex relationships they weave and the man they call upon to fix their problem.",
+  "verdict": "Worth Watching",
+  "overall_score": 7.5,
+  "confidence": 0.83,
+  "data_scale": {
+    "total_signals_analyzed": 131746,
+    "audience_votes_count": 131558,
+    "critic_reviews_count": 175,
+    "textual_reviews_analyzed": 13,
+    "community_discussions_analyzed": 10,
+    "sentiment_distribution": {
+      "positive": 69.2,
+      "mixed": 0.0,
+      "negative": 30.8
+    },
+    "platforms_covered": [
+      "TVMaze Rating",
+      "Network",
+      "IMDb",
+      "Rotten Tomatoes",
+      "Metacritic",
+      "Reddit & Forums",
+      "Major Entertainment Press"
+    ]
+  },
+  "external_critic_score": 7.0,
+  "external_audience_score": 8.3,
+  "external_ratings": {
+    "TVMaze Rating": "8.1/10",
+    "Network": "Streaming",
+    "IMDb": "8.3/10 (131,558 votes)",
+    "Rotten Tomatoes": "76%",
+    "Metacritic": "60 out of 100"
+  },
+  "strengths": [
+    {
+      "aspect": "Characters",
+      "score": 8.7,
+      "sentiment": "Positive",
+      "evidence": [
+        "Audience consensus rates the series 8.3/10, highlighting strong engagement with the lead fixer and the power struggle."
+      ],
+      "source_ids": [
+        "src_1"
+      ]
+    },
+    {
+      "aspect": "Story",
+      "score": 8.2,
+      "sentiment": "Positive",
+      "evidence": [
+        "Critics note the series nails gangster‑genre conventions with a crunchy style and memorable performances."
+      ],
+      "source_ids": [
+        "src_3"
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "aspect": "Plot Execution",
+      "score": 6.0,
+      "sentiment": "Mixed",
+      "evidence": [
+        "A viewer complains that characters make horrible decisions with no consequences and that certain characters feel wasted."
+      ],
+      "source_ids": [
+        "src_6"
+      ]
+    },
+    {
+      "aspect": "Originality",
+      "score": 6.3,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Metacritic notes the saga hardly reinvents the genre, leaning on familiar tropes."
+      ],
+      "source_ids": [
+        "src_3"
+      ]
+    }
+  ],
+  "audience_sentiment": "Positive",
+  "critic_sentiment": "Positive",
+  "disagreements": [
+    "Critics praise the series for its style and performances, while some audience members criticize the writing and lack of character consequences."
+  ],
+  "spoiler_free_summary": "MobLand delivers a gritty, stylish look at a clash between powerful crime families, anchored by Tom Hardy's charismatic performance as a street‑smart fixer. The series leans into classic gangster tropes, offering solid action and compelling character dynamics that resonate with many viewers, reflected in its strong audience rating. However, some viewers find the plot execution uneven, citing implausible character choices and underused supporting roles, while critics note that the show doesn't break new ground. Overall, fans of polished crime dramas will likely enjoy the series, though those seeking fresh storytelling may want to temper expectations.",
+  "methodology": {
+    "critic_rating_mean": 7.0,
+    "audience_rating_mean": 8.3,
+    "sentiment_synthetic_score": 6.39,
+    "source_count": 13,
+    "critic_count": 2,
+    "audience_count": 11,
+    "community_count": 0,
+    "diversity_multiplier": 0.85,
+    "disagreement_penalty": 0.0,
+    "sample_size_penalty": 0.02,
+    "final_calibrated_score": 7.5,
+    "confidence_estimate": 0.83,
+    "explanation": "Derived from 13 retrieved sources across 3 categories. External baseline: Critic 7.0/10, Audience 8.3/10. Final calibrated AI evaluation: 7.5/10 with 83% confidence."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "IMDb Verified Audience Consensus (131,558 votes)",
+      "url": "https://www.imdb.com/title/tt31510819/",
+      "published_date": null,
+      "category": "audience",
+      "excerpt": "Verified global audience consensus across 131,558 viewer thoughts and ratings. Average user score: 8.3/10. Production premise: Power is up for grabs as two warring crime families clash in a battle that threatens to topple empires. In the crossfire stands Harry Da Souza, a street-smart 'fixer' who knows too well where loyalties lie when opposing forces col...",
+      "original_rating": "8.3/10",
+      "sentiment_score": 0.66,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T19:30:48.956361+00:00"
+    },
+    {
+      "id": "src_2",
+      "source_name": "Rotten Tomatoes Critical Consensus",
+      "url": "https://en.wikipedia.org/wiki/MobLand#Reception",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "Rotten Tomatoes reports an overall critic approval rating of 76% based on published industry reviews.",
+      "original_rating": "76%",
+      "sentiment_score": 0.52,
+      "confidence": 0.95,
+      "retrieved_at": "2026-10-18T19:30:48.956361+00:00"
+    },
+    {
+      "id": "src_3",
+      "source_name": "Metacritic Industry Consensus",
+      "url": "https://en.wikipedia.org/wiki/MobLand#Reception",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "The website's critical consensus reads, \"Tom Hardy's gruff charisma is put to good use in ''MobLand'', a gangster saga that hardly reinvents the genre but nails its conventions with crunchy style and memorable performances.\" On Metacritic, which uses a weighted average, the first season received a score of 60 out of 100, based on 18 critics, indica",
+      "original_rating": "60 out of 100",
+      "sentiment_score": 0.935,
+      "confidence": 0.793,
+      "retrieved_at": "2026-10-18T19:30:48.956361+00:00"
+    },
+    {
+      "id": "src_4",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/mobland/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"r/mobland: Press J to jump to the feed. Press question mark to learn the rest of the keyboard shortcuts\"",
+      "original_rating": null,
+      "sentiment_score": 0.376,
+      "confidence": 0.208,
+      "retrieved_at": "2026-10-18T19:30:48.956361+00:00"
+    },
+    {
+      "id": "src_5",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/BeenToTheMovies/comments/1618vb0/review_mob_land_2023_starring_john_travolta_and/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"53 subscribers in the BeenToTheMovies community. All the latest Movie Trailers, Competitions, News and Previews.\"",
+      "original_rating": null,
+      "sentiment_score": 0.549,
+      "confidence": 0.515,
+      "retrieved_at": "2026-10-18T19:30:48.956361+00:00"
+    },
+    {
+      "id": "src_6",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/television/comments/105a2hh/whats_everyones_thoughts_on_tulsa_king_so_far/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Just got done watching the series. Tbh it was ok. I get a little caught up in the writing of shows and a show where characters have basically no consequences, and people make horrible decisions to move the plot forward just bugs me. The ATF woman and Tyson felt like they were definitely wasted especially in the latter half of the season.\"",
+      "original_rating": null,
+      "sentiment_score": -0.53,
+      "confidence": 0.144,
+      "retrieved_at": "2026-10-18T19:30:48.956361+00:00"
+    },
+    {
+      "id": "src_7",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/anime/comments/6iy4in/spoilers_reviewdiscussion_about_mahou_shoujo/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"24 votes, 12 comments. MAL Link: Mahou Shoujo Ikusei Keikaku Genres: Action, Supernatural, Magic, Thriller, Fantasy Legal Streaming: Crunchyroll…\"",
+      "original_rating": null,
+      "sentiment_score": 0.46,
+      "confidence": 0.335,
+      "retrieved_at": "2026-10-18T19:30:48.956361+00:00"
+    },
+    {
+      "id": "src_8",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/BeamNG/comments/121wyv3/is_this_car_mod_safe_i_know_that_mod_land_is/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"I know that mod land is hated here but I heard of some good reviews about it. Have anyone tried out this mod before that can possibly assure me that it works and not a virus?\"",
+      "original_rating": null,
+      "sentiment_score": 0.44,
+      "confidence": 0.122,
+      "retrieved_at": "2026-10-18T19:30:48.956361+00:00"
+    },
+    {
+      "id": "src_9",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/BeamNG/comments/zvq692/modland_opinion/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Hey guys I recently started installing mods and have been wondering about ModLand I downloaded three mods from there but I'm questioning the safety of those mods. I discovered the website through \"dytastic\" who makes \"honest commercials\" and mods of the week videos. Is it safe to use these mods or should I just use mods from the beamng website only?\"",
+      "original_rating": null,
+      "sentiment_score": -0.298,
+      "confidence": 0.199,
+      "retrieved_at": "2026-10-18T19:30:48.956361+00:00"
+    },
+    {
+      "id": "src_10",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/BeamNG/comments/18owlx3/jokingly_question_when_or_how_would_it_seem/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Jokingly question: When or how would it seem necessary to get mods From Modland?\"",
+      "original_rating": null,
+      "sentiment_score": 0.238,
+      "confidence": 0.072,
+      "retrieved_at": "2026-10-18T19:30:48.956361+00:00"
+    },
+    {
+      "id": "src_11",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/movies/comments/m4n1di/i_just_finished_watching_bronson_2008_i_have_zero/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"The goal of /r/Movies is to provide an inclusive place for discussions and news about films with major releases. Submissions should be for the purpose of informing or initiating a discussion, not just to entertain readers. Read our extensive list of rules for more information on other types of posts like fan-art and self-promotion, or message the moderators if you have any ques",
+      "original_rating": null,
+      "sentiment_score": 0.349,
+      "confidence": 0.491,
+      "retrieved_at": "2026-10-18T19:30:48.956361+00:00"
+    },
+    {
+      "id": "src_12",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/BeamNG/comments/1c34fnx/what_are_the_safest_sites_to_download_mods_from/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"true Yea ya'know what, actually it is kind of weird that people want the physics aspect but then not take advantage of it by using half assed mods of production cars that don't make all that good use of the soft body, it's also strange that people that enjoy computer games don't want to play make believe.\"",
+      "original_rating": null,
+      "sentiment_score": -0.283,
+      "confidence": 0.357,
+      "retrieved_at": "2026-10-18T19:30:48.956361+00:00"
+    },
+    {
+      "id": "src_13",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/BeamNG/comments/196oakf/why_do_people_say_modlandrussian_mods_are_terrible/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"There are good mods and bad mods everywhere. On modland and on the beamng repo. On the repo theres mostly good mods but there is a chance you find some bad mods with texture issues and bad jbeams, but they are rare. On modland however, there are mostly trashy meshlaps from bad russian modders that charge extremely high prices for their mods, mods made from unexperienced modders",
+      "original_rating": null,
+      "sentiment_score": -0.841,
+      "confidence": 0.6,
+      "retrieved_at": "2026-10-18T19:30:48.956361+00:00"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "openai/gpt-oss-120b",
+  "disambiguation_options": [
+    {
+      "id": "wiki_Mob_Land",
+      "title": "Mob Land",
+      "media_type": "movie",
+      "release_year": 2023,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/b/b6/Mob_Land_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "wiki_Lisa_Dwan",
+      "title": "Lisa Dwan",
+      "media_type": "movie",
+      "release_year": 1977,
+      "poster_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Lisa_dwan_2022_1.jpg/330px-Lisa_dwan_2022_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "id": "wiki_Jasmine_Jobson",
+      "title": "Jasmine Jobson",
+      "media_type": "movie",
+      "release_year": 1995,
+      "poster_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Jasmine_Jobson_in_2026.jpg/330px-Jasmine_Jobson_in_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "id": "tvmaze_16495",
+      "title": "Molang",
+      "media_type": "series",
+      "release_year": 2016,
+      "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/529/1324489.jpg"
+    }
+  ],
+  "latency_ms": 6970.0,
+  "analyzed_at": "2026-10-18T19:30:52.805962+00:00"
+}

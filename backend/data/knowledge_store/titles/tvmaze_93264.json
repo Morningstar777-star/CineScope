@@ -1,0 +1,272 @@
+{
+  "title": "Friends Sex and Games",
+  "canonical_id": "tvmaze_93264",
+  "media_type": "series",
+  "release_year": 2026,
+  "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/644/1611925.jpg",
+  "backdrop_url": "https://static.tvmaze.com/uploads/images/original_untouched/644/1611925.jpg",
+  "genres": [],
+  "overview": "That's what Friends Sex and Games is all about: four couples. And a sexy game that could change everything. At the center of this relationship dramedy are Anna and Paul, who've been together forever—just like their closest friends Julie, Valentin, Bella, and Leo. Their lives are running smoothly until Samu returns home with his girlfriend Siena and suggests a daring game to his old crew: the \"Key Game.\" The rules are simple—the men toss their keys into a bowl, and the women each pick one out. Whoever draws a key spends the night with the key's owner. No strings attached, no obligations. What begins as a thrilling adventure quickly turns into an emotional powder keg. Old longings resurface, new truths come to light: Nothing stays the same. A series full of intense emotions, funny moments—and steamy sex.",
+  "verdict": "Decent / Mixed Appeal",
+  "overall_score": 6.9,
+  "confidence": 0.48,
+  "data_scale": {
+    "total_signals_analyzed": 555,
+    "audience_votes_count": 500,
+    "critic_reviews_count": 45,
+    "textual_reviews_analyzed": 10,
+    "community_discussions_analyzed": 10,
+    "sentiment_distribution": {
+      "positive": 70.0,
+      "mixed": 10.0,
+      "negative": 20.0
+    },
+    "platforms_covered": [
+      "TVMaze Rating",
+      "Network",
+      "Reddit & Forums"
+    ]
+  },
+  "external_critic_score": null,
+  "external_audience_score": null,
+  "external_ratings": {
+    "TVMaze Rating": "N/A",
+    "Network": "Streaming"
+  },
+  "strengths": [
+    {
+      "aspect": "Characters",
+      "score": 7.8,
+      "sentiment": "Positive",
+      "evidence": [
+        "Audience praises memorable characters despite flaws"
+      ],
+      "source_ids": [
+        "src_9"
+      ]
+    },
+    {
+      "aspect": "Tone",
+      "score": 7.0,
+      "sentiment": "Positive",
+      "evidence": [
+        "Series makes viewers feel good and offers contextual humor"
+      ],
+      "source_ids": [
+        "src_6"
+      ]
+    },
+    {
+      "aspect": "Game Concept",
+      "score": 7.2,
+      "sentiment": "Positive",
+      "evidence": [
+        "Positive coverage of the game's portrayal without disclaimer"
+      ],
+      "source_ids": [
+        "src_10"
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "aspect": "Datedness",
+      "score": 5.4,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Series feels a bit dated compared to modern sitcoms"
+      ],
+      "source_ids": [
+        "src_9"
+      ]
+    },
+    {
+      "aspect": "Character Depth",
+      "score": 5.8,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Some characters described as lazily‑written"
+      ],
+      "source_ids": [
+        "src_8"
+      ]
+    }
+  ],
+  "audience_sentiment": "Mixed",
+  "critic_sentiment": "Divided",
+  "disagreements": [
+    "Fans appreciate the nostalgic character dynamics while some critics note the series' dated humor and shallow character development"
+  ],
+  "spoiler_free_summary": "Friends Sex and Games blends relationship drama with a provocative game premise, aiming for a mix of humor and emotional stakes. The show leans on its ensemble chemistry, delivering moments that feel familiar and comforting, reminiscent of classic sitcom camaraderie. However, its tone can feel dated, and some character arcs lack depth, which may divide viewers seeking fresh storytelling. Those who enjoy nostalgic group dynamics and lighthearted game‑driven tension might find it enjoyable, while others may feel it falls short of contemporary standards.",
+  "methodology": {
+    "critic_rating_mean": null,
+    "audience_rating_mean": null,
+    "sentiment_synthetic_score": 7.34,
+    "source_count": 10,
+    "critic_count": 0,
+    "audience_count": 10,
+    "community_count": 0,
+    "diversity_multiplier": 0.55,
+    "disagreement_penalty": 0.0,
+    "sample_size_penalty": 0.13,
+    "final_calibrated_score": 6.9,
+    "confidence_estimate": 0.48,
+    "explanation": "Derived from 10 retrieved sources across 1 categories. Final calibrated AI evaluation: 6.9/10 with 48% confidence."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/entertainment/comments/15y5tj/characters_in_friends_didnt_have_85_total_sex/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"After having sex with Monica (end of Season 4), no new sex partners are discovered until the end of the series (i.e., 6 seasons with no new sex partners mentioned.) Regarding Monica, we discover in episode 11 of Season 7 (\"The One with All the Cheesecakes\") that she had had sex with Stuart, her cousin's new husband.\"",
+      "original_rating": null,
+      "sentiment_score": 0.143,
+      "confidence": 0.02,
+      "retrieved_at": "2026-10-18T19:32:25.120780+00:00"
+    },
+    {
+      "id": "src_2",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/FriendsTV/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"A subreddit about anything and everything related to the popular TV series, Friends! Whether be it just talking about episodes or characters, asking questions, posting cool details about the cast members, all is welcome here!\"",
+      "original_rating": null,
+      "sentiment_score": 0.526,
+      "confidence": 0.464,
+      "retrieved_at": "2026-10-18T19:32:25.120780+00:00"
+    },
+    {
+      "id": "src_3",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/howyoudoin/comments/tjm8q2/years_later_do_u_agree_with_the_friends_ending/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Many believe Friends had one of the best endings out of any sitcom. Mostly every character ended on a high note and got a well deserved ending. Some believe that specific characters ended on a low note. Would like to hear thoughts on each of the characters arc. Monica and Chandler: Their romantic trope of \"friends to lovers\" has aged rather well in my opinion. The vast vast maj",
+      "original_rating": null,
+      "sentiment_score": 0.856,
+      "confidence": 0.627,
+      "retrieved_at": "2026-10-18T19:32:25.120780+00:00"
+    },
+    {
+      "id": "src_4",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/FriendsTVSeries/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Subreddit about the TV series FRIENDS (1994-2004). Six young people from New York, on their own and struggling to survive in the real world, find the companionship, comfort and support they get from each other to be the perfect antidote to the pressures of life.\"",
+      "original_rating": null,
+      "sentiment_score": 0.602,
+      "confidence": 0.656,
+      "retrieved_at": "2026-10-18T19:32:25.120780+00:00"
+    },
+    {
+      "id": "src_5",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/entertainment/comments/1628b4/people_demand_to_know_full_list_of_friends_sexual/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"First of all, let me say I'm amazed by the response to my original Reddit post on this subject. Many people have asked me to post this list, so here it goes. Ordered by appearance or first mention, per Friend: Chandler (10.5 sexual partners): Janice Aurora (ep. 01-06) Nina Bookbinder (01-16) Jade (02-05) (Chandler wasn't as good as Bob, and much more bumpy) Susie 'Underpants' M",
+      "original_rating": null,
+      "sentiment_score": 0.476,
+      "confidence": 0.171,
+      "retrieved_at": "2026-10-18T19:32:25.120780+00:00"
+    },
+    {
+      "id": "src_6",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/television/comments/279b3u/what_are_your_feelings_on_the_show_friends/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"The friends made you feel good and that's a big part of the reason people liked it. It wasn't always a constant barrage of laughs and had plenty of contextual humor.\"",
+      "original_rating": null,
+      "sentiment_score": 0.887,
+      "confidence": 0.688,
+      "retrieved_at": "2026-10-18T19:32:25.120780+00:00"
+    },
+    {
+      "id": "src_7",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/television/comments/uq3kam/in_conversations_with_friends_its_complicated_the/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"In 'Conversations With Friends,' it's complicated. The adaptation of Sally Rooney's novel explores a complex web of relationships. Figuring out how to bring them to life was just as knotty. : r/television Go to television r/television r/television MembersOnline • Sumit316 ADMIN MOD\"",
+      "original_rating": null,
+      "sentiment_score": 0.329,
+      "confidence": 0.153,
+      "retrieved_at": "2026-10-18T19:32:25.120780+00:00"
+    },
+    {
+      "id": "src_8",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/howyoudoin/comments/o5ibyt/lets_talk_about_season_1/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"She gets better as the series progresses, but I still only love her by S2, when she has more to do than just Be Ross' Love Interest. Ross is definitely the best and most fully-formed character in the first few eps. Schwimmer is the MVP for me overall. Paulo is an incredibly lazily-written character, yaaaawn.\"",
+      "original_rating": null,
+      "sentiment_score": -0.197,
+      "confidence": 0.222,
+      "retrieved_at": "2026-10-18T19:32:25.120780+00:00"
+    },
+    {
+      "id": "src_9",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/television/comments/96r9h6/is_friends_worth_watching/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Friends is a bit dated of course, but that's just inevitable. I think Friends sets itself apart from the other laugh-track sitcoms by having great and memorable characters who you are invested in even when they can be acting like douches, performed by talented actors.\"",
+      "original_rating": null,
+      "sentiment_score": 0.909,
+      "confidence": 0.734,
+      "retrieved_at": "2026-10-18T19:32:25.120780+00:00"
+    },
+    {
+      "id": "src_10",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/KotakuInAction/comments/3ep1rm/did_the_initial_zoe_quinn_controversy_actually/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"The confusion stems from the fact that some people thought there was a positive \"review\" done of Quinn's game, instead it was positive coverage, the game was covered positively in multiple articles without disclaiming the relationship, which is arguably even worse than a review since that would have been a one off thing.\"",
+      "original_rating": null,
+      "sentiment_score": -0.432,
+      "confidence": 0.717,
+      "retrieved_at": "2026-10-18T19:32:25.120780+00:00"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "openai/gpt-oss-120b",
+  "disambiguation_options": [
+    {
+      "id": "wiki_Talking_Tom_&_Friends",
+      "title": "Talking Tom & Friends",
+      "media_type": "movie",
+      "release_year": 2010,
+      "poster_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Talking_Tom_%26_Friends_logo.svg/330px-Talking_Tom_%26_Friends_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "id": "wiki_Sexual_suggestiveness",
+      "title": "Sexual suggestiveness",
+      "media_type": "movie",
+      "release_year": null,
+      "poster_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Refectory_painting_on_the_theme_of_Temptation_by_Lucas_Cranach_the_Elder_c.1520_%28detail%29%2C_Lutherhaus%2C_Wittenberg.jpg/330px-Refectory_painting_on_the_theme_of_Temptation_by_Lucas_Cranach_the_Elder_c.1520_%28detail%29%2C_Lutherhaus%2C_Wittenberg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "id": "wiki_Mixed-sex_sports",
+      "title": "Mixed-sex sports",
+      "media_type": "movie",
+      "release_year": null,
+      "poster_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/2018-10-12_Badminton_Mixed_International_Team_Final_match_2_at_2018_Summer_Youth_Olympics_by_Sandro_Halank%E2%80%93004.jpg/330px-2018-10-12_Badminton_Mixed_International_Team_Final_match_2_at_2018_Summer_Youth_Olympics_by_Sandro_Halank%E2%80%93004.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "id": "wiki_El_juego_de_las_llaves",
+      "title": "El juego de las llaves",
+      "media_type": "series",
+      "release_year": 2019,
+      "poster_url": null
+    }
+  ],
+  "latency_ms": 8717.0,
+  "analyzed_at": "2026-10-18T19:32:30.722383+00:00"
+}

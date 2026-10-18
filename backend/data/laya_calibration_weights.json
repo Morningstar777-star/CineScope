@@ -1,10 +1,10 @@
 {
   "version": 1.2,
-  "total_training_iterations": 16,
-  "samples_processed": 188,
-  "current_mse_loss": 0.5783,
+  "total_training_iterations": 19,
+  "samples_processed": 197,
+  "current_mse_loss": 0.7014,
   "accuracy_gain_pct": 12.0,
-  "last_trained_at": "2026-10-18 00:37:29Z",
+  "last_trained_at": "2026-10-18 19:34:07Z",
   "aspect_weights": {
     "Narrative & Screenplay": 1.18,
     "Directorial Vision": 1.12,
@@ -16,7 +16,7 @@
   },
   "category_priors": {
     "movie": {
-      "prior_mean": 7.42,
+      "prior_mean": 7.378,
       "prior_variance": 1.25
     },
     "anime": {
@@ -24,7 +24,7 @@
       "prior_variance": 1.1
     },
     "series": {
-      "prior_mean": 7.68,
+      "prior_mean": 7.636,
       "prior_variance": 1.18
     }
   },

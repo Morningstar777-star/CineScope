@@ -1,0 +1,267 @@
+{
+  "title": "Colony",
+  "canonical_id": "wiki_Colony_(disambiguation)",
+  "media_type": "movie",
+  "release_year": null,
+  "poster_url": "https://image.tmdb.org/t/p/w500/wC69brhk65GvrgNQdqLRUqtneUH.jpg",
+  "backdrop_url": null,
+  "genres": [
+    "Film",
+    "Cinema"
+  ],
+  "overview": "A colony is a territory governed by people from another country.",
+  "verdict": "Worth Watching",
+  "overall_score": 7.1,
+  "confidence": 0.83,
+  "data_scale": {
+    "total_signals_analyzed": 42157,
+    "audience_votes_count": 42102,
+    "critic_reviews_count": 45,
+    "textual_reviews_analyzed": 10,
+    "community_discussions_analyzed": 8,
+    "sentiment_distribution": {
+      "positive": 80.0,
+      "mixed": 0.0,
+      "negative": 20.0
+    },
+    "platforms_covered": [
+      "IMDb",
+      "Reddit & Forums",
+      "Major Entertainment Press"
+    ]
+  },
+  "external_critic_score": null,
+  "external_audience_score": 7.3,
+  "external_ratings": {
+    "Catalog Source": "Encyclopedic Verification",
+    "Category": "Topics referred to by the same term",
+    "IMDb": "7.3/10 (42,102 votes)"
+  },
+  "strengths": [
+    {
+      "aspect": "Story",
+      "score": 8.2,
+      "sentiment": "Positive",
+      "evidence": [
+        "The premise of a family navigating an alien‑occupied Los Angeles is praised as compelling and worth watching."
+      ],
+      "source_ids": [
+        "src_1",
+        "src_4"
+      ]
+    },
+    {
+      "aspect": "Characters",
+      "score": 7.9,
+      "sentiment": "Positive",
+      "evidence": [
+        "Fans note the show’s focus on a family torn by opposing loyalties adds emotional depth."
+      ],
+      "source_ids": [
+        "src_8",
+        "src_10"
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "aspect": "Pacing",
+      "score": 5.4,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Some viewers found the action scenes boring and the overall pacing tiring."
+      ],
+      "source_ids": [
+        "src_6"
+      ]
+    },
+    {
+      "aspect": "Plot Execution",
+      "score": 5.0,
+      "sentiment": "Mixed",
+      "evidence": [
+        "The series was abruptly ended, leaving storylines unresolved and disappointing fans."
+      ],
+      "source_ids": [
+        "src_5"
+      ]
+    }
+  ],
+  "audience_sentiment": "Mixed",
+  "critic_sentiment": "Divided",
+  "disagreements": [
+    "Fans generally appreciate the character‑driven drama and consider the show underrated, while critics point to uneven execution and pacing issues."
+  ],
+  "spoiler_free_summary": "Colony presents a near‑future Los Angeles under alien occupation, centering on a family caught between collaboration and resistance. Its world‑building and character focus give it a gritty, tense atmosphere that resonates with viewers who enjoy sci‑fi dramas about societal collapse. However, the series suffers from uneven pacing and an abrupt conclusion that left many plot threads hanging, leading to mixed reactions. If you’re drawn to character‑centric sci‑fi and can overlook pacing flaws, it’s worth a try; otherwise, temper expectations.",
+  "methodology": {
+    "critic_rating_mean": null,
+    "audience_rating_mean": 7.3,
+    "sentiment_synthetic_score": 6.87,
+    "source_count": 10,
+    "critic_count": 1,
+    "audience_count": 9,
+    "community_count": 0,
+    "diversity_multiplier": 0.85,
+    "disagreement_penalty": 0.0,
+    "sample_size_penalty": 0.02,
+    "final_calibrated_score": 7.1,
+    "confidence_estimate": 0.83,
+    "explanation": "Derived from 10 retrieved sources across 3 categories. Final calibrated AI evaluation: 7.1/10 with 83% confidence."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "IMDb Verified Audience Consensus (42,102 votes)",
+      "url": "https://www.imdb.com/title/tt4209256/",
+      "published_date": null,
+      "category": "audience",
+      "excerpt": "Verified global audience consensus across 42,102 viewer thoughts and ratings. Average user score: 7.3/10. Production premise: In the wake of a mysterious alien invasion, a family fights to stay together in a new world order.",
+      "original_rating": "7.3/10",
+      "sentiment_score": 0.46,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T19:33:27.771470+00:00"
+    },
+    {
+      "id": "src_2",
+      "source_name": "The New York Times Critic Review",
+      "url": "https://en.wikipedia.org/wiki/The%20Colony%20%28novel%29#Reception",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "Khatib of ''The New York Times'' says that the author's \"observations are intercut with chapters focusing on each of the Colony’s members, in the past and present.",
+      "original_rating": null,
+      "sentiment_score": 0.556,
+      "confidence": 0.534,
+      "retrieved_at": "2026-10-18T19:33:27.771470+00:00"
+    },
+    {
+      "id": "src_3",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/colony/comments/9hs2f2/is_the_show_worth_watching/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"A subreddit for fans of the sci-fi TV show *Colony*. *Colony* airs every Wednesday at 10/9c on USA Network. Set in the near future, *Colony* finds Los Angeles in a state of occupation by alien intruders. While some humans collaborate with (and thus benefit from) the new \"regime,\" others rebel and suffer the consequences. At the crux of the story is a family torn by the opposing",
+      "original_rating": null,
+      "sentiment_score": 0.294,
+      "confidence": 0.118,
+      "retrieved_at": "2026-10-18T19:33:27.771470+00:00"
+    },
+    {
+      "id": "src_4",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/televisionsuggestions/comments/1bue13g/colony2016_a_dystopian_scifi_action_drama/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"I wanted to suggest Colony, a good, but somewhat underrated show that doesn't seem to get a lot of mentions. I was re-watching it the other day and it is definitely worth a watch.\"",
+      "original_rating": null,
+      "sentiment_score": 0.924,
+      "confidence": 0.767,
+      "retrieved_at": "2026-10-18T19:33:27.771470+00:00"
+    },
+    {
+      "id": "src_5",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/scifi/comments/1cvy314/colony_was_an_awesome_show/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Colony was set up to have 5 seasons and we got cheated out because of steep ratings drop and high production costs. Cast members and Josh Holloway were disappointed as the show was abruptly ended without getting to fully explore the extensive future storyline.\"",
+      "original_rating": null,
+      "sentiment_score": -0.566,
+      "confidence": 0.769,
+      "retrieved_at": "2026-10-18T19:33:27.771470+00:00"
+    },
+    {
+      "id": "src_6",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/moviereviews/comments/vabu95/the_colony_2021/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"The Colony (2021) I would give this movie a 3/10. The acting was very tiring and the even the action scenes were very boring. The description and plot seems like it would be a very good movie and I was excited. It turned out to be a waste of my time so for my sake please do not watch this movie.\"",
+      "original_rating": null,
+      "sentiment_score": -0.4,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T19:33:27.771470+00:00"
+    },
+    {
+      "id": "src_7",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/NetflixBestOf/comments/pck5ht/discussion_colony_a_hidden_gem_on_netflix/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"The primary purpose of /r/NetflixBestOf is to shitpost about Breaking Bad. Reposts are not only allowed, but are encouraged to some extent. The front page of this subreddit is meant to be a living representation of quality content on Netflix and you might see the same submissions multiple times. The mods are leaving it up to the community to utilize downvotes if they feel that ",
+      "original_rating": null,
+      "sentiment_score": 0.219,
+      "confidence": 0.059,
+      "retrieved_at": "2026-10-18T19:33:27.771470+00:00"
+    },
+    {
+      "id": "src_8",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/television/comments/8uu7u3/is_colony_worth_watching/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Colony is like a slightly better version of Falling Skies. It has its moments where it flirts with greatness but it also has its dumb moments too. I consider The Expanse to be premier TV, about as close to a 10/10 as you can get right now. I would say Colony is closer to a 7/10, if you like the characters you will probably enjoy it, but nowhere near as much as The Expanse.\"",
+      "original_rating": null,
+      "sentiment_score": 1.0,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T19:33:27.771470+00:00"
+    },
+    {
+      "id": "src_9",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/movies/comments/1lnsao/has_anybody_seen_the_colony_would_you_recommend_it/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"The goal of /r/Movies is to provide an inclusive place for discussions and news about films with major releases. Submissions should be for the purpose of informing or initiating a discussion, not just to entertain readers.\"",
+      "original_rating": null,
+      "sentiment_score": 0.169,
+      "confidence": 0.031,
+      "retrieved_at": "2026-10-18T19:33:27.771470+00:00"
+    },
+    {
+      "id": "src_10",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/colony/comments/11tx5ob/disappointed_about_the_ending_but/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Colony - USA Network A subreddit for fans of the sci-fi TV show *Colony*. *Colony* airs every Wednesday at 10/9c on USA Network. Set in the near future, *Colony* finds Los Angeles in a state of occupation by alien intruders. While some humans collaborate with (and thus benefit from) the new \"regime,\" others rebel and suffer the consequences.\"",
+      "original_rating": null,
+      "sentiment_score": 0.393,
+      "confidence": 0.232,
+      "retrieved_at": "2026-10-18T19:33:27.771470+00:00"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "openai/gpt-oss-120b",
+  "disambiguation_options": [
+    {
+      "id": "tvmaze_2757",
+      "title": "Colony",
+      "media_type": "series",
+      "release_year": 2016,
+      "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/156/391152.jpg"
+    },
+    {
+      "id": "wiki_Demonte_Colony",
+      "title": "Demonte Colony",
+      "media_type": "movie",
+      "release_year": 2015,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/9/98/Demonte_Colony.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "wiki_Demonte_Colony_3",
+      "title": "Demonte Colony 3",
+      "media_type": "movie",
+      "release_year": 2015,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/7/70/Demonte_Colony_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "tvmaze_3326",
+      "title": "The Colony",
+      "media_type": "series",
+      "release_year": 2009,
+      "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/17/44050.jpg"
+    }
+  ],
+  "latency_ms": 24664.0,
+  "analyzed_at": "2026-10-18T19:33:47.985445+00:00"
+}

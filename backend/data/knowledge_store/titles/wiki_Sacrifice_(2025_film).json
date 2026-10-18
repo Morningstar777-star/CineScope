@@ -1,0 +1,294 @@
+{
+  "title": "Sacrifice",
+  "canonical_id": "wiki_Sacrifice_(2025_film)",
+  "media_type": "movie",
+  "release_year": 2025,
+  "poster_url": "https://upload.wikimedia.org/wikipedia/en/7/7c/Sacrifice_2025_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "backdrop_url": "https://upload.wikimedia.org/wikipedia/en/7/7c/Sacrifice_2025_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "genres": [
+    "Film",
+    "Cinema"
+  ],
+  "overview": "Sacrifice is a 2025 action-adventure comedy-drama film directed by Romain Gavras, who co-wrote it with Will Arbery. It stars an ensemble cast that features Chris Evans, Anya Taylor-Joy, Vincent Cassel, Sam Richardson, John Malkovich, and Salma Hayek.",
+  "verdict": "Decent / Mixed Appeal",
+  "overall_score": 6.2,
+  "confidence": 0.69,
+  "data_scale": {
+    "total_signals_analyzed": 203,
+    "audience_votes_count": 15,
+    "critic_reviews_count": 175,
+    "textual_reviews_analyzed": 13,
+    "community_discussions_analyzed": 10,
+    "sentiment_distribution": {
+      "positive": 76.9,
+      "mixed": 7.7,
+      "negative": 15.4
+    },
+    "platforms_covered": [
+      "IMDb",
+      "Rotten Tomatoes",
+      "Metacritic",
+      "Reddit & Forums",
+      "Major Entertainment Press"
+    ]
+  },
+  "external_critic_score": 4.2,
+  "external_audience_score": 7.8,
+  "external_ratings": {
+    "Catalog Source": "Encyclopedic Verification",
+    "Category": "2025 film",
+    "IMDb": "7.8/10 (15 votes)",
+    "Rotten Tomatoes": "37%",
+    "Metacritic": "48 out of 100"
+  },
+  "strengths": [
+    {
+      "aspect": "Characters",
+      "score": 8.2,
+      "sentiment": "Positive",
+      "evidence": [
+        "Audience rating of 7.8/10 suggests viewers enjoyed the film's characters and performances."
+      ],
+      "source_ids": [
+        "src_1"
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "aspect": "Plot Execution",
+      "score": 5.5,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Critics gave the film a 37% approval rating on Rotten Tomatoes, indicating concerns with its execution."
+      ],
+      "source_ids": [
+        "src_2"
+      ]
+    },
+    {
+      "aspect": "Pacing",
+      "score": 5.8,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Metacritic score of 48 reflects mixed or average reviews, often pointing to pacing issues."
+      ],
+      "source_ids": [
+        "src_3"
+      ]
+    }
+  ],
+  "audience_sentiment": "Positive",
+  "critic_sentiment": "Divided",
+  "disagreements": [
+    "Audiences rate the film highly (7.8/10) while critics rate it poorly (37% RT, 48 Metacritic), showing a clear split in perception."
+  ],
+  "spoiler_free_summary": "Sacrifice blends high‑octane action with comedic beats and dramatic moments, anchored by a star‑studded ensemble that many viewers find entertaining. While audience scores suggest the film delivers fun set‑pieces and engaging performances, critics point to uneven storytelling and pacing that prevent it from fully resonating. If you enjoy genre‑bending adventures and are drawn to the cast, it may be worth a look, but temper expectations regarding narrative cohesion.",
+  "methodology": {
+    "critic_rating_mean": 4.2,
+    "audience_rating_mean": 7.8,
+    "sentiment_synthetic_score": 6.78,
+    "source_count": 13,
+    "critic_count": 2,
+    "audience_count": 11,
+    "community_count": 0,
+    "diversity_multiplier": 0.85,
+    "disagreement_penalty": 0.175,
+    "sample_size_penalty": 0.02,
+    "final_calibrated_score": 6.2,
+    "confidence_estimate": 0.69,
+    "explanation": "Derived from 13 retrieved sources across 3 categories. External baseline: Critic 4.2/10, Audience 7.8/10. Noted critic/audience polarity (penalty factor: 0.17). Final calibrated AI evaluation: 6.2/10 with 69% confidence."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "IMDb Verified Audience Consensus (15 votes)",
+      "url": "https://www.imdb.com/title/tt36178425/",
+      "published_date": null,
+      "category": "audience",
+      "excerpt": "Verified global audience consensus across 15 viewer thoughts and ratings. Average user score: 7.8/10. Production premise: N/A",
+      "original_rating": "7.8/10",
+      "sentiment_score": 0.56,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T19:33:52.922055+00:00"
+    },
+    {
+      "id": "src_2",
+      "source_name": "Rotten Tomatoes Critical Consensus",
+      "url": "https://en.wikipedia.org/wiki/Sacrifice%20%282025%20film%29#Critical%20response",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "Rotten Tomatoes reports a 37% approval rating",
+      "original_rating": "37%",
+      "sentiment_score": -0.26,
+      "confidence": 0.95,
+      "retrieved_at": "2026-10-18T19:33:52.922055+00:00"
+    },
+    {
+      "id": "src_3",
+      "source_name": "Metacritic Industry Consensus",
+      "url": "https://en.wikipedia.org/wiki/Sacrifice%20%282025%20film%29#Critical%20response",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "Metacritic, which uses a weighted average, assigned the film a score of 48 out of 100, based on 11 critics, indicating \"mixed or average\" reviews.",
+      "original_rating": "48 out of 100",
+      "sentiment_score": -0.197,
+      "confidence": 0.094,
+      "retrieved_at": "2026-10-18T19:33:52.922055+00:00"
+    },
+    {
+      "id": "src_4",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/movies/comments/1dqdze4/a_sacrifice_2024/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"A sub-reddit to discuss and/or review films you have recently seen. The goal of /r/Movies is to provide an inclusive place for discussions and news about films with major releases. Submissions should be for the purpose of informing or initiating a discussion, not just to entertain readers.\"",
+      "original_rating": null,
+      "sentiment_score": 0.361,
+      "confidence": 0.19,
+      "retrieved_at": "2026-10-18T19:33:52.922055+00:00"
+    },
+    {
+      "id": "src_5",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/Critics/comments/1dpzgbp/a_sacrifice_review_dont_sacrifice_your_time_with/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"3.4K subscribers in the Critics community. A place for critics to discuss, analyze, critique and share their reviews of movies and TV.\"",
+      "original_rating": null,
+      "sentiment_score": 0.5,
+      "confidence": 0.409,
+      "retrieved_at": "2026-10-18T19:33:52.922055+00:00"
+    },
+    {
+      "id": "src_6",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/TrueFilm/comments/xhol97/i_recently_watched_sacrifice_and_wanted_to_share/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Interestingly, it seems that there are many people whose least favourite Tarkovsky movie is Sacrifice. I very much liked it, but I still haven't watched all of his movies, so maybe after watching them my opinion will also change.\"",
+      "original_rating": null,
+      "sentiment_score": 0.402,
+      "confidence": 0.244,
+      "retrieved_at": "2026-10-18T19:33:52.922055+00:00"
+    },
+    {
+      "id": "src_7",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/HorrorReviewed/comments/mg11nn/sacrifice_2021_folk_horror/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Perhaps a coincidence, but since the rousing success of Aster's 'Midsommar' I've seen quite a number of aptly dubbed 'folk' horrors crop up. In the case of 'Sacrifice', genre favourite Barbra Crampton leads a clan of hostile Nordic Cthulhu (esk) worshippers against an expectant American couple. The plot opens as the young couple make their way, via a small passenger boat ...\"",
+      "original_rating": null,
+      "sentiment_score": 0.517,
+      "confidence": 0.444,
+      "retrieved_at": "2026-10-18T19:33:52.922055+00:00"
+    },
+    {
+      "id": "src_8",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/TrueFilm/comments/1wm522/discussion_the_sacrifice_1986_andrei_tarkovsky/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"I watched all of Tarkovsky's movies, which aren't that many, and the last one I saw was The Sacrifice, coincidently the last one he made. A curiosity about the movie is that the shot at the end, when he burns the house, had to be made twice. In the first time they burned an entire house only to realise that the camera was not working during the fire, they tried to put it out bu",
+      "original_rating": null,
+      "sentiment_score": 0.138,
+      "confidence": 0.018,
+      "retrieved_at": "2026-10-18T19:33:52.922055+00:00"
+    },
+    {
+      "id": "src_9",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/Lovecraft/comments/li474l/sacrifice_2021_movie_review_barbara_crampton/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Sacrifice (2021) movie review ~ Barbara Crampton ~ Cthulhu, Where Are You?\"",
+      "original_rating": null,
+      "sentiment_score": 0.226,
+      "confidence": 0.063,
+      "retrieved_at": "2026-10-18T19:33:52.922055+00:00"
+    },
+    {
+      "id": "src_10",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/movies/comments/p0jl8b/i_watched_the_sacrifice_and_i_dont_know_what_to/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Saw something interesting and want more? Have a favourite movie you want to recommend? Make those Movie Suggestions. The goal of /r/Movies is to provide an inclusive place for discussions and news about films with major releases. Submissions should be for the purpose of informing or initiating a discussion, not just to entertain readers.\"",
+      "original_rating": null,
+      "sentiment_score": 0.422,
+      "confidence": 0.274,
+      "retrieved_at": "2026-10-18T19:33:52.922055+00:00"
+    },
+    {
+      "id": "src_11",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/movies/comments/4h29nu/sacrifice_2016_05_star_review_this_movie_should/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Sacrifice (2016) - 0.5 Star Review, \"This movie should be taught in film school—just as Hitchcock movies can teach filmmaking, so can their failed imitators provide us with elementary examples of when technique goes horribly wrong\".\"",
+      "original_rating": null,
+      "sentiment_score": 0.194,
+      "confidence": 0.044,
+      "retrieved_at": "2026-10-18T19:33:52.922055+00:00"
+    },
+    {
+      "id": "src_12",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/criterion/comments/rewhi9/is_the_sacrifice_a_good_place_to_start_with/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Stalker I'd argue is the best place to start, but sacrifice is also A tier. Doesn't get the love it deserves on here since it doesn't have a criterion release but if sacrifice is the one that calls to you I'd say go for it. Also, I get the intimidating factor, but he only has 7 films. I'd say check out those two and go from there ...\"",
+      "original_rating": null,
+      "sentiment_score": 0.541,
+      "confidence": 0.223,
+      "retrieved_at": "2026-10-18T19:33:52.922055+00:00"
+    },
+    {
+      "id": "src_13",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/TrueFilm/comments/fqms7y/could_someone_explain_the_sacrifice_1986_by/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"See, my interpretation about The Sacrifice feels like it's all about making the ultimate and selfless sacrifice for the people you care deeply about. A self-sacrifice to prevent an impending disaster from happening, hoping to save his family, friends and humankind from a devastating catastrophe.\"",
+      "original_rating": null,
+      "sentiment_score": 0.301,
+      "confidence": 0.454,
+      "retrieved_at": "2026-10-18T19:33:52.922055+00:00"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "openai/gpt-oss-120b",
+  "disambiguation_options": [
+    {
+      "id": "wiki_Sacrifice_(TV_series)",
+      "title": "Sacrifice",
+      "media_type": "series",
+      "release_year": 2019,
+      "poster_url": null
+    },
+    {
+      "id": "tvmaze_75583",
+      "title": "Sacrifice for Love",
+      "media_type": "series",
+      "release_year": 2024,
+      "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/510/1275550.jpg"
+    },
+    {
+      "id": "anilist_133013",
+      "title": "Sacrificed",
+      "media_type": "movie",
+      "release_year": 2021,
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx133013-CVtmZ4aW1taY.jpg"
+    },
+    {
+      "id": "wiki_A_Sacrifice",
+      "title": "A Sacrifice",
+      "media_type": "movie",
+      "release_year": 2024,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/a/a8/A_Sacrifice_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    }
+  ],
+  "latency_ms": 17088.0,
+  "analyzed_at": "2026-10-18T19:34:06.943418+00:00"
+}

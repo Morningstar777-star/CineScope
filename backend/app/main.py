@@ -27,6 +27,7 @@ from app.services.laya_engine import laya_engine
 from app.services.cache_service import cache_service
 from app.services.central_store import central_store
 from app.services.laya_autotrain import laya_autotrainer
+from app.services.katmovie_service import katmovie_service
 
 app = FastAPI(
     title="CineScope Intelligence API",
@@ -156,6 +157,38 @@ async def trigger_laya_train_pass():
 async def get_shelf_more(shelf_id: str, page: int = Query(1, ge=1), limit: int = Query(8, ge=1, le=16)):
     """Dynamically loads the next page of high-rated titles for a category shelf as user slides."""
     return await metadata_service.get_shelf_more(shelf_id=shelf_id, page=page, limit=limit)
+
+@app.get("/api/katmovie/preview")
+async def preview_katmovie_titles(start_page: int = Query(1, ge=1), end_page: int = Query(1, ge=1)):
+    """Scrapes KatMovieHD and returns clean titles, posters, and central database archival status."""
+    items = katmovie_service.scrape_pages(start_page, end_page)
+    augmented = []
+    for it in items:
+        clean_title = it.get("clean_title")
+        cid, poster = await katmovie_service.resolve_canonical(it)
+        stored = central_store.get(cid)
+        augmented.append({
+            "title": clean_title,
+            "raw_title": it.get("raw_title"),
+            "year": it.get("year"),
+            "media_type": it.get("media_type"),
+            "poster_url": poster or it.get("poster_url"),
+            "canonical_id": cid,
+            "is_archived": bool(stored),
+            "stored_score": stored.get("overall_score") if stored else None,
+            "source_page": it.get("source_page")
+        })
+    return {"count": len(augmented), "items": augmented}
+
+@app.post("/api/katmovie/ingest")
+async def trigger_katmovie_ingest(
+    start_page: int = Query(1, ge=1),
+    end_page: int = Query(1, ge=1),
+    limit: int = Query(10, ge=1, le=50)
+):
+    """Triggers end-to-end ingestion: scraping KatMovieHD, gathering reviews, LAYA+Groq scoring, and archiving to central DB."""
+    results = await katmovie_service.ingest_batch(start_page, end_page, max_titles=limit, delay_seconds=1.5)
+    return {"ingested_count": len(results), "results": results}
 
 @app.get("/api/stats")
 async def get_performance_stats():

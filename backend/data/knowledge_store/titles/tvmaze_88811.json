@@ -1,0 +1,212 @@
+{
+  "title": "De Kluis: Het Masterplan",
+  "canonical_id": "tvmaze_88811",
+  "media_type": "series",
+  "release_year": 2025,
+  "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/602/1505464.jpg",
+  "backdrop_url": "https://static.tvmaze.com/uploads/images/original_untouched/602/1505464.jpg",
+  "genres": [],
+  "overview": "Six well-known Dutch celebrities embark on the biggest heist of their lives. Led by mastermind Daan Schuurmans, they attempt to rob a heavily secured bank. But Team Stuk will do everything in its power to stop them. The robbers have 48 hours to steal as much gold as possible. But no one can be trusted: even within their own team, they could be robbed.",
+  "verdict": "Decent / Mixed Appeal",
+  "overall_score": 6.2,
+  "confidence": 0.68,
+  "data_scale": {
+    "total_signals_analyzed": 97,
+    "audience_votes_count": 42,
+    "critic_reviews_count": 45,
+    "textual_reviews_analyzed": 10,
+    "community_discussions_analyzed": 9,
+    "sentiment_distribution": {
+      "positive": 70.0,
+      "mixed": 10.0,
+      "negative": 20.0
+    },
+    "platforms_covered": [
+      "TVMaze Rating",
+      "Network",
+      "IMDb",
+      "Reddit & Forums"
+    ]
+  },
+  "external_critic_score": null,
+  "external_audience_score": 5.9,
+  "external_ratings": {
+    "TVMaze Rating": "N/A",
+    "Network": "Streaming",
+    "IMDb": "5.9/10 (42 votes)"
+  },
+  "strengths": [
+    {
+      "aspect": "Story",
+      "score": 7.2,
+      "sentiment": "Positive",
+      "evidence": [
+        "Premise centers on six well‑known Dutch celebrities pulling off a high‑stakes heist, offering a fresh, celebrity‑driven twist."
+      ],
+      "source_ids": [
+        "src_1"
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "aspect": "Pacing",
+      "score": 5.5,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Average user score of 5.9/10 on IMDb suggests the series may struggle to maintain momentum for viewers."
+      ],
+      "source_ids": [
+        "src_1"
+      ]
+    }
+  ],
+  "audience_sentiment": "Mixed",
+  "critic_sentiment": "Divided",
+  "disagreements": [
+    "Fans are drawn to the high‑concept heist premise, but the modest audience rating indicates many feel the execution falls short, creating a split between expectation and satisfaction."
+  ],
+  "spoiler_free_summary": "De Kluis: Het Masterplan pitches a daring heist story featuring a roster of Dutch celebrities, promising a blend of star power and high‑octane crime drama. The concept is intriguing and offers plenty of potential for witty banter and tense set‑pieces. However, audience feedback on IMDb reflects a lukewarm reception, hinting that the series may not fully capitalize on its premise, possibly due to uneven pacing or underdeveloped narrative beats. Viewers who enjoy celebrity‑driven capers might find enough entertainment to give it a try, but those seeking a tightly plotted thriller should temper their expectations.",
+  "methodology": {
+    "critic_rating_mean": null,
+    "audience_rating_mean": 5.9,
+    "sentiment_synthetic_score": 6.74,
+    "source_count": 10,
+    "critic_count": 0,
+    "audience_count": 10,
+    "community_count": 0,
+    "diversity_multiplier": 0.7,
+    "disagreement_penalty": 0.0,
+    "sample_size_penalty": 0.02,
+    "final_calibrated_score": 6.2,
+    "confidence_estimate": 0.68,
+    "explanation": "Derived from 10 retrieved sources across 2 categories. Final calibrated AI evaluation: 6.2/10 with 68% confidence."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "IMDb Verified Audience Consensus (42 votes)",
+      "url": "https://www.imdb.com/title/tt35705457/",
+      "published_date": null,
+      "category": "audience",
+      "excerpt": "Verified global audience consensus across 42 viewer thoughts and ratings. Average user score: 5.9/10. Production premise: Six well-known Dutch celebrities embark on the biggest heist of their lives. Led by mastermind Daan Schuurmans, they attempt to rob a heavily secured bank. But Team Stuk will do everything in its power to stop them. The robbers ha...",
+      "original_rating": "5.9/10",
+      "sentiment_score": 0.18,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T19:33:07.314531+00:00"
+    },
+    {
+      "id": "src_2",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/oasis/comments/mjx7hm/the_masterplan_review/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"I've done a review on my Instagram page of the third Oasis album. The Masterplan. It's split into two parts any feedback would be greatly appreciated. I'll reply to any comments people may have on the post.\"",
+      "original_rating": null,
+      "sentiment_score": 0.531,
+      "confidence": 0.214,
+      "retrieved_at": "2026-10-18T19:33:07.314531+00:00"
+    },
+    {
+      "id": "src_3",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/oasis/comments/669qyy/album_discussion_4_the_masterplan/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"/r/Oasis is Reddit's #1 community for all the latest news and discussion about Oasis, Liam Gallagher, Noel Gallagher's High Flying Birds, Beady Eye, and everything else connected to members of the band, past or present.\"",
+      "original_rating": null,
+      "sentiment_score": 0.593,
+      "confidence": 0.632,
+      "retrieved_at": "2026-10-18T19:33:07.314531+00:00"
+    },
+    {
+      "id": "src_4",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/oasis/comments/276rgx/album_discussion_4_the_masterplan/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Album Discussion #4 Album: The Masterplan Year: 1998 Songwriter (s): Noel Discuss anything regarding the album!\"",
+      "original_rating": null,
+      "sentiment_score": 0.253,
+      "confidence": 0.083,
+      "retrieved_at": "2026-10-18T19:33:07.314531+00:00"
+    },
+    {
+      "id": "src_5",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/oasis/comments/g2c1iq/oasis_the_masterplan_album_review/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"59 votes, 19 comments. Hi, iv'e just wrote a review of The Masterplan, would be great if you had 5 minutes to read it…\"",
+      "original_rating": null,
+      "sentiment_score": -0.026,
+      "confidence": 0.056,
+      "retrieved_at": "2026-10-18T19:33:07.314531+00:00"
+    },
+    {
+      "id": "src_6",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/oasis/comments/662e58/daily_song_discussion_64_the_masterplan/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"[Daily Song Discussion] #64 - The Masterplan Today we're discussing The Masterplan, one of the B-sides to Wonderwall and the fourteenth track from The Masterplan.\"",
+      "original_rating": null,
+      "sentiment_score": 0.213,
+      "confidence": 0.055,
+      "retrieved_at": "2026-10-18T19:33:07.314531+00:00"
+    },
+    {
+      "id": "src_7",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/oasis/comments/9zjgpg/this_pitchfork_review_of_the_masterplan_is_one_of/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"found their review of Greta Van Fleet's album hilarious, but seeing this and a few others, they're just so ridiculously joyless and pretentious. The Masterplan is probably my favourite Oasis album, and for them to not even mention Talk Tonight is absurd.\"",
+      "original_rating": null,
+      "sentiment_score": -0.518,
+      "confidence": 0.618,
+      "retrieved_at": "2026-10-18T19:33:07.314531+00:00"
+    },
+    {
+      "id": "src_8",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/oasis/comments/zkhr5u/the_masterplan_is_insanely_good/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"The Masterplan is great. A great collection of B-Sides and the like. Acquiesce is one of my favorite songs ever, the idea of Liam in the verses and Noel in the chorus is great, Half the world away, Headshrinker, Rockin' Chair, etc. Is great. I Am The Walrus is a good cover, I absolutely love The Swamp Song, and The Masterplan sends off the album nicely\"",
+      "original_rating": null,
+      "sentiment_score": 0.941,
+      "confidence": 0.809,
+      "retrieved_at": "2026-10-18T19:33:07.314531+00:00"
+    },
+    {
+      "id": "src_9",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/oasis/comments/mo7n2h/the_masterplan_album_morning_glory_album/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"The Masterplan as an album is highly underrated , and in my opinion has a lot more better songs compared to MG. Not entirely sure this is a popular opinion though.\"",
+      "original_rating": null,
+      "sentiment_score": -0.42,
+      "confidence": 0.39,
+      "retrieved_at": "2026-10-18T19:33:07.314531+00:00"
+    },
+    {
+      "id": "src_10",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/oasis/comments/h0dxoz/daily_song_discussion_33_oasis_the_masterplan/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Amazing Amazing Amazing No The Masterplan is The Masterplan, we're all part of a Masterplan Yes, I remember hearing it at the end of Supersonic and getting chills Octopus's Garden by The Beatles \"Sing it loud and sing it proud today!\" Underrated cause it isn't the national anthem. 10/10 One more thing, during the recent listening party of The Masterplan I saw Bonehead tweet out",
+      "original_rating": null,
+      "sentiment_score": 1.0,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T19:33:07.314531+00:00"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "openai/gpt-oss-120b",
+  "disambiguation_options": [],
+  "latency_ms": 17336.0,
+  "analyzed_at": "2026-10-18T19:33:21.693703+00:00"
+}

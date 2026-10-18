@@ -1,0 +1,243 @@
+{
+  "title": "Blue",
+  "canonical_id": "tvmaze_3356",
+  "media_type": "series",
+  "release_year": 2012,
+  "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/17/44273.jpg",
+  "backdrop_url": "https://static.tvmaze.com/uploads/images/original_untouched/17/44273.jpg",
+  "genres": [
+    "Drama"
+  ],
+  "overview": "Blue is a mother with a secret life. She'll do anything to keep it from her son. But her past has other plans.",
+  "verdict": "Highly Recommended / Acclaimed",
+  "overall_score": 7.9,
+  "confidence": 0.68,
+  "data_scale": {
+    "total_signals_analyzed": 1302,
+    "audience_votes_count": 1246,
+    "critic_reviews_count": 45,
+    "textual_reviews_analyzed": 11,
+    "community_discussions_analyzed": 10,
+    "sentiment_distribution": {
+      "positive": 72.7,
+      "mixed": 9.1,
+      "negative": 18.2
+    },
+    "platforms_covered": [
+      "TVMaze Rating",
+      "Network",
+      "IMDb",
+      "Reddit & Forums"
+    ]
+  },
+  "external_critic_score": null,
+  "external_audience_score": 7.7,
+  "external_ratings": {
+    "TVMaze Rating": "N/A",
+    "Network": "Streaming",
+    "IMDb": "7.7/10 (1,246 votes)"
+  },
+  "strengths": [
+    {
+      "aspect": "Story",
+      "score": 8.5,
+      "sentiment": "Positive",
+      "evidence": [
+        "The premise of a mother protecting a secret from her son is highlighted as compelling in the audience consensus."
+      ],
+      "source_ids": [
+        "src_1"
+      ]
+    }
+  ],
+  "weaknesses": [],
+  "audience_sentiment": "Positive",
+  "critic_sentiment": "Divided",
+  "disagreements": [
+    "Some audience discussions conflate 'Blue' with similarly titled series such as 'Blue Lights', creating mixed references and occasional confusion."
+  ],
+  "spoiler_free_summary": "Blue centers on a mother leading a double life, driven by a fierce determination to shield her son from her hidden past. The series balances tension and emotional depth, offering a gritty yet intimate look at family bonds under pressure. Its strong premise and atmospheric storytelling have resonated with viewers, earning a solid 7.7/10 rating on IMDb. While critical commentary is limited, audience enthusiasm suggests the show delivers engaging drama and compelling character dynamics, making it a solid pick for fans of suspenseful, character‑driven series.",
+  "methodology": {
+    "critic_rating_mean": null,
+    "audience_rating_mean": 7.7,
+    "sentiment_synthetic_score": 7.26,
+    "source_count": 11,
+    "critic_count": 0,
+    "audience_count": 11,
+    "community_count": 0,
+    "diversity_multiplier": 0.7,
+    "disagreement_penalty": 0.0,
+    "sample_size_penalty": 0.02,
+    "final_calibrated_score": 7.9,
+    "confidence_estimate": 0.68,
+    "explanation": "Derived from 11 retrieved sources across 2 categories. Final calibrated AI evaluation: 7.9/10 with 68% confidence."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "IMDb Verified Audience Consensus (1,246 votes)",
+      "url": "https://www.imdb.com/title/tt2191148/",
+      "published_date": null,
+      "category": "audience",
+      "excerpt": "Verified global audience consensus across 1,246 viewer thoughts and ratings. Average user score: 7.7/10. Production premise: Blue is a mother with a secret life. She'll do anything to keep it from her son. But her past has other plans.",
+      "original_rating": "7.7/10",
+      "sentiment_score": 0.54,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T19:32:36.731882+00:00"
+    },
+    {
+      "id": "src_2",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/television/comments/12nwtr3/blue_lights_review_dont_sleep_on_this/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"This is an incredible series and I definitely enjoyed it! easily one of the best series i've watched this year, and a very good depiction Northern Ireland. I am Honestly so bloody stoked that the BBC has confirmed Blue Lights is returning for season 2! I can't wait! Reply reply MapleBasil •\"",
+      "original_rating": null,
+      "sentiment_score": 0.943,
+      "confidence": 0.814,
+      "retrieved_at": "2026-10-18T19:32:36.731882+00:00"
+    },
+    {
+      "id": "src_3",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/BritishTV/comments/1c70owa/blue_lights_series_two_review_last_years_breakout/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"25 votes, 29 comments. 671K subscribers in the BritishTV community. News, articles and discussions regarding British TV shows, film and stand-up.\"",
+      "original_rating": null,
+      "sentiment_score": 0.503,
+      "confidence": 0.416,
+      "retrieved_at": "2026-10-18T19:32:36.731882+00:00"
+    },
+    {
+      "id": "src_4",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/BritishTV/comments/1ch3rpc/how_realistic_is_blue_lights/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"I'm an American so forgive me for being naive and a bit uneducated on the subject but how realistic are the topics discussed in the show Blue Lights? Particularly the conflicts between police and northern Irish loyalists?\"",
+      "original_rating": null,
+      "sentiment_score": -0.206,
+      "confidence": 0.102,
+      "retrieved_at": "2026-10-18T19:32:36.731882+00:00"
+    },
+    {
+      "id": "src_5",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/BritishTV/comments/13ns7ki/blue_lights/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"49 votes, 12 comments. true Used the \"review\" flair but not sure I'd be so bold as to call this a a review. Just wanted to comment on how true to life the policing aspects of the programme actually are. So refreshing and actually so engaging. The continuity is a bad embarrassing, cars changing make and model between scenes and stuff is sloppy. Police cars running with the incor",
+      "original_rating": null,
+      "sentiment_score": 0.659,
+      "confidence": 0.341,
+      "retrieved_at": "2026-10-18T19:32:36.731882+00:00"
+    },
+    {
+      "id": "src_6",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/nypdblue/comments/oxeooe/honest_review_for_possible_first_timer/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Hey all, as the title suggests, I'm looking for an honest review of the NYPD Blue series before I consider watching it, either on Amazon Prime (can't buy any seasons past season 5 though) or pirating (any good sites to watch it by the way?).\"",
+      "original_rating": null,
+      "sentiment_score": 0.115,
+      "confidence": 0.003,
+      "retrieved_at": "2026-10-18T19:32:36.731882+00:00"
+    },
+    {
+      "id": "src_7",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/manga/comments/zjgkb3/blue_box_is_a_decently_good_series_suffering_from/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"In summary: Blue Box is just an average, poorly written romance series (hardly even qualifies as romcom), that is neither awful, nor great. People dump on it because its 15-chapter run up was super promising before the author started padding it with bullshit meant to extend its reading life.\"",
+      "original_rating": null,
+      "sentiment_score": -0.857,
+      "confidence": 0.629,
+      "retrieved_at": "2026-10-18T19:32:36.731882+00:00"
+    },
+    {
+      "id": "src_8",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/anime/comments/qm2rn1/rewatch_nadia_the_secret_of_blue_water_final/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"26 votes, 36 comments. Nadia: The Secret of Blue Water Final Series Discussion MyAnimeList ~ Anilist Full Rewatch Schedule & Thread Links Final Nadia…\"",
+      "original_rating": null,
+      "sentiment_score": 0.547,
+      "confidence": 0.512,
+      "retrieved_at": "2026-10-18T19:32:36.731882+00:00"
+    },
+    {
+      "id": "src_9",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/BlueEyeSamurai/comments/17yax0n/is_it_worth_the_watch/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"I just started watching Blue eye Samurai. I'm not into this specific style of animation but I wanted to give it a go because of all the amazing reviews (also a 9/10 on imdb). But I'm pretty confused. There are a lot of reviews of people who were left disappointed after watching the series, some said it's really interesting up until ep 6-7 and the last ep just loses it.\"",
+      "original_rating": null,
+      "sentiment_score": 0.8,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T19:32:36.731882+00:00"
+    },
+    {
+      "id": "src_10",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/BlueEyeSamurai/comments/191z9i5/blue_eye_samurai_review_the_good_and_the_bad/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"32K subscribers in the BlueEyeSamurai community. All things Blue Eye Samurai Netflix Series.\"",
+      "original_rating": null,
+      "sentiment_score": 0.604,
+      "confidence": 0.664,
+      "retrieved_at": "2026-10-18T19:32:36.731882+00:00"
+    },
+    {
+      "id": "src_11",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/netflix/comments/181q84c/blue_eyed_samurai_my_thoughts_hoping_to_start_a/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Why is no one watching blue eye samurai Tweet about Blue Eye Samurai! Just watched Blue Eye Samurai and I can't recall in recent history a series with better sound/music. Do you? I just finished watching Blue Eye Samurai and I want something more like this You have to watch blue eyed samouraï (animation) I am so happy.\"",
+      "original_rating": null,
+      "sentiment_score": 0.649,
+      "confidence": 0.818,
+      "retrieved_at": "2026-10-18T19:32:36.731882+00:00"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "openai/gpt-oss-120b",
+  "disambiguation_options": [
+    {
+      "id": "anilist_137822",
+      "title": "BLUE LOCK",
+      "media_type": "anime",
+      "release_year": 2022,
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137822-U8naszP96vzC.png"
+    },
+    {
+      "id": "wiki_Blue_Lights_(2023_TV_series)",
+      "title": "Blue Lights",
+      "media_type": "series",
+      "release_year": 2023,
+      "poster_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/72/Blue_Lights_Title_Card.jpg/330px-Blue_Lights_Title_Card.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "id": "wiki_Blue_Bloods",
+      "title": "Blue Bloods",
+      "media_type": "series",
+      "release_year": 2010,
+      "poster_url": null
+    },
+    {
+      "id": "anilist_58",
+      "title": "Blue Gender",
+      "media_type": "anime",
+      "release_year": 1999,
+      "poster_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b58-2KarB5N1dB0P.jpg"
+    }
+  ],
+  "latency_ms": 30184.0,
+  "analyzed_at": "2026-10-18T19:33:02.746316+00:00"
+}

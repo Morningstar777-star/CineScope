@@ -1,0 +1,327 @@
+{
+  "title": "The Punisher",
+  "canonical_id": "wiki_The_Punisher_(TV_series)",
+  "media_type": "series",
+  "release_year": 2017,
+  "poster_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/fc/Punisher_%28TV_series%29_logo.jpg/330px-Punisher_%28TV_series%29_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "backdrop_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/fc/Punisher_%28TV_series%29_logo.jpg/330px-Punisher_%28TV_series%29_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "genres": [
+    "Drama",
+    "Television"
+  ],
+  "overview": "Marvel's The Punisher is an American television series created by Steve Lightfoot for the streaming service Netflix, based on the Marvel Comics character Punisher. It is set in the Marvel Cinematic Universe (MCU), sharing continuity with the franchise's films and other television series, and is a spin-off from the first Marvel Netflix series, Daredevil (2015–2018). The Punisher was produced by Marvel Television in association with ABC Studios and Bohemian Risk Productions, with Lightfoot serving as showrunner.",
+  "verdict": "Worth Watching",
+  "overall_score": 7.0,
+  "confidence": 0.76,
+  "data_scale": {
+    "total_signals_analyzed": 315752,
+    "audience_votes_count": 315564,
+    "critic_reviews_count": 175,
+    "textual_reviews_analyzed": 13,
+    "community_discussions_analyzed": 10,
+    "sentiment_distribution": {
+      "positive": 38.5,
+      "mixed": 30.8,
+      "negative": 30.8
+    },
+    "platforms_covered": [
+      "IMDb",
+      "Rotten Tomatoes",
+      "Metacritic",
+      "Reddit & Forums",
+      "Major Entertainment Press"
+    ]
+  },
+  "external_critic_score": 5.8,
+  "external_audience_score": 8.4,
+  "external_ratings": {
+    "Catalog Source": "Encyclopedic Verification",
+    "Category": "2017–2019 Marvel Television series",
+    "IMDb": "8.4/10 (315,564 votes)",
+    "Rotten Tomatoes": "61%",
+    "Metacritic": "55 out of 100"
+  },
+  "strengths": [
+    {
+      "aspect": "Story",
+      "score": 8.6,
+      "sentiment": "Positive",
+      "evidence": [
+        "Critics note the series pushes Marvel TV boundaries with a fresh take on the comic‑derived action thriller."
+      ],
+      "source_ids": [
+        "src_3"
+      ]
+    },
+    {
+      "aspect": "Action Sequences",
+      "score": 8.4,
+      "sentiment": "Positive",
+      "evidence": [
+        "The massive 8.4/10 audience rating reflects strong viewer enjoyment of the show's gritty, high‑octane action."
+      ],
+      "source_ids": [
+        "src_1"
+      ]
+    },
+    {
+      "aspect": "Characters",
+      "score": 8.2,
+      "sentiment": "Positive",
+      "evidence": [
+        "Fans appreciate Frank Castle’s complex anti‑hero journey, noting the series balances sympathy for his trauma with his vigilante edge."
+      ],
+      "source_ids": [
+        "src_11"
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "aspect": "Pacing",
+      "score": 5.8,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Reddit discussion points out the slow‑burn formula and long binge‑watch seasons hinder narrative momentum."
+      ],
+      "source_ids": [
+        "src_6"
+      ]
+    },
+    {
+      "aspect": "Plot Execution",
+      "score": 5.5,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Viewers criticize repeated origin‑story beats across multiple seasons, diluting narrative impact."
+      ],
+      "source_ids": [
+        "src_13"
+      ]
+    },
+    {
+      "aspect": "Character Depth",
+      "score": 6.0,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Some fans feel the series loses the core Punisher persona over time, reducing his distinct edge."
+      ],
+      "source_ids": [
+        "src_7"
+      ]
+    }
+  ],
+  "audience_sentiment": "Positive",
+  "critic_sentiment": "Divided",
+  "disagreements": [
+    "Critics give the series mixed or average scores (61% Rotten Tomatoes, 55 Metacritic) while the audience rates it highly (8.4/10), creating a clear divide between critical reception and fan enjoyment."
+  ],
+  "spoiler_free_summary": "The Punisher delivers a gritty, morally ambiguous take on Marvel's anti‑hero, blending intense action with a brooding atmosphere that resonates strongly with viewers. Its fresh storytelling approach and compelling central performance have earned it a solid fan following, reflected in a high audience rating. However, the series' deliberate pacing and repetitive origin elements have drawn criticism, and critics remain split on its overall execution. If you enjoy dark, character‑driven thrillers and can overlook slower narrative stretches, the show offers a rewarding, visceral experience; those seeking tighter pacing or a universally praised critical consensus may want to temper expectations.",
+  "methodology": {
+    "critic_rating_mean": 5.8,
+    "audience_rating_mean": 8.4,
+    "sentiment_synthetic_score": 5.72,
+    "source_count": 13,
+    "critic_count": 2,
+    "audience_count": 11,
+    "community_count": 0,
+    "diversity_multiplier": 0.85,
+    "disagreement_penalty": 0.092,
+    "sample_size_penalty": 0.02,
+    "final_calibrated_score": 7.0,
+    "confidence_estimate": 0.76,
+    "explanation": "Derived from 13 retrieved sources across 3 categories. External baseline: Critic 5.8/10, Audience 8.4/10. Noted critic/audience polarity (penalty factor: 0.09). Final calibrated AI evaluation: 7.0/10 with 76% confidence."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "IMDb Verified Audience Consensus (315,564 votes)",
+      "url": "https://www.imdb.com/title/tt5675620/",
+      "published_date": null,
+      "category": "audience",
+      "excerpt": "Verified global audience consensus across 315,564 viewer thoughts and ratings. Average user score: 8.4/10. Production premise: After his revenge on those who murdered his family, aimless Marine veteran Frank Castle finds a new meaning in life as a vigilante known as \"The Punisher\".",
+      "original_rating": "8.4/10",
+      "sentiment_score": 0.68,
+      "confidence": 0.94,
+      "retrieved_at": "2026-10-18T19:30:26.318006+00:00"
+    },
+    {
+      "id": "src_2",
+      "source_name": "Rotten Tomatoes Critical Consensus",
+      "url": "https://en.wikipedia.org/wiki/The%20Punisher%20%28TV%20series%29#Critical%20response",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "Rotten Tomatoes reports an overall critic approval rating of 61% based on published industry reviews.",
+      "original_rating": "61%",
+      "sentiment_score": 0.22,
+      "confidence": 0.95,
+      "retrieved_at": "2026-10-18T19:30:26.318006+00:00"
+    },
+    {
+      "id": "src_3",
+      "source_name": "Metacritic Industry Consensus",
+      "url": "https://en.wikipedia.org/wiki/The%20Punisher%20%28TV%20series%29#Critical%20response",
+      "published_date": null,
+      "category": "critic",
+      "excerpt": "The site's critical consensus reads, \"A rocky start can't keep ''The Punisher'' from pushing the boundaries of Marvel's TV universe with a fresh take on the comics-derived action thriller.\" Metacritic, which uses a weighted average, assigned a score of 55 out of 100, based on 20 critics, indicating \"mixed or average reviews\".",
+      "original_rating": "55 out of 100",
+      "sentiment_score": -0.125,
+      "confidence": 0.044,
+      "retrieved_at": "2026-10-18T19:30:26.318006+00:00"
+    },
+    {
+      "id": "src_4",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/thepunisher/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"I'm genuinely surprised at the lack of Punisher Max stories set in the past from Garth Ennis, given that in the series it states that Frank has been doing his thing since the late 70s. Of course we've had all of the great work of Frank in Vietnam in Born, The Platoon and the Nick Fury Max books, but I would love Ennis' take on The Punishers activities in the 80s and 90s.\"",
+      "original_rating": null,
+      "sentiment_score": -0.227,
+      "confidence": 0.315,
+      "retrieved_at": "2026-10-18T19:30:26.318006+00:00"
+    },
+    {
+      "id": "src_5",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/thepunisher/comments/18v2l5s/my_thoughts_on_netflixs_the_punisher/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Nowadays I think you're forgetting something that's true for the Punisher comic too. It's all essentially fanfiction written by people who want to write the character their own way, and give their interpretation.\"",
+      "original_rating": null,
+      "sentiment_score": 0.229,
+      "confidence": 0.066,
+      "retrieved_at": "2026-10-18T19:30:26.318006+00:00"
+    },
+    {
+      "id": "src_6",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/Defenders/comments/7dj93s/the_punisher_season_1_overall_season_discussion/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Punisher did it pretty well with the slow burner formula (and I'd probably watch it if it was weekly). But the recent series have really suffered from the longer seasons. And since it's designed for binge watching, they have no time to adjust the writing mid season like Agents of SHIELD can do. Reply reply chaddaddycwizzie •\"",
+      "original_rating": null,
+      "sentiment_score": -0.373,
+      "confidence": 0.307,
+      "retrieved_at": "2026-10-18T19:30:26.318006+00:00"
+    },
+    {
+      "id": "src_7",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/thepunisher/comments/rz0sk8/the_netflix_series_is_a_good_show_but_lets_be/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Having punisher not want to kill anymore but always being drawn to it could be good if they did more action scenes and maybe had him wear the skull vest more. The Netflix show was a great frank castle show but completely lost the character of the punisher overtime.\"",
+      "original_rating": null,
+      "sentiment_score": -0.168,
+      "confidence": 0.225,
+      "retrieved_at": "2026-10-18T19:30:26.318006+00:00"
+    },
+    {
+      "id": "src_8",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/Defenders/comments/7e689g/its_crazy_how_awful_some_of_the_reviews_for_the/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Its currently vogue to dislike much of what The Punisher is using for its aesthetic and emotional base, this will likely be one of these situations where critics and enthusiasts \"rediscover\" the series several times over the next few decades until it eventually finds a place relative to similar works.\"",
+      "original_rating": null,
+      "sentiment_score": 0.081,
+      "confidence": 0.009,
+      "retrieved_at": "2026-10-18T19:30:26.318006+00:00"
+    },
+    {
+      "id": "src_9",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/thepunisher/comments/7e8brm/the_critics_are_a_bunch_of_losers_this_series_was/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Finally, Punisher comics are usually about Punisher actually killing criminals, and although there are some occasional military arcs the Punisher is a vigilante first and foremost. You would think that for the first season of the show they would focus on what defines Punisher and leave military BS for other seasons but no.\"",
+      "original_rating": null,
+      "sentiment_score": 0.388,
+      "confidence": 0.224,
+      "retrieved_at": "2026-10-18T19:30:26.318006+00:00"
+    },
+    {
+      "id": "src_10",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/marvelstudios/comments/7cm9ly/the_punisher_critic_reviews_ultrathread/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"221 votes, 330 comments. Direct all Punisher reviews here. Those posted outside of this thread will be deleted.\"",
+      "original_rating": null,
+      "sentiment_score": -0.072,
+      "confidence": 0.02,
+      "retrieved_at": "2026-10-18T19:30:26.318006+00:00"
+    },
+    {
+      "id": "src_11",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/television/comments/7eo79t/the_punisher_was_really_good/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"The Punisher is a series that lives on the greyscale between what is usually a hero and a villain in comics though. Even with what he was doing to his mom, the viewer is supposed to feel a ting of sympathy for him with what he had to go through as a kid.\"",
+      "original_rating": null,
+      "sentiment_score": 0.089,
+      "confidence": 0.005,
+      "retrieved_at": "2026-10-18T19:30:26.318006+00:00"
+    },
+    {
+      "id": "src_12",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/television/comments/7djcct/the_punisher_series_premiere_discussion/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"The Punisher - Series Premiere Discussion Premise: The Daredevil spin-off follows Frank Castle/The Punisher as he tracks down a hacker named Micro to locate those who killed his family while Homeland Security agent Dinah Madani tries to locate Frank.\"",
+      "original_rating": null,
+      "sentiment_score": 0.46,
+      "confidence": 0.335,
+      "retrieved_at": "2026-10-18T19:30:26.318006+00:00"
+    },
+    {
+      "id": "src_13",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/thepunisher/comments/1anxt38/i_know_that_alot_of_people_dont_like_the_punisher/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"I just don't like that it was another season of giving punisher an origin story. That's THREE seasons (or I guess 2 and a half if you wanna get specific) of watching Frank go back and forth on the whole thing until he's FINALLY done with his personal vendetta and can get to just being The Punisher for all of one scene at the end. Reply reply NotJohnP •\"",
+      "original_rating": null,
+      "sentiment_score": -0.553,
+      "confidence": 0.725,
+      "retrieved_at": "2026-10-18T19:30:26.318006+00:00"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "openai/gpt-oss-120b",
+  "disambiguation_options": [
+    {
+      "id": "wiki_The_Punisher_(1989_film)",
+      "title": "The Punisher",
+      "media_type": "movie",
+      "release_year": 1989,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/c/c7/Punisher89poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "wiki_The_Punisher:_One_Last_Kill",
+      "title": "The Punisher: One Last Kill",
+      "media_type": "series",
+      "release_year": 2026,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/a/a0/The_Punisher_One_Last_Kill_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "wiki_The_Punisher_season_1",
+      "title": "The Punisher season 1",
+      "media_type": "series",
+      "release_year": null,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/2/21/The_Punisher_season_1_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "tvmaze_16544",
+      "title": "Marvel's The Punisher",
+      "media_type": "series",
+      "release_year": 2017,
+      "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/500/1250736.jpg"
+    }
+  ],
+  "latency_ms": 11979.0,
+  "analyzed_at": "2026-10-18T19:30:33.320154+00:00"
+}

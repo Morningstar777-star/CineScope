@@ -1,0 +1,202 @@
+{
+  "title": "Seriously Single Too",
+  "canonical_id": "wiki_Seriously_Single_Too",
+  "media_type": "movie",
+  "release_year": 2026,
+  "poster_url": "https://image.tmdb.org/t/p/w500/hbApG0WSwgtaK7hXTZpwZDstDaR.jpg",
+  "backdrop_url": null,
+  "genres": [
+    "Film",
+    "Cinema"
+  ],
+  "overview": "Seriously Single Too is an upcoming South African romantic comedy film produced by Burnt Onion Productions. It is related to Seriously Single. The film stars Fulu Mugovhani, Tumi Morake, Yonda Thomas, Buntu Petse, Keke Mphuthi, Thabiso Rammusi, Motlatsi Mafatshe and Harriet Manamela scheduled to premiere globally on Netflix on 16 October 2026.",
+  "verdict": "Decent / Mixed Appeal",
+  "overall_score": 6.6,
+  "confidence": 0.46,
+  "data_scale": {
+    "total_signals_analyzed": 553,
+    "audience_votes_count": 500,
+    "critic_reviews_count": 45,
+    "textual_reviews_analyzed": 8,
+    "community_discussions_analyzed": 8,
+    "sentiment_distribution": {
+      "positive": 75.0,
+      "mixed": 0.0,
+      "negative": 25.0
+    },
+    "platforms_covered": [
+      "Reddit & Forums"
+    ]
+  },
+  "external_critic_score": null,
+  "external_audience_score": null,
+  "external_ratings": {
+    "Catalog Source": "Encyclopedic Verification",
+    "Category": "2026 South African film"
+  },
+  "strengths": [
+    {
+      "aspect": "Story",
+      "score": 7.5,
+      "sentiment": "Positive",
+      "evidence": [
+        "Commenter noted the separate storylines were interesting and touched on various aspects of single life."
+      ],
+      "source_ids": [
+        "src_8"
+      ]
+    }
+  ],
+  "weaknesses": [
+    {
+      "aspect": "Pacing",
+      "score": 5.5,
+      "sentiment": "Mixed",
+      "evidence": [
+        "Commenter described the film as dull overall."
+      ],
+      "source_ids": [
+        "src_8"
+      ]
+    }
+  ],
+  "audience_sentiment": "Mixed",
+  "critic_sentiment": "Divided",
+  "disagreements": [
+    "Some viewers appreciate the varied storylines and character moments, while others feel the overall pacing makes the film feel dull."
+  ],
+  "spoiler_free_summary": "Seriously Single Too aims to explore the comedic side of modern single life with a cast of relatable characters and intersecting storylines. While the film offers moments that capture the quirks and challenges of being single, its execution can feel uneven, leading to a sense of sluggish pacing for some viewers. Fans of lighthearted romantic comedies may enjoy the individual vignettes, but those seeking a consistently engaging narrative might find it less satisfying.",
+  "methodology": {
+    "critic_rating_mean": null,
+    "audience_rating_mean": null,
+    "sentiment_synthetic_score": 6.37,
+    "source_count": 8,
+    "critic_count": 0,
+    "audience_count": 8,
+    "community_count": 0,
+    "diversity_multiplier": 0.55,
+    "disagreement_penalty": 0.0,
+    "sample_size_penalty": 0.16,
+    "final_calibrated_score": 6.6,
+    "confidence_estimate": 0.46,
+    "explanation": "Derived from 8 retrieved sources across 1 categories. Final calibrated AI evaluation: 6.6/10 with 46% confidence."
+  },
+  "sources": [
+    {
+      "id": "src_1",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/movies/comments/137b70o/movies_that_take_themselves_way_too_seriously/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"The goal of /r/Movies is to provide an inclusive place for discussions and news about films with major releases. Submissions should be for the purpose of informing or initiating a discussion, not just to entertain readers. Read our extensive list of rules for more information on other types of posts like fan-art and self-promotion, or message the moderators if you have any ques",
+      "original_rating": null,
+      "sentiment_score": 0.349,
+      "confidence": 0.491,
+      "retrieved_at": "2026-10-18T19:32:08.575177+00:00"
+    },
+    {
+      "id": "src_2",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/unpopularopinion/comments/c1p97d/some_people_take_movies_way_too_fucking_seriously/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"In my opinion the internet and people seem to just take films a bit seriously, with their review scores and written essays, when really its just nice to go out somewhere and watch something maybe with a few friends and have a good time.\"",
+      "original_rating": null,
+      "sentiment_score": 0.44,
+      "confidence": 0.002,
+      "retrieved_at": "2026-10-18T19:32:08.575177+00:00"
+    },
+    {
+      "id": "src_3",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/movies/comments/1vn6eh/what_are_some_movies_that_take_themselves_too/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"I often see reviews of good comedies, or general non-drama's that say one of the pluses of the movie is that they \"DIDN'T take themselves too seriously.\" So, what are some movies that DO take themselves too seriously?\"",
+      "original_rating": null,
+      "sentiment_score": 0.731,
+      "confidence": 0.43,
+      "retrieved_at": "2026-10-18T19:32:08.575177+00:00"
+    },
+    {
+      "id": "src_4",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/movies/comments/swj37u/movies_that_do_take_themselves_seriously/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"There are serious movies that take themselves seriously and non-serious movies that don't take themselves seriously, both of which are straightforward combinations that work for the most part.\"",
+      "original_rating": null,
+      "sentiment_score": 0.583,
+      "confidence": 0.602,
+      "retrieved_at": "2026-10-18T19:32:08.575177+00:00"
+    },
+    {
+      "id": "src_5",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/RedLetterMedia/comments/xpghn1/why_is_there_such_a_lack_of_sincerity_in_modern/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"This is all true, but at the same time, the plot of those Marvel movies is too silly to take seriously. When people try, you end up with Justice League or Thor: Dark World. Using that tone in Dune would have made a mess, but trying to make an \"all serious\" superhero movie makes a mess as well.\"",
+      "original_rating": null,
+      "sentiment_score": -0.729,
+      "confidence": 0.427,
+      "retrieved_at": "2026-10-18T19:32:08.575177+00:00"
+    },
+    {
+      "id": "src_6",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/horror/comments/17ebnx3/horror_movies_you_cant_take_seriously_or_were/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Like it dropped the plot, lost the plot, jumped the shark, or just got so ridiculous you couldn't get passed it? For me, it's Paranormal Activity; I can never watch the movie or take it seriously ever again due to one scene, and I just think the movie is stupid after that point. I'm of course talking about the Ouija board scene.\"",
+      "original_rating": null,
+      "sentiment_score": -0.582,
+      "confidence": 0.829,
+      "retrieved_at": "2026-10-18T19:32:08.575177+00:00"
+    },
+    {
+      "id": "src_7",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/flicks/comments/sgmk1i/what_are_some_good_movies_that_took_ridiculous/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"What are some good movies that took ridiculous premises very seriously, versus being full of tongue-in-cheek or self-referential humor\"",
+      "original_rating": null,
+      "sentiment_score": 0.44,
+      "confidence": 0.041,
+      "retrieved_at": "2026-10-18T19:32:08.575177+00:00"
+    },
+    {
+      "id": "src_8",
+      "source_name": "Reddit Community Discussion: \"Discussion Thread...\"",
+      "url": "https://www.reddit.com/r/movies/comments/45ksl3/rmovies_what_did_you_think_of_how_to_be_single/",
+      "published_date": null,
+      "category": "discussion",
+      "excerpt": "Audience reaction: \"Late to the party too and guttered there wasnt an official discussion also. Don't understand how it was dull, felt all the separate storylines were all interesting and touched on all the different aspects of single life (albeit for good looking single people).\"",
+      "original_rating": null,
+      "sentiment_score": 0.314,
+      "confidence": 0.137,
+      "retrieved_at": "2026-10-18T19:32:08.575177+00:00"
+    }
+  ],
+  "is_preliminary": false,
+  "engine_used": "openai/gpt-oss-120b",
+  "disambiguation_options": [
+    {
+      "id": "wiki_No_Place_to_Be_Single",
+      "title": "No Place to Be Single",
+      "media_type": "movie",
+      "release_year": 2026,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/5/55/No_Place_to_Be_Single.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "wiki_MeToo_movement_in_India",
+      "title": "MeToo movement in India",
+      "media_type": "movie",
+      "release_year": 2018,
+      "poster_url": null
+    }
+  ],
+  "latency_ms": 12813.0,
+  "analyzed_at": "2026-10-18T19:32:17.031744+00:00"
+}
