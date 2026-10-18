@@ -1,4 +1,4 @@
-# 🎬 CineScope — Evidence-Grounded Entertainment Intelligence Engine
+# 🎬 CineScope: Evidence-Grounded Entertainment Intelligence Engine
 
 <div align="center">
 
@@ -24,7 +24,7 @@
 
 **Transparent, grounded AI review synthesis, Bayesian score calibration, local LAYA self-learning, and zero-token knowledge retrieval across global Cinema, Anime, and Television.**
 
-[🎥 Video Demo](#-demonstration-walkthrough) • [✨ Core Innovations](#-core-innovations) • [🏛️ Architecture](#-system-architecture) • [💰 Token Economics](#-token-consumption--economics) • [⚡ Quick Start](#-quick-start) • [🔌 API Specs](#-api-reference)
+[🎥 Video Demo](#-demonstration-walkthrough) • [ Core Innovations](#-core-innovations) • [ Architecture](#-system-architecture) • [ Token Economics](#-token-consumption--economics) • [ Quick Start](#-quick-start) • [🔌 API Specs](#-api-reference)
 
 ---
 
@@ -39,7 +39,7 @@ Experience CineScope's Liquid Glass 2.0 interface, real-time universal search, 3
 
 ---
 
-## 🌟 What is CineScope?
+##  What is CineScope?
 
 Legacy entertainment aggregators suffer from four systemic failures:
 1. **Review Bombing & Polarization**: Coordinated brigade campaigns distort Rotten Tomatoes and IMDb audience scores.
@@ -83,7 +83,7 @@ Legacy entertainment aggregators suffer from four systemic failures:
 
 CineScope pairs a **Liquid Glass 2.0 viewport** frontend with a **Two-Tier Deterministic + Dual-Brain AI** backend.
 
-### 📐 Hand-Sketched Architectural Workflow
+### Hand-Sketched Architectural Workflow
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
@@ -128,7 +128,7 @@ CineScope pairs a **Liquid Glass 2.0 viewport** frontend with a **Two-Tier Deter
                                                                 └────────────────────────────┘
 ```
 
-### 🔁 Mermaid Architecture Pipeline
+### Mermaid Architecture Pipeline
 
 ```mermaid
 flowchart TD
@@ -167,7 +167,7 @@ flowchart TD
 
 ---
 
-## 💰 Token Consumption & Economics
+## Token Consumption & Economics
 
 CineScope was designed from day one with strict compute efficiency:
 
@@ -185,7 +185,7 @@ CineScope was designed from day one with strict compute efficiency:
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ### Prerequisites
 - **Python**: 3.11 or higher
@@ -193,7 +193,7 @@ CineScope was designed from day one with strict compute efficiency:
 - **NVIDIA GPU** *(Optional)*: CUDA-capable GPU for local LAYA inference (falls back gracefully to CPU).
 - **Groq API Key**: Free tier available at [console.groq.com](https://console.groq.com).
 
-### 🚀 One-Click Launch (Windows)
+### One-Click Launch (Windows)
 
 Simply double-click [`start.bat`](start.bat) in the repository root:
 ```bat
@@ -203,7 +203,7 @@ This automatically boots the FastAPI backend daemon on `http://127.0.0.1:8000` a
 
 ---
 
-### 🛠️ Manual Step-by-Step Installation
+###  Manual Step-by-Step Installation
 
 #### 1. Clone the Repository
 ```bash
@@ -251,7 +251,7 @@ Visit **`http://localhost:5173`** in your browser.
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
 | Endpoint | Method | Description | Sample Response |
 | :--- | :--- | :--- | :--- |
@@ -268,7 +268,7 @@ Visit **`http://localhost:5173`** in your browser.
 
 ---
 
-## 🛡️ Anti-Hallucination & Reliability Checklist
+## Anti-Hallucination & Reliability Checklist
 
 - [x] **Zero Fabricated Ratings**: Numerical scores derived strictly from mathematical Bayesian aggregation over verified source excerpts.
 - [x] **Citation Integrity**: Every strength and weakness pill links directly to a verifiable outlet, critic quote, or community thread.
